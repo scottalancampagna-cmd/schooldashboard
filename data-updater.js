@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 /**
  * data-updater.js
- * Fetches school calendar (PDF) and menus (healthepro) and writes:
+ * Fetches school calendar (PDF scraping) and menus (healthepro API) and writes:
  *   - school-data.json  (calendar: school days / no-school events)
  *   - menu-data.json    (menus by date for each school)
  *
- * Run by GitHub Actions daily at 6 AM Pacific.
+ * Run by GitHub Actions daily at 6 AM PT.
+ * Run locally: npm run update-data
  */
 
 const fs = require('fs').promises;
@@ -13,29 +14,121 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const pdf = require('pdf-parse');
 
+const ORG_ID = 472;
+
 // ─── School configuration ────────────────────────────────────────────────────
 const SCHOOLS = {
   kenilworth: {
     label: 'Middle School',
     calendarUrl: 'https://petalumacityschools.org/kenilworth/our-school/calendars',
     calendarType: 'traditional',
-    // healthepro site IDs (filled in once network requests are inspected)
-    // TODO: open https://menus.healthepro.com/organizations/472 in Chrome DevTools
-    //       → Network tab → Fetch/XHR → select school & menu type
-    //       → paste the request URLs here
-    healtheproSchoolId: null,   // e.g. 123
-    healtheproBreakfastId: null, // e.g. 1
-    healtheproLunchId: null,     // e.g. 2
+    menus: {
+      breakfast: 104745, // Kenilworth Junior High Breakfast 25/26
+      lunch:     114014, // 2025-26 Kenilworth Jr. High Lunch
+    },
   },
   penngrove: {
     label: 'Elementary',
     calendarUrl: 'https://petalumacityschools.org/penngrove/our-school/calendars',
     calendarType: 'year-round',
-    healtheproSchoolId: null,
-    healtheproBreakfastId: null,
-    healtheproLunchId: null,
-  }
+    menus: {
+      breakfast: 104333, // Elementary School Breakfast
+      lunch:     104335, // Elementary School Lunch
+    },
+  },
 };
+
+// Categories to skip in the menu display (too basic / not useful for planning)
+const SKIP_CATEGORIES = new Set(['Milk', 'Condiments', 'Condiment', 'Beverages', 'Beverage']);
+
+// ─── Menu fetching ───────────────────────────────────────────────────────────
+
+/**
+ * Fetches menus for a school for the current and next month.
+ * Returns an object keyed by date string: { "2026-03-02": { breakfast: [...], lunch: [...] } }
+ *
+ * API endpoints:
+ *   GET /api/organizations/472/menus/{menuId}/year/{year}/month/{month}/date_overwrites
+ *   Returns array of day entries, each with a `setting` field (stringified JSON) containing:
+ *     - current_display: [{type: "category"|"recipe", name: "..."}, ...]
+ *     - days_off: [] (school day) OR {status: 1, description: "..."} (no school)
+ */
+async function fetchMenusForSchool(schoolKey, config) {
+  console.log(`\n🍽️  Fetching menus for ${config.label}...`);
+
+  const result = {};
+
+  // Fetch current month + next month so parents see upcoming menus
+  const now = new Date();
+  const months = [0, 1].map(offset => {
+    const d = new Date(now.getFullYear(), now.getMonth() + offset, 1);
+    return { year: d.getFullYear(), month: d.getMonth() + 1 };
+  });
+
+  for (const [mealType, menuId] of Object.entries(config.menus)) {
+    for (const { year, month } of months) {
+      const url = `https://menus.healthepro.com/api/organizations/${ORG_ID}/menus/${menuId}/year/${year}/month/${month}/date_overwrites`;
+
+      try {
+        const resp = await axios.get(url, { timeout: 15000 });
+        // API returns either a raw array or {data: [...]}
+        const days = Array.isArray(resp.data) ? resp.data : (resp.data?.data ?? []);
+
+        if (!Array.isArray(days) || days.length === 0) {
+          console.log(`   ℹ️  ${mealType} ${year}-${String(month).padStart(2, '0')}: empty response`);
+          continue;
+        }
+
+        for (const day of days) {
+          if (!day.day) continue;
+
+          let setting;
+          try {
+            setting = typeof day.setting === 'string' ? JSON.parse(day.setting) : day.setting;
+          } catch {
+            continue;
+          }
+
+          if (!result[day.day]) result[day.day] = {};
+
+          // days_off is [] on normal days, {status:1, description:"..."} on no-school days
+          const daysOff = setting.days_off;
+          const isNoSchool = !Array.isArray(daysOff) && daysOff?.status === 1;
+
+          if (isNoSchool) {
+            result[day.day][mealType] = [];
+            continue;
+          }
+
+          // Walk current_display: track current category, collect recipe names
+          let currentCategory = '';
+          const items = [];
+
+          for (const entry of (setting.current_display ?? [])) {
+            if (entry.type === 'category') {
+              currentCategory = entry.name;
+            } else if (entry.type === 'recipe' && !SKIP_CATEGORIES.has(currentCategory)) {
+              items.push(entry.name);
+            }
+          }
+
+          result[day.day][mealType] = items;
+        }
+
+        console.log(`   ✅ ${mealType} ${year}-${String(month).padStart(2, '0')}: ${days.length} days fetched`);
+
+      } catch (err) {
+        if (err.response?.status === 400 || err.response?.status === 404) {
+          console.log(`   ℹ️  ${mealType} ${year}-${String(month).padStart(2, '0')}: not published yet`);
+        } else {
+          console.error(`   ❌ ${mealType} ${year}-${String(month).padStart(2, '0')}: ${err.message}`);
+        }
+      }
+    }
+  }
+
+  return result;
+}
 
 // ─── Calendar scraping ───────────────────────────────────────────────────────
 
@@ -43,19 +136,19 @@ const MONTH_MAP = {
   january:'01', jan:'01', february:'02', feb:'02', march:'03', mar:'03',
   april:'04',   apr:'04', may:'05',       june:'06', jun:'06', july:'07',
   jul:'07',     august:'08', aug:'08', september:'09', sep:'09', sept:'09',
-  october:'10', oct:'10', november:'11', nov:'11', december:'12', dec:'12'
+  october:'10', oct:'10', november:'11', nov:'11', december:'12', dec:'12',
 };
 
 const NO_SCHOOL_PATTERNS = [
   /no\s+school/i, /school\s+closed/i, /schools?\s+not\s+in\s+session/i,
   /holiday/i, /thanksgiving/i, /christmas/i, /new\s+year/i,
   /martin\s+luther\s+king/i, /mlk\s+day/i, /presidents?\s*day/i,
-  /memorial\s+day/i, /labor\s+day/i, /veterans?\s+day/i,
-  /independence\s+day/i, /winter\s+break/i, /spring\s+break/i,
-  /summer\s+break/i, /thanksgiving\s+break/i, /holiday\s+break/i,
+  /memorial\s+day/i, /labor\s+day/i, /veterans?\s+day/i, /independence\s+day/i,
+  /winter\s+break/i, /spring\s+break/i, /summer\s+break/i,
+  /thanksgiving\s+break/i, /holiday\s+break/i,
   /professional\s+development/i, /prof\.?\s+dev\.?/i,
-  /teacher\s+workday/i, /staff\s+development/i, /inservice/i,
-  /in[-\s]service/i, /parent[- ]teacher\s+conference/i, /conferences/i,
+  /teacher\s+workday/i, /staff\s+development/i, /inservice/i, /in[-\s]service/i,
+  /parent[- ]teacher\s+conference/i, /conferences/i,
   /minimum\s+day/i, /early\s+release/i, /early\s+dismissal/i, /half\s+day/i,
 ];
 
@@ -68,7 +161,6 @@ function extractDates(text) {
   const cur = new Date().getFullYear();
   const next = cur + 1;
 
-  // "January 15" or "January 15, 2026"
   const re1 = /(?:january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\.?\s+(\d{1,2})(?:st|nd|rd|th)?\s*,?\s*(\d{4})?/gi;
   let m;
   while ((m = re1.exec(text)) !== null) {
@@ -80,7 +172,6 @@ function extractDates(text) {
     dates.add(`${yr}-${mo}-${day}`);
   }
 
-  // MM/DD/YYYY or MM-DD-YYYY
   const re2 = /(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})/g;
   while ((m = re2.exec(text)) !== null) {
     dates.add(`${m[3]}-${m[1].padStart(2,'0')}-${m[2].padStart(2,'0')}`);
@@ -95,11 +186,10 @@ async function scrapeCalendarForSchool(schoolKey, config) {
   const pdfEvents = [];
   let pdfLinks = [];
 
-  // Step 1: find PDF links on the school's calendar page
   try {
     const resp = await axios.get(config.calendarUrl, {
       timeout: 30000,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; school-dashboard/2.0)' }
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; school-dashboard/2.0)' },
     });
     const $ = cheerio.load(resp.data);
     $('a').each((_, el) => {
@@ -109,12 +199,11 @@ async function scrapeCalendarForSchool(schoolKey, config) {
         pdfLinks.push(url);
       }
     });
-    console.log(`   Found ${pdfLinks.length} PDF links on page`);
+    console.log(`   Found ${pdfLinks.length} PDF links`);
   } catch (err) {
     console.warn(`   ⚠️  Could not load calendar page: ${err.message}`);
   }
 
-  // Step 2: download & parse PDFs, extract no-school events
   for (const pdfUrl of pdfLinks.slice(0, 3)) {
     try {
       const dl = await axios.get(pdfUrl, { responseType: 'arraybuffer', timeout: 60000 });
@@ -126,24 +215,19 @@ async function scrapeCalendarForSchool(schoolKey, config) {
         if (line.length < 3) continue;
         if (NO_SCHOOL_PATTERNS.some(p => p.test(line))) {
           const ctx = [lines[i-2]||'', lines[i-1]||'', line, lines[i+1]||'', lines[i+2]||''].join(' ');
-          const dates = extractDates(ctx);
-          if (dates.length) {
-            dates.forEach(date => pdfEvents.push({ date, title: line, isNoSchool: true }));
-          }
+          extractDates(ctx).forEach(date => pdfEvents.push({ date, title: line, isNoSchool: true }));
         }
       }
-      console.log(`   Parsed PDF: ${pdfEvents.length} events so far`);
       if (pdfEvents.length > 10) break;
     } catch (err) {
       console.warn(`   ⚠️  PDF parse failed: ${err.message}`);
     }
   }
 
-  // Step 3: build a full school-year day map (Aug → Jul)
-  const today = new Date();
-  const yr = today.getFullYear();
-  const start = new Date(yr, 7, 1);   // Aug 1
-  const end   = new Date(yr + 1, 6, 31); // Jul 31
+  // Build a full school-year day map (Aug → Jul)
+  const yr = new Date().getFullYear();
+  const start = new Date(yr, 7, 1);
+  const end   = new Date(yr + 1, 6, 31);
   const schoolDays = {};
 
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
@@ -157,7 +241,6 @@ async function scrapeCalendarForSchool(schoolKey, config) {
     };
   }
 
-  // Overlay no-school events from PDF
   let overrides = 0;
   for (const ev of pdfEvents) {
     if (ev.date && schoolDays[ev.date]) {
@@ -171,7 +254,7 @@ async function scrapeCalendarForSchool(schoolKey, config) {
     }
   }
 
-  console.log(`   ${overrides} no-school overrides applied`);
+  console.log(`   ${overrides} no-school overrides applied from PDF`);
 
   return {
     label: config.label,
@@ -183,58 +266,10 @@ async function scrapeCalendarForSchool(schoolKey, config) {
   };
 }
 
-// ─── Menu fetching ───────────────────────────────────────────────────────────
-// healthepro API endpoints — fill these in once you inspect network requests:
-//   1. Open https://menus.healthepro.com/organizations/472 in Chrome
-//   2. Open DevTools → Network tab → filter by Fetch/XHR
-//   3. Click a school and a menu type (breakfast/lunch)
-//   4. Copy the request URLs — they'll look like:
-//        /api/menus?school_id=XXX&type=lunch&date=2026-03-01
-//      or similar. Paste the full URL pattern below.
-//
-// Once we know the pattern:
-//   - Set SCHOOLS[key].healtheproSchoolId etc. above
-//   - Uncomment and fill in fetchMenusForSchool() below
-
-async function fetchMenusForSchool(schoolKey, config, startDate, endDate) {
-  if (!config.healtheproSchoolId) {
-    console.log(`   ℹ️  ${config.label}: healthepro IDs not configured yet — skipping menu fetch`);
-    return {};
-  }
-
-  // TODO: replace this URL template with the real endpoint pattern
-  // Example placeholder (update after inspecting network requests):
-  //   const url = `https://menus.healthepro.com/api/menus?organization_id=472&school_id=${config.healtheproSchoolId}&date=${dateStr}`;
-  console.log(`   📋 Fetching menus for ${config.label} from healthepro...`);
-  const menus = {};
-
-  // Iterate over each day in range and fetch
-  for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
-    const dow = d.getDay();
-    if (dow === 0 || dow === 6) continue; // skip weekends
-
-    const dateStr = d.toISOString().split('T')[0];
-
-    // ── Replace the lines below with the real API call ──────────────────────
-    // const resp = await axios.get(url, { timeout: 10000 });
-    // const data = resp.data;
-    // menus[dateStr] = {
-    //   breakfast: data.breakfast?.items?.map(i => i.name) || [],
-    //   lunch:     data.lunch?.items?.map(i => i.name)     || [],
-    // };
-    // ────────────────────────────────────────────────────────────────────────
-  }
-
-  return menus;
-}
-
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log('🚀 Data Updater starting...');
-  const startDate = new Date();
-  const endDate   = new Date(startDate);
-  endDate.setDate(endDate.getDate() + 30); // fetch menus for next 30 days
+  console.log('🚀 Data Updater starting...\n');
 
   // 1. Calendar data
   const calendars = {};
@@ -247,34 +282,35 @@ async function main() {
     }
   }
 
-  const schoolData = {
+  await fs.writeFile('./school-data.json', JSON.stringify({
     lastUpdated: new Date().toISOString(),
     calendars,
-    menus: {} // menus are in menu-data.json
-  };
-  await fs.writeFile('./school-data.json', JSON.stringify(schoolData, null, 2));
+    menus: {},
+  }, null, 2));
   console.log('\n✅ school-data.json written');
 
   // 2. Menu data
   const menusBySchool = {};
   for (const [key, config] of Object.entries(SCHOOLS)) {
     try {
+      const menus = await fetchMenusForSchool(key, config);
       menusBySchool[key] = {
         label: config.label,
-        menus: await fetchMenusForSchool(key, config, startDate, endDate),
+        menus,
         lastFetched: new Date().toISOString(),
       };
+      const dayCount = Object.keys(menus).length;
+      console.log(`   📋 ${config.label}: ${dayCount} days of menu data`);
     } catch (err) {
       console.error(`❌ Menu fetch failed for ${key}:`, err.message);
       menusBySchool[key] = { label: config.label, menus: {}, error: err.message };
     }
   }
 
-  const menuData = {
+  await fs.writeFile('./menu-data.json', JSON.stringify({
     lastUpdated: new Date().toISOString(),
     schools: menusBySchool,
-  };
-  await fs.writeFile('./menu-data.json', JSON.stringify(menuData, null, 2));
+  }, null, 2));
   console.log('✅ menu-data.json written');
 
   console.log('\n🎉 Data update complete!');
