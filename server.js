@@ -17,7 +17,7 @@ app.use(express.static('.'));
 
 // Serve the dashboard
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'dashboard.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // API endpoint to get school data
