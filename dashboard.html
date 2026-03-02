@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="School Dashboard">
+    <title>School Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        /* Weather Section */
+        .weather-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .weather-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .weather-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .current-weather {
+            text-align: center;
+        }
+
+        .temp-display {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #4ECDC4;
+            margin-bottom: 10px;
+        }
+
+        .weather-desc {
+            font-size: 1.1rem;
+            color: #666;
+            text-transform: capitalize;
+        }
+
+        .weather-details {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .weather-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .weather-label {
+            display: block;
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .weather-value {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .selected-date {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        /* Calendar Section */
+        .calendar-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .calendar-header {
+            margin-bottom: 20px;
+        }
+
+        .calendar-header h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .week-view {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+        }
+
+        .day-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .day-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .day-card.selected {
+            border-color: #667eea;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .day-card.today {
+            border-color: #4ECDC4;
+        }
+
+        .day-name {
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+
+        .day-date {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .school-status {
+            font-size: 0.8rem;
+            padding: 4px 8px;
+            border-radius: 12px;
+            margin: 2px 0;
+        }
+
+        .daniel-status {
+            background: rgba(78, 205, 196, 0.2);
+            color: #4ECDC4;
+        }
+
+        .eleanor-status {
+            background: rgba(255, 107, 107, 0.2);
+            color: #FF6B6B;
+        }
+
+        .no-school {
+            background: rgba(255, 193, 7, 0.2);
+            color: #856404;
+        }
+
+        /* Menu Sections */
+        .menu-sections {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .menu-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .menu-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .child-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            margin-right: 15px;
+        }
+
+        .daniel-icon {
+            background: linear-gradient(45deg, #4ECDC4, #44A08D);
+        }
+
+        .eleanor-icon {
+            background: linear-gradient(45deg, #FF6B6B, #FF8E8E);
+        }
+
+        .menu-info h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .menu-info p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .meal-section {
+            margin-bottom: 25px;
+        }
+
+        .meal-section h4 {
+            color: #444;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .menu-item {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-radius: 8px;
+            border-left: 3px solid #e9ecef;
+        }
+
+        .menu-item.daniel {
+            border-left-color: #4ECDC4;
+        }
+
+        .menu-item.eleanor {
+            border-left-color: #FF6B6B;
+        }
+
+        /* Additional Activities Section */
+        .activities-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .activities-header {
+            margin-bottom: 20px;
+        }
+
+        .activities-placeholder {
+            text-align: center;
+            color: #666;
+            padding: 40px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 2px dashed #ddd;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .weather-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .menu-sections {
+                grid-template-columns: 1fr;
+            }
+
+            .week-view {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+
+            .day-card {
+                min-height: auto;
+                padding: 12px;
+            }
+        }
+
+        /* Status bar */
+        .status-bar {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .loading { color: #4ECDC4; }
+        .success { color: #44A08D; }
+        .error { color: #FF6B6B; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📚 School Dashboard</h1>
+        </div>
+
+        <!-- Status Bar -->
+        <div class="status-bar" id="statusBar">
+            <span class="loading">📡 Loading dashboard...</span>
+        </div>
+
+        <!-- Weather Section -->
+        <div class="weather-section">
+            <div class="weather-header">
+                <h2>🌤️ Weather for Selected Day</h2>
+                <div class="selected-date" id="selectedDateDisplay">Today</div>
+            </div>
+            <div class="weather-content" id="weatherContent">
+                <div class="current-weather">
+                    <div class="temp-display">--°F</div>
+                    <div class="weather-desc">Loading weather...</div>
+                </div>
+                <div class="weather-details">
+                    <div class="weather-item">
+                        <span class="weather-label">Feels like:</span>
+                        <span class="weather-value" id="feelsLike">--</span>
+                    </div>
+                    <div class="weather-item">
+                        <span class="weather-label">Humidity:</span>
+                        <span class="weather-value" id="humidity">--</span>
+                    </div>
+                    <div class="weather-item">
+                        <span class="weather-label">Wind:</span>
+                        <span class="weather-value" id="windSpeed">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weekly Calendar -->
+        <div class="calendar-section">
+            <div class="calendar-header">
+                <h2>📅 This Week's School Schedule</h2>
+                <p>Click any day to see weather and menus for that day</p>
+            </div>
+            <div class="week-view" id="weekView">
+                <!-- Days will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Menu Sections -->
+        <div class="menu-sections">
+            <!-- Daniel's Menu -->
+            <div class="menu-card">
+                <div class="menu-header">
+                    <div class="child-icon daniel-icon">🎓</div>
+                    <div class="menu-info">
+                        <h3>Middle School</h3>
+                        <p>Kenilworth Jr High • Traditional Calendar</p>
+                    </div>
+                </div>
+                
+                <div class="meal-section">
+                    <h4>🌅 Breakfast</h4>
+                    <div class="menu-items" id="danielBreakfast">
+                        <div class="menu-item daniel">Loading breakfast menu...</div>
+                    </div>
+                </div>
+
+                <div class="meal-section">
+                    <h4>🥪 Lunch</h4>
+                    <div class="menu-items" id="danielLunch">
+                        <div class="menu-item daniel">Loading lunch menu...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Eleanor's Menu -->
+            <div class="menu-card">
+                <div class="menu-header">
+                    <div class="child-icon eleanor-icon">🌸</div>
+                    <div class="menu-info">
+                        <h3>Elementary</h3>
+                        <p>Penngrove Elem • Year-Round Calendar</p>
+                    </div>
+                </div>
+
+                <div class="meal-section">
+                    <h4>🌅 Breakfast</h4>
+                    <div class="menu-items" id="eleanorBreakfast">
+                        <div class="menu-item eleanor">Loading breakfast menu...</div>
+                    </div>
+                </div>
+
+                <div class="meal-section">
+                    <h4>🥪 Lunch</h4>
+                    <div class="menu-items" id="eleanorLunch">
+                        <div class="menu-item eleanor">Loading lunch menu...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Activities -->
+        <div class="activities-section">
+            <div class="activities-header">
+                <h2>🏃‍♀️ Additional Scheduled Items</h2>
+                <p>After-school activities, appointments, and other events</p>
+            </div>
+            <div class="activities-placeholder">
+                <h3>Coming Soon!</h3>
+                <p>This section will show after-school activities, appointments, and other scheduled items.</p>
+                <p>Future integrations: ParentSquare newsletters, iPhone calendar sync, manual entries</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const CONFIG = {
+            WEATHER_API_KEY: 'e0c8d9e6588b4bfe7c5655ed385a9567',
+            PETALUMA_COORDS: { lat: 38.2324, lon: -122.6367 },
+            SCHOOL_DATA_URL: './school-data.json',
+            MENU_DATA_URL: './menu-data.json',
+        };
+
+        // Global state
+        let selectedDate = new Date();
+        let weekData = [];
+        let realSchoolData = null;
+        let menuData = null;
+
+        // Utility functions
+        function getCurrentWeekDates() {
+            const today = new Date();
+            const sunday = new Date(today);
+            sunday.setDate(today.getDate() - today.getDay());
+            
+            const weekDates = [];
+            for (let i = 0; i < 7; i++) {
+                const date = new Date(sunday);
+                date.setDate(sunday.getDate() + i);
+                weekDates.push(date);
+            }
+            return weekDates;
+        }
+
+        function updateStatus(message, type = 'loading') {
+            const statusBar = document.getElementById('statusBar');
+            const icons = { loading: '📡', success: '✅', error: '❌' };
+            statusBar.innerHTML = `<span class="${type}">${icons[type]} ${message}</span>`;
+        }
+
+        // Weather functions
+        async function fetchWeather(date) {
+            try {
+                if (CONFIG.WEATHER_API_KEY === 'YOUR_API_KEY_HERE') {
+                    // Mock data when no API key
+                    return {
+                        temperature: Math.round(Math.random() * 20 + 60),
+                        feelsLike: Math.round(Math.random() * 20 + 60),
+                        description: ['sunny', 'partly cloudy', 'overcast'][Math.floor(Math.random() * 3)],
+                        humidity: Math.round(Math.random() * 30 + 50),
+                        windSpeed: Math.round(Math.random() * 10 + 5)
+                    };
+                }
+
+                const isToday = date.toDateString() === new Date().toDateString();
+                let url;
+
+                if (isToday) {
+                    url = `https://api.openweathermap.org/data/2.5/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}&appid=${CONFIG.WEATHER_API_KEY}&units=imperial`;
+                } else {
+                    url = `https://api.openweathermap.org/data/2.5/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}&appid=${CONFIG.WEATHER_API_KEY}&units=imperial`;
+                }
+
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (isToday) {
+                    return {
+                        temperature: Math.round(data.main.temp),
+                        feelsLike: Math.round(data.main.feels_like),
+                        description: data.weather[0].description,
+                        humidity: data.main.humidity,
+                        windSpeed: Math.round(data.wind.speed)
+                    };
+                } else {
+                    // Find closest forecast to selected date
+                    const targetTime = new Date(date);
+                    targetTime.setHours(12, 0, 0, 0);
+                    
+                    let closest = data.list[0];
+                    let smallestDiff = Math.abs(new Date(closest.dt * 1000) - targetTime);
+                    
+                    data.list.forEach(item => {
+                        const diff = Math.abs(new Date(item.dt * 1000) - targetTime);
+                        if (diff < smallestDiff) {
+                            smallestDiff = diff;
+                            closest = item;
+                        }
+                    });
+
+                    return {
+                        temperature: Math.round(closest.main.temp),
+                        feelsLike: Math.round(closest.main.feels_like),
+                        description: closest.weather[0].description,
+                        humidity: closest.main.humidity,
+                        windSpeed: Math.round(closest.wind.speed)
+                    };
+                }
+            } catch (error) {
+                console.error('Weather fetch failed:', error);
+                return null;
+            }
+        }
+
+        function updateWeatherDisplay(weatherData, date) {
+            const isToday = date.toDateString() === new Date().toDateString();
+            const dateStr = date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+            
+            document.getElementById('selectedDateDisplay').textContent = isToday ? 'Today' : dateStr;
+            
+            if (!weatherData) {
+                document.querySelector('.temp-display').textContent = '--°F';
+                document.querySelector('.weather-desc').textContent = 'Weather unavailable';
+                return;
+            }
+
+            document.querySelector('.temp-display').textContent = `${weatherData.temperature}°F`;
+            document.querySelector('.weather-desc').textContent = weatherData.description;
+            document.getElementById('feelsLike').textContent = `${weatherData.feelsLike}°F`;
+            document.getElementById('humidity').textContent = `${weatherData.humidity}%`;
+            document.getElementById('windSpeed').textContent = `${weatherData.windSpeed} mph`;
+        }
+
+        // Load school calendar and menu data from static JSON files
+        async function loadRealSchoolData() {
+            let loaded = false;
+            try {
+                updateStatus('Loading school data...', 'loading');
+                const [calResp, menuResp] = await Promise.all([
+                    fetch(CONFIG.SCHOOL_DATA_URL),
+                    fetch(CONFIG.MENU_DATA_URL).catch(() => null),
+                ]);
+
+                if (!calResp.ok) throw new Error('school-data.json not available');
+                realSchoolData = await calResp.json();
+
+                if (menuResp && menuResp.ok) {
+                    menuData = await menuResp.json();
+                    console.log('✅ Menu data loaded');
+                } else {
+                    console.warn('⚠️ menu-data.json not available — using sample menus');
+                }
+
+                console.log('✅ School data loaded:', {
+                    kenilworth: Object.keys(realSchoolData.calendars?.kenilworth?.schoolDays || {}).length + ' days',
+                    penngrove:  Object.keys(realSchoolData.calendars?.penngrove?.schoolDays  || {}).length + ' days',
+                });
+                loaded = true;
+            } catch (error) {
+                console.warn('⚠️ Could not load school data, using fallback:', error.message);
+                updateStatus('Using sample data — open via a local server or GitHub Pages', 'error');
+            }
+            return loaded;
+        }
+
+        // School calendar functions with real data
+        function getSchoolStatus(date, school) {
+            const dateKey = date.toISOString().split('T')[0];
+            
+            // Check real scraped data first
+            if (realSchoolData) {
+                const schoolKey = school === 'daniel' ? 'kenilworth' : 'penngrove';
+                const schoolCalendar = realSchoolData.calendars?.[schoolKey];
+                
+                if (schoolCalendar?.schoolDays?.[dateKey]) {
+                    const dayData = schoolCalendar.schoolDays[dateKey];
+                    return {
+                        status: dayData.status,
+                        type: dayData.isSchoolDay ? 'school' : 'no-school',
+                        events: dayData.events,
+                        source: 'scraped'
+                    };
+                }
+                
+                // Also check district calendar for holidays
+                const districtEvents = realSchoolData.calendars?.district?.events || [];
+                const dayEvents = districtEvents.filter(event => {
+                    return event.title && (
+                        event.date?.includes(dateKey) ||
+                        event.title.toLowerCase().includes('holiday') ||
+                        event.title.toLowerCase().includes('break')
+                    );
+                });
+                
+                if (dayEvents.length > 0) {
+                    const noSchoolEvent = dayEvents.find(event => 
+                        event.title.toLowerCase().includes('no school') ||
+                        event.title.toLowerCase().includes('holiday') ||
+                        event.title.toLowerCase().includes('break')
+                    );
+                    
+                    if (noSchoolEvent) {
+                        return {
+                            status: noSchoolEvent.title,
+                            type: 'no-school',
+                            events: dayEvents,
+                            source: 'scraped-district'
+                        };
+                    }
+                }
+            }
+            
+            // Fallback to basic logic
+            const dayOfWeek = date.getDay();
+            
+            // Weekend
+            if (dayOfWeek === 0 || dayOfWeek === 6) {
+                return { status: 'No School - Weekend', type: 'no-school', source: 'fallback' };
+            }
+            
+            // Known holidays (fallback)
+            const month = date.getMonth();
+            const dayOfMonth = date.getDate();
+            
+            // Check for known October 2024 schedule
+            if (month === 9 && dayOfMonth === 21) { // Monday Oct 21, 2024
+                return { status: 'No School - Professional Development', type: 'no-school', source: 'manual' };
+            }
+            
+            // Thanksgiving week
+            if (month === 10 && dayOfMonth >= 25 && dayOfMonth <= 29) {
+                return { status: 'Thanksgiving Break', type: 'no-school', source: 'fallback' };
+            }
+            
+            // Winter break
+            if ((month === 11 && dayOfMonth >= 22) || (month === 0 && dayOfMonth <= 8)) {
+                return { status: 'Winter Break', type: 'no-school', source: 'fallback' };
+            }
+            
+            // Default: school day
+            return { status: 'School Day', type: 'school', source: 'fallback' };
+        }
+
+        function getMenuForDay(date, child) {
+            const dayOfWeek = date.getDay();
+
+            // No menu on weekends
+            if (dayOfWeek === 0 || dayOfWeek === 6) {
+                return {
+                    breakfast: ['No school - Weekend'],
+                    lunch: ['No school - Weekend']
+                };
+            }
+
+            const dateKey = date.toISOString().split('T')[0];
+            const schoolKey = child === 'daniel' ? 'kenilworth' : 'penngrove';
+
+            // Check live menu data from menu-data.json
+            if (menuData?.schools?.[schoolKey]?.menus?.[dateKey]) {
+                const dayMenu = menuData.schools[schoolKey].menus[dateKey];
+                if (dayMenu.breakfast?.length || dayMenu.lunch?.length) {
+                    return {
+                        breakfast: dayMenu.breakfast?.length ? dayMenu.breakfast : ['Breakfast not listed'],
+                        lunch:     dayMenu.lunch?.length     ? dayMenu.lunch     : ['Lunch not listed'],
+                        source: 'scraped-healthepro',
+                    };
+                }
+            }
+            
+            // Fallback to simulated realistic menus
+            const breakfastMenus = [
+                [], // Sunday
+                ['Whole Grain Cereal', 'Fresh Banana', 'Low-Fat Milk'],
+                ['Breakfast Burrito', 'Hash Browns', 'Orange Juice'],
+                ['Pancakes', 'Turkey Sausage', 'Mixed Berries'],
+                ['Yogurt Parfait', 'Granola', 'Apple Slices'],
+                ['Bagel with Cream Cheese', 'Fresh Fruit', 'Milk'],
+                [] // Saturday
+            ];
+            
+            const lunchMenus = {
+                daniel: [
+                    [], // Sunday
+                    ['Spaghetti & Meatballs', 'Garlic Bread', 'Caesar Salad', 'Milk'],
+                    ['Chicken Quesadilla', 'Spanish Rice', 'Refried Beans', 'Chocolate Milk'],
+                    ['Pizza Day', 'Tossed Salad', 'Corn', 'Orange Wedges'],
+                    ['BBQ Pulled Pork', 'Baked Beans', 'Coleslaw', 'Milk'],
+                    ['Fish & Chips', 'Mushy Peas', 'Fruit Salad', 'Milk'],
+                    [] // Saturday
+                ],
+                eleanor: [
+                    [], // Sunday
+                    ['Grilled Chicken', 'Sweet Potato Fries', 'Green Beans', 'Milk'],
+                    ['Turkey Tacos', 'Spanish Rice', 'Black Beans', 'Chocolate Milk'],
+                    ['Pizza Wednesday', 'Garden Salad', 'Steamed Broccoli', 'Milk'],
+                    ['Fish Sticks', 'Mac and Cheese', 'Carrots', 'Applesauce'],
+                    ['Hamburger Day', 'Oven Fries', 'Pickle', 'Strawberry Milk'],
+                    [] // Saturday
+                ]
+            };
+            
+            return {
+                breakfast: breakfastMenus[dayOfWeek] || ['No breakfast service'],
+                lunch: lunchMenus[child][dayOfWeek] || ['No lunch service'],
+                source: 'simulated'
+            };
+        }
+
+        function createWeekView() {
+            const weekDates = getCurrentWeekDates();
+            const weekView = document.getElementById('weekView');
+            const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            
+            weekView.innerHTML = '';
+            weekData = [];
+            
+            weekDates.forEach((date, index) => {
+                const dayCard = document.createElement('div');
+                dayCard.className = 'day-card';
+                
+                if (date.toDateString() === new Date().toDateString()) {
+                    dayCard.classList.add('today');
+                }
+                
+                if (date.toDateString() === selectedDate.toDateString()) {
+                    dayCard.classList.add('selected');
+                }
+                
+                const danielStatus = getSchoolStatus(date, 'daniel');
+                const eleanorStatus = getSchoolStatus(date, 'eleanor');
+                
+                // Add data source indicator
+                const sourceIndicator = danielStatus.source === 'scraped' || eleanorStatus.source === 'scraped' ? 
+                    '✅' : (danielStatus.source === 'manual' ? '👤' : '⚠️');
+                
+                dayCard.innerHTML = `
+                    <div class="day-name">${dayNames[index].substring(0, 3)} ${sourceIndicator}</div>
+                    <div class="day-date">${date.getDate()}</div>
+                    <div class="school-status daniel-status">Middle: ${danielStatus.status}</div>
+                    <div class="school-status eleanor-status">Elem: ${eleanorStatus.status}</div>
+                `;
+                
+                dayCard.addEventListener('click', () => selectDate(date));
+                weekView.appendChild(dayCard);
+                
+                weekData.push({
+                    date: date,
+                    daniel: danielStatus,
+                    eleanor: eleanorStatus
+                });
+            });
+        }
+
+        function updateMenus(date) {
+            const danielMenu = getMenuForDay(date, 'daniel');
+            const eleanorMenu = getMenuForDay(date, 'eleanor');
+            
+            // Add source indicators
+            const danielSource = danielMenu.source || 'unknown';
+            const eleanorSource = eleanorMenu.source || 'unknown';
+            
+            const sourceIcon = {
+                'scraped':             '✅ Real Menu',
+                'scraped-healthepro':  '✅ Live Menu',
+                'scraped-nutrislice':  '✅ Live Menu',
+                'scraped-district':    '✅ District Menu',
+                'simulated':           '⚠️ Sample Menu',
+                'unknown':             '❓ Unknown',
+            };
+            
+            // Update Daniel's menu
+            const danielBreakfastHTML = danielMenu.breakfast.map(item => 
+                `<div class="menu-item daniel">${item}</div>`
+            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[danielSource] || sourceIcon.unknown}</div>`;
+            
+            const danielLunchHTML = danielMenu.lunch.map(item => 
+                `<div class="menu-item daniel">${item}</div>`
+            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[danielSource] || sourceIcon.unknown}</div>`;
+            
+            document.getElementById('danielBreakfast').innerHTML = danielBreakfastHTML;
+            document.getElementById('danielLunch').innerHTML = danielLunchHTML;
+            
+            // Update Eleanor's menu
+            const eleanorBreakfastHTML = eleanorMenu.breakfast.map(item => 
+                `<div class="menu-item eleanor">${item}</div>`
+            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[eleanorSource] || sourceIcon.unknown}</div>`;
+            
+            const eleanorLunchHTML = eleanorMenu.lunch.map(item => 
+                `<div class="menu-item eleanor">${item}</div>`
+            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[eleanorSource] || sourceIcon.unknown}</div>`;
+            
+            document.getElementById('eleanorBreakfast').innerHTML = eleanorBreakfastHTML;
+            document.getElementById('eleanorLunch').innerHTML = eleanorLunchHTML;
+        }
+
+        // Main selection function
+        async function selectDate(date) {
+            selectedDate = new Date(date);
+            
+            updateStatus('Loading data for selected day...', 'loading');
+            
+            // Update visual selection
+            document.querySelectorAll('.day-card').forEach(card => card.classList.remove('selected'));
+            document.querySelectorAll('.day-card')[date.getDay()].classList.add('selected');
+            
+            // Update weather
+            const weather = await fetchWeather(date);
+            updateWeatherDisplay(weather, date);
+            
+            // Update menus
+            updateMenus(date);
+            
+            const dateStr = date.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+            updateStatus(`Showing data for ${dateStr}`, 'success');
+        }
+
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', async () => {
+            updateStatus('Loading dashboard with real school data...', 'loading');
+            
+            // First try to load real scraped data
+            const hasRealData = await loadRealSchoolData();
+            
+            // Create the week view (now with real data if available)
+            createWeekView();
+            
+            // Select today by default
+            await selectDate(new Date());
+            
+            if (hasRealData) {
+                updateStatus('✅ Dashboard loaded!', 'success');
+            } else {
+                updateStatus('⚠️ Using sample data — serve via HTTP for live data', 'error');
+            }
+            
+            // Hide status after 5 seconds
+            setTimeout(() => {
+                const statusBar = document.getElementById('statusBar');
+                statusBar.style.opacity = '0.7';
+                statusBar.style.transition = 'opacity 1s';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

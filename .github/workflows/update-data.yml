@@ -1,0 +1,40 @@
+name: Update School Data
+
+on:
+  schedule:
+    # 6:00 AM Pacific Standard Time = 14:00 UTC
+    # During PDT (summer) adjust to 13:00 UTC if you want exact 6 AM
+    - cron: '0 14 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # needed to push updated JSON files back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run data updater
+        run: node data-updater.js
+
+      - name: Commit and push updated data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add school-data.json menu-data.json
+          # Only commit if something actually changed
+          git diff --staged --quiet || git commit -m "chore: auto-update school data [skip ci]"
+          git push

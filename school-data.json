@@ -1,0 +1,689 @@
+{
+  "lastUpdated": "2025-10-19T21:15:54.668Z",
+  "calendars": {
+    "kenilworth": {
+      "events": [
+        {
+          "summary": "BOYS BB ALTIMIRA @ KJ",
+          "description": "",
+          "start": "2025-11-06T00:00:00.000Z",
+          "dateKey": "2025-11-06"
+        },
+        {
+          "summary": "BOYS BB KJ @ RINCON VALLEY",
+          "description": "",
+          "start": "2025-11-11T00:00:00.000Z",
+          "dateKey": "2025-11-11"
+        },
+        {
+          "summary": "BOYS BB   KJ @ WINDSOR",
+          "description": "",
+          "start": "2025-11-13T00:00:00.000Z",
+          "dateKey": "2025-11-13"
+        },
+        {
+          "summary": "BOYS BB   BYE",
+          "description": "",
+          "start": "2025-11-18T00:00:00.000Z",
+          "dateKey": "2025-11-18"
+        },
+        {
+          "summary": "BOYS BB   KJ VS. MONTGOMERY @ SLATER",
+          "description": "",
+          "start": "2025-11-20T00:00:00.000Z",
+          "dateKey": "2025-11-20"
+        },
+        {
+          "summary": "BOYS BB   PJ @ KJ",
+          "description": "",
+          "start": "2025-12-04T00:00:00.000Z",
+          "dateKey": "2025-12-04"
+        },
+        {
+          "summary": "BOYS BB   LJ @ KJ",
+          "description": "",
+          "start": "2025-12-09T00:00:00.000Z",
+          "dateKey": "2025-12-09"
+        },
+        {
+          "summary": "BOYS BB   KJ @ ALTIMIRA",
+          "description": "",
+          "start": "2025-12-11T00:00:00.000Z",
+          "dateKey": "2025-12-11"
+        },
+        {
+          "summary": "BOYS BB    RINCON VALLEY @ KJ",
+          "description": "",
+          "start": "2025-12-16T00:00:00.000Z",
+          "dateKey": "2025-12-16"
+        },
+        {
+          "summary": "BOYS BB   WINDSOR@ KJ",
+          "description": "",
+          "start": "2025-12-18T00:00:00.000Z",
+          "dateKey": "2025-12-18"
+        },
+        {
+          "summary": "BOYS BB    MONTGOMERY @ KJ",
+          "description": "",
+          "start": "2026-01-08T00:00:00.000Z",
+          "dateKey": "2026-01-08"
+        },
+        {
+          "summary": "BOYS BB   KJ @ PJ",
+          "description": "",
+          "start": "2026-01-13T00:00:00.000Z",
+          "dateKey": "2026-01-13"
+        },
+        {
+          "summary": "BOYS BB    KJ @ LJ",
+          "description": "",
+          "start": "2026-01-15T00:00:00.000Z",
+          "dateKey": "2026-01-15"
+        },
+        {
+          "summary": "GIRLS VB  KJ @ ALTIMIRA",
+          "description": "",
+          "start": "2025-11-06T00:00:00.000Z",
+          "dateKey": "2025-11-06"
+        },
+        {
+          "summary": "GIRLS VB   RINCON VALLEY @ KJ ",
+          "description": "",
+          "start": "2025-11-11T00:00:00.000Z",
+          "dateKey": "2025-11-11"
+        },
+        {
+          "summary": "GIRLS VB    WINDSOR @ KJ",
+          "description": "",
+          "start": "2025-11-13T00:00:00.000Z",
+          "dateKey": "2025-11-13"
+        },
+        {
+          "summary": "GIRLS VB    BYE",
+          "description": "",
+          "start": "2025-11-18T00:00:00.000Z",
+          "dateKey": "2025-11-18"
+        },
+        {
+          "summary": "GIRLS VB   MONTGOMERY @ KJ",
+          "description": "",
+          "start": "2025-11-20T00:00:00.000Z",
+          "dateKey": "2025-11-20"
+        },
+        {
+          "summary": "GIRLS VB   KJ @ PJ",
+          "description": "",
+          "start": "2025-12-04T00:00:00.000Z",
+          "dateKey": "2025-12-04"
+        },
+        {
+          "summary": "GIRLS VB   KJ @ LJ",
+          "description": "",
+          "start": "2025-12-09T00:00:00.000Z",
+          "dateKey": "2025-12-09"
+        },
+        {
+          "summary": "GIRLS VB   KJ @ RINCON VALLEY",
+          "description": "",
+          "start": "2025-12-16T00:00:00.000Z",
+          "dateKey": "2025-12-16"
+        },
+        {
+          "summary": "GIRLS VB   KJ @ WINDSOR",
+          "description": "",
+          "start": "2025-12-18T00:00:00.000Z",
+          "dateKey": "2025-12-18"
+        },
+        {
+          "summary": "GIRLS VB   KJ VS MONTGOMERY @ SLATER",
+          "description": "",
+          "start": "2026-01-08T00:00:00.000Z",
+          "dateKey": "2026-01-08"
+        },
+        {
+          "summary": "GIRLS VB   PJ @ KJ",
+          "description": "",
+          "start": "2026-01-13T00:00:00.000Z",
+          "dateKey": "2026-01-13"
+        },
+        {
+          "summary": "GIRLS VB   LJ @ KJ",
+          "description": "",
+          "start": "2026-01-15T00:00:00.000Z",
+          "dateKey": "2026-01-15"
+        },
+        {
+          "summary": "ELAC Meeting",
+          "description": "",
+          "start": "2025-11-21T01:30:00.000Z",
+          "dateKey": "2025-11-21"
+        }
+      ],
+      "schoolDays": {
+        "2025-10-19": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-20": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-21": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-22": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-23": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-24": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-25": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-26": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-27": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-28": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-29": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-30": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-31": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-01": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-02": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-03": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-04": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-05": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-06": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "BOYS BB ALTIMIRA @ KJ",
+              "description": ""
+            },
+            {
+              "summary": "GIRLS VB  KJ @ ALTIMIRA",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-07": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-08": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-09": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-10": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-11": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "BOYS BB KJ @ RINCON VALLEY",
+              "description": ""
+            },
+            {
+              "summary": "GIRLS VB   RINCON VALLEY @ KJ ",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-12": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-13": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "BOYS BB   KJ @ WINDSOR",
+              "description": ""
+            },
+            {
+              "summary": "GIRLS VB    WINDSOR @ KJ",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-14": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-15": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-16": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-17": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        }
+      },
+      "calendarType": "traditional",
+      "sources": {
+        "pdf": null,
+        "ical": {
+          "url": "https://calendar.google.com/calendar/ical/fqvdpfafb2uantlfa9rr9jdhso%40group.calendar.google.com/public/basic.ics",
+          "eventsFound": 26,
+          "lastParsed": "2025-10-19T21:15:57.039Z"
+        }
+      },
+      "lastScraped": "2025-10-19T21:15:57.039Z"
+    },
+    "penngrove": {
+      "events": [
+        {
+          "summary": "Winter Break - NO SCHOOL",
+          "description": "",
+          "start": "2025-12-24T08:00:00.000Z",
+          "dateKey": "2025-12-24"
+        },
+        {
+          "summary": "Penngrove Craft Fair",
+          "description": "",
+          "start": "2025-11-01T07:00:00.000Z",
+          "dateKey": "2025-11-01"
+        },
+        {
+          "summary": "Minimum Day - 12pm release for all students",
+          "description": "",
+          "start": "2025-12-19T20:00:00.000Z",
+          "dateKey": "2025-12-19"
+        },
+        {
+          "summary": "November Break",
+          "description": "",
+          "start": "2025-11-24T08:00:00.000Z",
+          "dateKey": "2025-11-24"
+        },
+        {
+          "summary": "Walk to Read",
+          "description": "",
+          "start": "2025-10-28T07:00:00.000Z",
+          "dateKey": "2025-10-28"
+        },
+        {
+          "summary": "Penngrove Book Fair ",
+          "description": "",
+          "start": "2025-11-02T07:00:00.000Z",
+          "dateKey": "2025-11-02"
+        },
+        {
+          "summary": "Book Fair - Coffee & Shop",
+          "description": "",
+          "start": "2025-11-02T19:00:00.000Z",
+          "dateKey": "2025-11-02"
+        },
+        {
+          "summary": "Book Fair - Family Fun Night",
+          "description": "",
+          "start": "2025-11-06T01:00:00.000Z",
+          "dateKey": "2025-11-06"
+        },
+        {
+          "summary": "Conferences",
+          "description": "",
+          "start": "2025-11-17T08:00:00.000Z",
+          "dateKey": "2025-11-17"
+        },
+        {
+          "summary": "Conferences",
+          "description": "",
+          "start": "2025-11-05T08:00:00.000Z",
+          "dateKey": "2025-11-05"
+        },
+        {
+          "summary": "Conferences",
+          "description": "",
+          "start": "2025-11-12T08:00:00.000Z",
+          "dateKey": "2025-11-12"
+        }
+      ],
+      "schoolDays": {
+        "2025-10-19": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-20": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-21": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-22": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-23": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-24": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-25": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-26": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-27": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-28": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Walk to Read",
+              "description": ""
+            }
+          ]
+        },
+        "2025-10-29": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-30": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-10-31": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-01": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Penngrove Craft Fair",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-02": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Penngrove Book Fair ",
+              "description": ""
+            },
+            {
+              "summary": "Book Fair - Coffee & Shop",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-03": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-04": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-05": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Conferences",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-06": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Book Fair - Family Fun Night",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-07": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-08": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-09": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-10": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-11": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-12": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Conferences",
+              "description": ""
+            }
+          ]
+        },
+        "2025-11-13": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-14": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-15": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-16": {
+          "isSchoolDay": false,
+          "status": "No School - Weekend",
+          "pdfEvents": [],
+          "icalEvents": []
+        },
+        "2025-11-17": {
+          "isSchoolDay": true,
+          "status": "School Day",
+          "pdfEvents": [],
+          "icalEvents": [
+            {
+              "summary": "Conferences",
+              "description": ""
+            }
+          ]
+        }
+      },
+      "calendarType": "year-round",
+      "sources": {
+        "pdf": null,
+        "ical": {
+          "url": "https://calendar.google.com/calendar/ical/petk12.org_6jmqakqetbd3f8iar2ns7l61ic%40group.calendar.google.com/public/basic.ics",
+          "eventsFound": 11,
+          "lastParsed": "2025-10-19T21:15:58.446Z"
+        }
+      },
+      "lastScraped": "2025-10-19T21:15:58.446Z"
+    }
+  },
+  "menus": {
+    "status": "Menu scraping not implemented",
+    "note": "Focus on calendar accuracy first"
+  }
+}
