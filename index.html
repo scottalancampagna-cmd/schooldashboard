@@ -719,42 +719,11 @@
                 }
             }
             
-            // Fallback to simulated realistic menus
-            const breakfastMenus = [
-                [], // Sunday
-                ['Whole Grain Cereal', 'Fresh Banana', 'Low-Fat Milk'],
-                ['Breakfast Burrito', 'Hash Browns', 'Orange Juice'],
-                ['Pancakes', 'Turkey Sausage', 'Mixed Berries'],
-                ['Yogurt Parfait', 'Granola', 'Apple Slices'],
-                ['Bagel with Cream Cheese', 'Fresh Fruit', 'Milk'],
-                [] // Saturday
-            ];
-            
-            const lunchMenus = {
-                daniel: [
-                    [], // Sunday
-                    ['Spaghetti & Meatballs', 'Garlic Bread', 'Caesar Salad', 'Milk'],
-                    ['Chicken Quesadilla', 'Spanish Rice', 'Refried Beans', 'Chocolate Milk'],
-                    ['Pizza Day', 'Tossed Salad', 'Corn', 'Orange Wedges'],
-                    ['BBQ Pulled Pork', 'Baked Beans', 'Coleslaw', 'Milk'],
-                    ['Fish & Chips', 'Mushy Peas', 'Fruit Salad', 'Milk'],
-                    [] // Saturday
-                ],
-                eleanor: [
-                    [], // Sunday
-                    ['Grilled Chicken', 'Sweet Potato Fries', 'Green Beans', 'Milk'],
-                    ['Turkey Tacos', 'Spanish Rice', 'Black Beans', 'Chocolate Milk'],
-                    ['Pizza Wednesday', 'Garden Salad', 'Steamed Broccoli', 'Milk'],
-                    ['Fish Sticks', 'Mac and Cheese', 'Carrots', 'Applesauce'],
-                    ['Hamburger Day', 'Oven Fries', 'Pickle', 'Strawberry Milk'],
-                    [] // Saturday
-                ]
-            };
-            
+            // No real menu data available for this day
             return {
-                breakfast: breakfastMenus[dayOfWeek] || ['No breakfast service'],
-                lunch: lunchMenus[child][dayOfWeek] || ['No lunch service'],
-                source: 'simulated'
+                breakfast: null,
+                lunch: null,
+                source: 'unavailable'
             };
         }
 
@@ -803,46 +772,34 @@
             });
         }
 
-        function updateMenus(date) {
-            const danielMenu = getMenuForDay(date, 'daniel');
-            const eleanorMenu = getMenuForDay(date, 'eleanor');
-            
-            // Add source indicators
-            const danielSource = danielMenu.source || 'unknown';
-            const eleanorSource = eleanorMenu.source || 'unknown';
-            
-            const sourceIcon = {
-                'scraped':             '✅ Real Menu',
-                'scraped-healthepro':  '✅ Live Menu',
-                'scraped-nutrislice':  '✅ Live Menu',
-                'scraped-district':    '✅ District Menu',
-                'simulated':           '⚠️ Sample Menu',
-                'unknown':             '❓ Unknown',
+        function renderMenuItems(items, cssClass) {
+            if (!items || items.length === 0) {
+                return `<div style="color:#999;font-style:italic;padding:12px 0;">Menu not available</div>`;
+            }
+            return items.map(item => `<div class="menu-item ${cssClass}">${item}</div>`).join('');
+        }
+
+        function menuSourceBadge(source) {
+            const badges = {
+                'scraped-healthepro': '<span style="color:#44A08D;font-size:0.8rem;">✅ Live menu</span>',
+                'unavailable':        '<span style="color:#999;font-size:0.8rem;">Menu not yet available</span>',
             };
-            
-            // Update Daniel's menu
-            const danielBreakfastHTML = danielMenu.breakfast.map(item => 
-                `<div class="menu-item daniel">${item}</div>`
-            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[danielSource] || sourceIcon.unknown}</div>`;
-            
-            const danielLunchHTML = danielMenu.lunch.map(item => 
-                `<div class="menu-item daniel">${item}</div>`
-            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[danielSource] || sourceIcon.unknown}</div>`;
-            
-            document.getElementById('danielBreakfast').innerHTML = danielBreakfastHTML;
-            document.getElementById('danielLunch').innerHTML = danielLunchHTML;
-            
-            // Update Eleanor's menu
-            const eleanorBreakfastHTML = eleanorMenu.breakfast.map(item => 
-                `<div class="menu-item eleanor">${item}</div>`
-            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[eleanorSource] || sourceIcon.unknown}</div>`;
-            
-            const eleanorLunchHTML = eleanorMenu.lunch.map(item => 
-                `<div class="menu-item eleanor">${item}</div>`
-            ).join('') + `<div style="text-align: center; font-size: 0.8rem; color: #666; margin-top: 10px;">${sourceIcon[eleanorSource] || sourceIcon.unknown}</div>`;
-            
-            document.getElementById('eleanorBreakfast').innerHTML = eleanorBreakfastHTML;
-            document.getElementById('eleanorLunch').innerHTML = eleanorLunchHTML;
+            return `<div style="text-align:center;margin-top:10px;">${badges[source] || ''}</div>`;
+        }
+
+        function updateMenus(date) {
+            const danielMenu  = getMenuForDay(date, 'daniel');
+            const eleanorMenu = getMenuForDay(date, 'eleanor');
+
+            document.getElementById('danielBreakfast').innerHTML =
+                renderMenuItems(danielMenu.breakfast, 'daniel') + menuSourceBadge(danielMenu.source);
+            document.getElementById('danielLunch').innerHTML =
+                renderMenuItems(danielMenu.lunch, 'daniel') + menuSourceBadge(danielMenu.source);
+
+            document.getElementById('eleanorBreakfast').innerHTML =
+                renderMenuItems(eleanorMenu.breakfast, 'eleanor') + menuSourceBadge(eleanorMenu.source);
+            document.getElementById('eleanorLunch').innerHTML =
+                renderMenuItems(eleanorMenu.lunch, 'eleanor') + menuSourceBadge(eleanorMenu.source);
         }
 
         // Main selection function
