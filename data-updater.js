@@ -58,9 +58,10 @@ async function fetchMenusForSchool(schoolKey, config) {
 
   const result = {};
 
-  // Fetch current month + next month so parents see upcoming menus
+  // Fetch previous + current + next month so we always have data
+  // (districts often publish months late, so prev month is a useful fallback)
   const now = new Date();
-  const months = [0, 1].map(offset => {
+  const months = [-1, 0, 1].map(offset => {
     const d = new Date(now.getFullYear(), now.getMonth() + offset, 1);
     return { year: d.getFullYear(), month: d.getMonth() + 1 };
   });
