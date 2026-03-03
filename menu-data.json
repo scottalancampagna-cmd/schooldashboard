@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T21:09:33.294Z",
+  "lastUpdated": "2026-03-03T16:06:43.469Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -735,9 +735,298 @@
             "Kiwi",
             "Bear Grahams"
           ]
+        },
+        "2026-04-01": {
+          "lunch": [
+            "Cheese Pizza Big Daddy's",
+            "Chicken and Rice Bowl",
+            "Chicken Caesar Salad",
+            "Deli Turkey Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Fresh Bananas",
+            "Mandarin Oranges"
+          ]
+        },
+        "2026-04-02": {
+          "lunch": [
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Ham & Cheese Sandwich",
+            "Pesto Pasta with Chicken",
+            "Chicken Caesar Salad",
+            "Salami Protein Box",
+            "Celery Sticks",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Fresh Oranges",
+            "Kiwi",
+            "Sunbutter Cup"
+          ]
+        },
+        "2026-04-03": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Corn Dog",
+            "Ham & Cheese Sandwich",
+            "Chicken Caesar Salad",
+            "Pepperoni French Bread Pizza",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Celery Sticks",
+            "Cucumber Slices",
+            "Fresh Bananas",
+            "Fresh Apples",
+            "Mandarin Oranges"
+          ]
+        },
+        "2026-04-06": {
+          "lunch": []
+        },
+        "2026-04-07": {
+          "lunch": []
+        },
+        "2026-04-08": {
+          "lunch": []
+        },
+        "2026-04-09": {
+          "lunch": []
+        },
+        "2026-04-10": {
+          "lunch": []
+        },
+        "2026-04-13": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Chicken Caesar Salad",
+            "Salami Protein Box",
+            "Honey BBQ Pork Rib Sandwich",
+            "Salami Sandwich",
+            "Green Chile Tamale w/ Cheese",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Edamame",
+            "Fresh Oranges",
+            "Fresh Apples",
+            "Kiwi",
+            "Dinner Roll WG"
+          ]
+        },
+        "2026-04-14": {
+          "lunch": [
+            "Chicken Tenders",
+            "Chicken Caesar Salad",
+            "Turkey & Cheddar Sandwich",
+            "Salami Protein Box",
+            "Kenilworth Cheeseburger",
+            "Chicken and Rice Burrito",
+            "Tater Tots",
+            "Baby Carrots",
+            "Broccoli Florets",
+            "Black Beans, Cooked",
+            "Kidney Beans",
+            "Fresh Apples",
+            "Fresh Banana, 150 count (1/2 cup)",
+            "Mandarin Oranges",
+            "Bear Grahams"
+          ]
+        },
+        "2026-04-15": {
+          "lunch": [
+            "Kolt Chipotle Chicken Sandwich",
+            "Chicken Caesar Salad",
+            "Turkey & Salami Cheddar Sandwich",
+            "Pepperoni Pizza Big Daddy's",
+            "Spicy Chicken Wrap",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Fresh Apples",
+            "Kiwi",
+            "Mandarin Oranges"
+          ]
+        },
+        "2026-04-16": {
+          "lunch": [
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Ham & Cheese Sandwich",
+            "Teriyaki Chicken & Rice",
+            "Chicken Caesar Salad",
+            "Salami Protein Box",
+            "Celery Sticks",
+            "Baby Carrots",
+            "Fresh Apples",
+            "Fresh Oranges",
+            "Sunbutter Cup"
+          ]
+        },
+        "2026-04-17": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Corn Dog",
+            "Chicken Caesar Salad",
+            "Salami Sandwich",
+            "Salami Protein Box",
+            "Pepperoni French Bread Pizza",
+            "Baby Carrots",
+            "Celery Sticks",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-04-20": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Ham & Cheese Sandwich",
+            "Chicken Caesar Salad",
+            "Pepperoni French Bread Pizza",
+            "Ham Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Oranges",
+            "Fresh Apples",
+            "Fresh Bananas",
+            "Dinner Roll WG"
+          ]
+        },
+        "2026-04-21": {
+          "lunch": [
+            "Kenilworth Cheeseburger",
+            "Chicken Tenders",
+            "Chicken Caesar Salad",
+            "Bean & Cheese Burrito",
+            "Turkey & Cheddar Sandwich",
+            "Ham Protein Box",
+            "Tater Tots",
+            "Baby Carrots",
+            "Black Beans, Cooked",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Kiwi",
+            "Bear Grahams"
+          ]
+        },
+        "2026-04-22": {
+          "lunch": [
+            "Cheese Pizza Big Daddy's",
+            "Teriyaki Slam Dunker Burger",
+            "Chicken Caesar Salad",
+            "Salami & Pepper Jack Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Kiwi",
+            "Artisan Dinner Roll"
+          ]
+        },
+        "2026-04-23": {
+          "lunch": [
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Ham & Cheese Sandwich",
+            "Chicken Caesar Salad",
+            "Chicken Alfredo Pasta",
+            "Salami Protein Box",
+            "Celery Sticks",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Fresh Oranges",
+            "Sunbutter Cup"
+          ]
+        },
+        "2026-04-24": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Corn Dog",
+            "Ham & Cheese Sandwich",
+            "Chicken Caesar Salad",
+            "Pepperoni French Bread Pizza",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Celery Sticks",
+            "Cucumber Slices",
+            "Fresh Bananas",
+            "Fresh Apples",
+            "Kiwi",
+            "Mandarin Oranges"
+          ]
+        },
+        "2026-04-27": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Ham & Cheese Sandwich",
+            "Chicken Caesar Salad",
+            "Meatball Sub",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Oranges",
+            "Fresh Apples, 125-138 count (1/2 cup)",
+            "Kiwi",
+            "Dinner Roll WG"
+          ]
+        },
+        "2026-04-28": {
+          "lunch": [
+            "Kenilworth Cheeseburger",
+            "Chicken Tenders",
+            "Chicken Caesar Salad",
+            "Chicken and Rice Burrito",
+            "Salami Protein Box",
+            "Salami & Pepper Jack Sandwich",
+            "Tater Tots",
+            "Baby Carrots",
+            "Broccoli Florets",
+            "Black Beans, Cooked",
+            "Fresh Apples",
+            "Fresh Bananas",
+            "Mandarin Oranges",
+            "Bear Grahams"
+          ]
+        },
+        "2026-04-29": {
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "Beef Soft Taco",
+            "Chicken Caesar Salad",
+            "Ham & Cheese Sandwich",
+            "Turkey Protein Box with Cheddar Cheese",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Fresh Bananas",
+            "Mandarin Oranges"
+          ]
+        },
+        "2026-04-30": {
+          "lunch": [
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Ham & Cheese Sandwich",
+            "Orange Chicken & Rice",
+            "Chicken Caesar Salad",
+            "Salami Protein Box",
+            "Celery Sticks",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Fresh Oranges",
+            "Sunbutter Cup"
+          ]
         }
       },
-      "lastFetched": "2026-03-02T21:09:32.643Z"
+      "lastFetched": "2026-03-03T16:06:42.745Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1264,7 +1553,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-02T21:09:33.294Z"
+      "lastFetched": "2026-03-03T16:06:43.469Z"
     }
   }
 }
