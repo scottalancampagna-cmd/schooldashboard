@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T15:55:21.869Z",
+  "lastUpdated": "2026-03-07T14:51:09.153Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -116,7 +116,7 @@
           "breakfast": [
             "French Toast Sticks",
             "Whole Wheat Bagel with Cream Cheese",
-            "Egg and Cheese English Muffinn",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
             "Assorted Cereals",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
@@ -213,7 +213,7 @@
         "2026-02-12": {
           "breakfast": [
             "Sausage & Egg Tornado",
-            "Egg and Cheese English Muffinn",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
             "Assorted Cereals",
             "Banana Bread Slice",
             "Unsweetened Applesauce Cup",
@@ -360,7 +360,7 @@
         "2026-02-26": {
           "breakfast": [
             "Sausage & Egg Tornado",
-            "Egg and Cheese English Muffinn",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
             "Assorted Cereals",
             "Cinnamon Crumble",
             "Unsweetened Applesauce Cup",
@@ -488,7 +488,7 @@
         },
         "2026-03-05": {
           "breakfast": [
-            "Egg and Cheese English Muffinn",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
             "Mini Cinnis",
             "Sausage & Egg Tornado",
             "Assorted Cereals",
@@ -754,7 +754,7 @@
         "2026-03-20": {
           "breakfast": [
             "French Toast Sticks",
-            "Egg and Cheese English Muffinn",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
             "Assorted Cereals",
             "Chocolate Filled Crescent",
             "Unsweetened Applesauce Cup",
@@ -833,7 +833,7 @@
         "2026-03-25": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Egg and Cheese English Muffinn",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
             "Concha, Assorted",
             "Assorted Cereals",
             "Unsweetened Applesauce Cup",
@@ -1256,7 +1256,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-06T15:55:21.531Z"
+      "lastFetched": "2026-03-07T14:51:08.707Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1783,7 +1783,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-06T15:55:21.869Z"
+      "lastFetched": "2026-03-07T14:51:09.153Z"
     }
   }
 }
