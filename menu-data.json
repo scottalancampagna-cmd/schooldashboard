@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T14:52:29.914Z",
+  "lastUpdated": "2026-03-09T17:10:36.680Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1256,7 +1256,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-08T14:52:29.500Z"
+      "lastFetched": "2026-03-09T17:10:36.150Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1646,7 +1646,7 @@
         },
         "2026-03-18": {
           "breakfast": [
-            "Pineapple Empanada",
+            "Banana Muffin",
             "Fresh Apples",
             "Unsweetened Raisins",
             "String Cheese"
@@ -1783,7 +1783,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-08T14:52:29.914Z"
+      "lastFetched": "2026-03-09T17:10:36.680Z"
     }
   }
 }
