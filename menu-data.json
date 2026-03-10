@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T17:10:36.680Z",
+  "lastUpdated": "2026-03-10T17:08:06.975Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -63,7 +63,7 @@
         "2026-02-04": {
           "breakfast": [
             "Cinnamon Roll with Icing",
-            "Croissant Breakfast Sandwich",
+            "Bacon Croissant Breakfast Sandwich",
             "Mini Eggo Pancakes, Confetti",
             "Assorted Cereals",
             "Unsweetened Applesauce Cup",
@@ -191,7 +191,7 @@
         "2026-02-11": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Croissant Breakfast Sandwich",
+            "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereals",
             "Chocolate Muffin",
             "Unsweetened Applesauce Cup",
@@ -336,7 +336,7 @@
         "2026-02-25": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Croissant Breakfast Sandwich",
+            "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereals",
             "Banana Bread Slice",
             "Unsweetened Applesauce Cup",
@@ -464,7 +464,7 @@
         "2026-03-04": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Croissant Breakfast Sandwich",
+            "Bacon Croissant Breakfast Sandwich",
             "Banana Bread Slice",
             "Assorted Cereals",
             "Mandarin Oranges",
@@ -571,7 +571,7 @@
         "2026-03-11": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Croissant Breakfast Sandwich",
+            "Bacon Croissant Breakfast Sandwich",
             "Blueberry Crumb Cake Loaf",
             "Assorted Cereals",
             "Unsweetened Applesauce Cup",
@@ -703,7 +703,7 @@
         "2026-03-18": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Croissant Breakfast Sandwich",
+            "Bacon Croissant Breakfast Sandwich",
             "Chocolate Chip Muffin",
             "Assorted Cereals",
             "Unsweetened Applesauce Cup",
@@ -916,7 +916,7 @@
             "Mini Eggo Pancakes, Confetti",
             "Mini Cinnis",
             "Assorted Cereals",
-            "Sausage Breakfast Sandwich",
+            "Sausage Croissant Breakfast Sandwich",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
             "Fresh Bananas",
@@ -1256,7 +1256,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-09T17:10:36.150Z"
+      "lastFetched": "2026-03-10T17:08:06.622Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1646,7 +1646,7 @@
         },
         "2026-03-18": {
           "breakfast": [
-            "Banana Muffin",
+            "Pineapple Empanada",
             "Fresh Apples",
             "Unsweetened Raisins",
             "String Cheese"
@@ -1783,7 +1783,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-09T17:10:36.680Z"
+      "lastFetched": "2026-03-10T17:08:06.975Z"
     }
   }
 }
