@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T15:59:52.862Z",
+  "lastUpdated": "2026-03-14T14:57:51.323Z",
   "calendars": {
     "kenilworth": {
       "label": "Middle School",
@@ -2220,7 +2220,7 @@
           "events": []
         }
       },
-      "lastScraped": "2026-03-13T15:59:52.136Z",
+      "lastScraped": "2026-03-14T14:57:50.559Z",
       "pdfEventsFound": 16,
       "fallback": false
     },
@@ -2548,15 +2548,9 @@
         },
         "2026-09-23": {
           "date": "2026-09-23",
-          "isSchoolDay": false,
-          "status": "Labor Day Holiday",
-          "events": [
-            {
-              "date": "2026-09-23",
-              "title": "2 Labor Day Holiday",
-              "isNoSchool": true
-            }
-          ]
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
         },
         "2026-09-24": {
           "date": "2026-09-24",
@@ -2669,11 +2663,11 @@
         "2026-10-12": {
           "date": "2026-10-12",
           "isSchoolDay": false,
-          "status": "30Winter Break",
+          "status": "Winter Break",
           "events": [
             {
               "date": "2026-10-12",
-              "title": "30Winter Break",
+              "title": "Winter Break",
               "isNoSchool": true
             }
           ]
@@ -2932,26 +2926,26 @@
         },
         "2026-11-24": {
           "date": "2026-11-24",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2026-11-25": {
-          "date": "2026-11-25",
           "isSchoolDay": false,
-          "status": "30Winter Break",
+          "status": "Winter Break",
           "events": [
             {
-              "date": "2026-11-25",
+              "date": "2026-11-24",
               "title": "Thanksgiving Break",
               "isNoSchool": true
             },
             {
-              "date": "2026-11-25",
-              "title": "30Winter Break",
+              "date": "2026-11-24",
+              "title": "Winter Break",
               "isNoSchool": true
             }
           ]
+        },
+        "2026-11-25": {
+          "date": "2026-11-25",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
         },
         "2026-11-26": {
           "date": "2026-11-26",
@@ -3117,15 +3111,9 @@
         },
         "2026-12-23": {
           "date": "2026-12-23",
-          "isSchoolDay": false,
-          "status": "2526272829Spring Break",
-          "events": [
-            {
-              "date": "2026-12-23",
-              "title": "2526272829Spring Break",
-              "isNoSchool": true
-            }
-          ]
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
         },
         "2026-12-24": {
           "date": "2026-12-24",
@@ -3465,21 +3453,21 @@
         },
         "2027-02-18": {
           "date": "2027-02-18",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-02-19": {
-          "date": "2027-02-19",
           "isSchoolDay": false,
           "status": "have an emergency school closure during the year, these days will be an extension of Mid-Winter Break. A",
           "events": [
             {
-              "date": "2027-02-19",
+              "date": "2027-02-18",
               "title": "have an emergency school closure during the year, these days will be an extension of Mid-Winter Break. A",
               "isNoSchool": true
             }
           ]
+        },
+        "2027-02-19": {
+          "date": "2027-02-19",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
         },
         "2027-02-20": {
           "date": "2027-02-20",
@@ -3501,9 +3489,15 @@
         },
         "2027-02-23": {
           "date": "2027-02-23",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
+          "isSchoolDay": false,
+          "status": "30Professional Development Days",
+          "events": [
+            {
+              "date": "2027-02-23",
+              "title": "30Professional Development Days",
+              "isNoSchool": true
+            }
+          ]
         },
         "2027-02-24": {
           "date": "2027-02-24",
@@ -3669,9 +3663,15 @@
         },
         "2027-03-23": {
           "date": "2027-03-23",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
+          "isSchoolDay": false,
+          "status": "Professional Development Day",
+          "events": [
+            {
+              "date": "2027-03-23",
+              "title": "9 Professional Development Day",
+              "isNoSchool": true
+            }
+          ]
         },
         "2027-03-24": {
           "date": "2027-03-24",
@@ -3723,9 +3723,15 @@
         },
         "2027-04-01": {
           "date": "2027-04-01",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
+          "isSchoolDay": false,
+          "status": "Spring Break",
+          "events": [
+            {
+              "date": "2027-04-01",
+              "title": "Spring Break",
+              "isNoSchool": true
+            }
+          ]
         },
         "2027-04-02": {
           "date": "2027-04-02",
@@ -3969,15 +3975,9 @@
         },
         "2027-05-12": {
           "date": "2027-05-12",
-          "isSchoolDay": false,
-          "status": "Memorial Day Holiday2121",
-          "events": [
-            {
-              "date": "2027-05-12",
-              "title": "26 Memorial Day Holiday2121",
-              "isNoSchool": true
-            }
-          ]
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
         },
         "2027-05-13": {
           "date": "2027-05-13",
@@ -4227,15 +4227,9 @@
         },
         "2027-06-23": {
           "date": "2027-06-23",
-          "isSchoolDay": false,
-          "status": "Last day of School (Early Release)",
-          "events": [
-            {
-              "date": "2027-06-23",
-              "title": "6 Last day of School (Early Release)",
-              "isNoSchool": true
-            }
-          ]
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
         },
         "2027-06-24": {
           "date": "2027-06-24",
@@ -4466,8 +4460,8 @@
           "events": []
         }
       },
-      "lastScraped": "2026-03-13T15:59:52.862Z",
-      "pdfEventsFound": 16,
+      "lastScraped": "2026-03-14T14:57:51.323Z",
+      "pdfEventsFound": 20,
       "fallback": false
     }
   },
