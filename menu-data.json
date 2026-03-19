@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T17:43:24.526Z",
+  "lastUpdated": "2026-03-19T17:35:59.150Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -207,7 +207,7 @@
             "Turkey & Pepper Jack Sandwich",
             "Baby Carrots",
             "Fresh Apples",
-            "Fresh Banana, 150 count (1/2 cup)"
+            "Fresh Banana"
           ]
         },
         "2026-02-12": {
@@ -232,7 +232,7 @@
             "Baby Carrots",
             "Fresh Apples",
             "Fresh Oranges",
-            "Fresh Banana, 150 count (1/2 cup)"
+            "Fresh Banana"
           ]
         },
         "2026-02-13": {
@@ -1112,7 +1112,7 @@
             "Black Beans, Cooked",
             "Kidney Beans",
             "Fresh Apples",
-            "Fresh Banana, 150 count (1/2 cup)",
+            "Fresh Banana",
             "Mandarin Oranges",
             "Bear Grahams"
           ]
@@ -1428,7 +1428,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-18T17:43:24.108Z"
+      "lastFetched": "2026-03-19T17:35:58.606Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1479,7 +1479,7 @@
         "2026-02-05": {
           "breakfast": [
             "Cinnamon Chex Cereal",
-            "Fresh Banana, 150 count (1/2 cup)",
+            "Fresh Banana",
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
@@ -1561,7 +1561,7 @@
         "2026-02-13": {
           "breakfast": [
             "Pineapple Empanada",
-            "Fresh Banana, 150 count (1/2 cup)",
+            "Fresh Banana",
             "Unsweetened Raisins"
           ],
           "lunch": [
@@ -1633,13 +1633,13 @@
             "Bean & Cheese Burrito",
             "Baby Carrots",
             "Corn Niblets",
-            "Fresh Banana, 150 count (1/2 cup)"
+            "Fresh Banana"
           ]
         },
         "2026-02-26": {
           "breakfast": [
             "Strawberry Yogurt & Granola",
-            "Fresh Banana, 150 count (1/2 cup)",
+            "Fresh Banana",
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
@@ -1893,7 +1893,7 @@
           ],
           "lunch": [
             "Chicken Taquitos",
-            "Bean Taquitos",
+            "Bean and Cheese Chimi Nada",
             "Baby Carrots",
             "Corn Niblets",
             "Mild Salsa",
@@ -1943,7 +1943,7 @@
           "breakfast": [
             "Apple Cinnamon Cheerios",
             "Fresh Pears",
-            "Unsweetened Applesauce Cup",
+            "Unsweetened Applesauce Cups",
             "Honey Roasted Sunflower Seeds"
           ],
           "lunch": [
@@ -1955,7 +1955,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-18T17:43:24.526Z"
+      "lastFetched": "2026-03-19T17:35:59.149Z"
     }
   }
 }
