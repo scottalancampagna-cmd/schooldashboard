@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T16:38:35.646Z",
+  "lastUpdated": "2026-03-28T14:23:08.475Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -17,7 +17,7 @@
             "Honey Roasted Sunflower Kernels"
           ],
           "lunch": [
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Chicken Caesar Salad",
             "Kolt Chipotle Chicken Sandwich",
             "Turkey Ham & Cheese Sandwich",
@@ -46,7 +46,7 @@
           "lunch": [
             "Kenilworth Cheeseburger",
             "Chicken Caesar Salad",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Burrito",
             "Turkey Ham & Cheese Sandwich",
             "Turkey Protein Box",
@@ -152,7 +152,7 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
             "Chicken Caesar Salad",
             "Turkey Protein Box",
@@ -174,7 +174,7 @@
           ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Turkey Ham & Cheese Sandwich",
             "Turkey Protein Box",
@@ -293,7 +293,7 @@
             "Honey Roasted Sunflower Seeds"
           ],
           "lunch": [
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Chicken Drumstick & Waffle",
             "Chicken Caesar Salad",
             "Spicy Chicken Burger",
@@ -320,7 +320,7 @@
           ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Bean & Rice Burrito",
             "Turkey Protein Box",
@@ -422,11 +422,12 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Chicken Caesar Salad",
             "Corn Dog",
             "Turkey Protein Box",
             "Ham & Cheese Sandwich",
+            "Salami Protein Box",
             "Baby Carrots",
             "Fresh Oranges",
             "Fresh Apples",
@@ -448,7 +449,7 @@
           ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Bean & Cheese Burrito",
             "Deli Turkey Sandwich",
@@ -554,7 +555,7 @@
           ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Chicken and Rice Burrito",
             "Deli Turkey Sandwich",
@@ -684,7 +685,7 @@
             "String Cheese"
           ],
           "lunch": [
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Bean & Cheese Burrito",
             "Chicken Caesar Salad",
             "Ham & Cheese Sandwich",
@@ -790,7 +791,7 @@
             "String Cheese"
           ],
           "lunch": [
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
             "Spicy Chicken Burger",
             "Salami Protein Box",
@@ -928,16 +929,15 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
             "Chicken Caesar Salad",
-            "Oven Fried Chicken",
+            "Oven Fried Chicken Drumstick w/ Crinkle Cut Fries",
             "Salami Protein Box",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Oranges",
-            "Fresh Apples",
-            "Dinner Roll WG"
+            "Fresh Apples"
           ]
         },
         "2026-03-31": {
@@ -953,20 +953,18 @@
             "String Cheese"
           ],
           "lunch": [
-            "Kenilworth Cheeseburger",
-            "Chicken Tenders",
-            "Chicken Caesar Salad",
+            "Cheeseburger",
+            "WG Chicken Nuggets",
             "Bean and Cheese Burrito",
             "Turkey & Cheddar Sandwich",
+            "Chicken Caesar Salad",
             "Turkey Protein Box",
             "Tater Tots",
             "Baby Carrots",
-            "Broccoli Florets",
-            "Black Beans, Cooked",
             "Fresh Apples",
             "Fresh Bananas",
             "Kiwi",
-            "Bear Grahams"
+            "Original Hummus Cup"
           ]
         },
         "2026-04-01": {
@@ -1103,7 +1101,7 @@
             "Fresh Apples"
           ],
           "lunch": [
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Turkey & Cheddar Sandwich",
             "Salami Protein Box",
@@ -1207,7 +1205,7 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
             "Chicken Caesar Salad",
             "Pepperoni French Bread Pizza",
@@ -1233,7 +1231,7 @@
           ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Bean & Cheese Burrito",
             "Turkey & Cheddar Sandwich",
@@ -1340,7 +1338,7 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale, Del Real 766, 12/4 count",
+            "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
             "Chicken Caesar Salad",
             "Meatball Sub",
@@ -1365,7 +1363,7 @@
           ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Chicken Tenders",
+            "WG Chicken Nuggets",
             "Chicken Caesar Salad",
             "Chicken and Rice Burrito",
             "Salami Protein Box",
@@ -1431,7 +1429,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-27T16:38:34.976Z"
+      "lastFetched": "2026-03-28T14:23:08.019Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1958,7 +1956,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-27T16:38:35.646Z"
+      "lastFetched": "2026-03-28T14:23:08.475Z"
     }
   }
 }
