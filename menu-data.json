@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:56:54.322Z",
+  "lastUpdated": "2026-03-31T14:54:19.368Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -18,7 +18,7 @@
           ],
           "lunch": [
             "Cheese & Green Chili Tamale with Rice",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Kolt Chipotle Chicken Sandwich",
             "Turkey Ham & Cheese Sandwich",
             "Salami Protein Box",
@@ -73,7 +73,7 @@
             "Sunbutter Cup"
           ],
           "lunch": [
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Turkey Protein Box with Cheddar Cheese",
             "Pepperoni Pizza Big Daddy's",
@@ -100,7 +100,7 @@
           ],
           "lunch": [
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Pasta w/ Pesto and Chicken",
             "Hot Dog",
             "Turkey Protein Box",
@@ -126,7 +126,7 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Corn Dog",
             "Cheese French Bread Pizza",
             "Turkey & Pepper Jack Sandwich",
@@ -154,7 +154,7 @@
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box",
             "BBQ Pork Rib Sandwich",
             "Baby Carrots",
@@ -203,7 +203,7 @@
             "Pepperoni Pizza Big Daddy's",
             "Popcorn Chicken Bowl",
             "Turkey Protein Box",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Pepper Jack Sandwich",
             "Baby Carrots",
             "Fresh Apples",
@@ -225,7 +225,7 @@
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Orange Chicken & Rice",
             "Turkey Protein Box",
             "Celery Sticks",
@@ -248,9 +248,9 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Pepperoni French Bread Pizza",
             "Salami Protein Box",
             "Baby Carrots",
@@ -295,7 +295,7 @@
           "lunch": [
             "Cheese & Green Chili Tamale with Rice",
             "Chicken Drumstick & Waffle",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Spicy Chicken Burger",
             "Ham & Cheese Sandwich",
             "Baby Carrots",
@@ -347,7 +347,7 @@
           ],
           "lunch": [
             "Pepperoni French Bread Pizza",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Pepper Jack Sandwich",
             "Turkey Protein Box",
             "Mac & Cheese",
@@ -373,7 +373,7 @@
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box",
             "Spaghetti with Meat Sauce",
             "Baby Carrots",
@@ -396,9 +396,9 @@
             "Honey Roasted Sunflower Seeds"
           ],
           "lunch": [
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Cheese French Bread Pizza",
             "Teriyaki Slam Dunker Burger",
@@ -423,7 +423,7 @@
           "lunch": [
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Corn Dog",
             "Turkey Protein Box",
             "Ham & Cheese Sandwich",
@@ -477,7 +477,7 @@
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
             "Chicken Chow Mein",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box",
             "Turkey & Cheddar Sandwich",
             "Baby Carrots",
@@ -502,7 +502,7 @@
           "lunch": [
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Teriyaki Chicken & Rice",
             "Hot Dog",
             "Turkey Protein Box",
@@ -526,9 +526,9 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "French Bread Cheese Pizza",
             "Turkey Protein Box",
             "Baby Carrots",
@@ -583,7 +583,7 @@
           ],
           "lunch": [
             "BBQ Chicken Pulled Sandwicth",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Cheese Pizza Big Daddy's",
             "Turkey Protein Box",
             "Tuna Sandwich",
@@ -611,7 +611,7 @@
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
             "Chicken Alfredo Pasta",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box",
             "Celery Sticks",
             "Baby Carrots",
@@ -633,9 +633,9 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Cheese French Bread Pizza",
             "Ham Protein Box",
             "Baby Carrots",
@@ -659,7 +659,7 @@
             "Cheese & Green Chili Tamale with Rice",
             "Spicy Chicken Burger",
             "Pepperoni French Bread Pizza",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Sandwich",
             "Salami Protein Box",
             "Baby Carrots (1/2 cup)",
@@ -687,7 +687,7 @@
           "lunch": [
             "WG Chicken Nuggets",
             "Bean & Cheese Burrito",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
             "Salami Protein Box",
             "Kenilworth Cheeseburger",
@@ -716,7 +716,7 @@
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
             "Honey BBQ Pork Rib Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
             "Salami Protein Box",
             "Cucumber Slices",
@@ -740,7 +740,7 @@
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Hot Dog",
             "Orange Chicken & Rice",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Sandwich",
             "Ham Protein Box",
             "Baby Carrots",
@@ -768,7 +768,7 @@
             "Corn Dog",
             "Spicy Chicken Burger",
             "Pepperoni French Bread Pizza",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Sandwich",
             "Turkey Protein Box",
             "Baby Carrots",
@@ -795,7 +795,7 @@
             "Ham & Cheese Sandwich",
             "Spicy Chicken Burger",
             "Salami Protein Box",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Kolt Chipotle Chicken Sandwich",
             "Baby Carrots",
             "Fresh Oranges",
@@ -818,7 +818,7 @@
           "lunch": [
             "Turkey Protein Box",
             "Kenilworth Cheeseburger",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Chicken and Rice Burrito",
             "Chicken Tenders",
             "Salami & Pepper Jack Sandwich",
@@ -845,7 +845,7 @@
           ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Sandwich",
             "Salami Protein Box",
             "Teriyaki Slam Dunker Burger",
@@ -877,7 +877,7 @@
           "lunch": [
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Pasta w/ Meat Sauce",
             "Hot Dog",
@@ -903,9 +903,9 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Pepperoni French Bread Pizza",
             "Baby Carrots",
@@ -931,7 +931,7 @@
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Oven Fried Chicken Drumstick w/ Crinkle Cut Fries",
             "Salami Protein Box",
             "Baby Carrots",
@@ -957,7 +957,7 @@
             "WG Chicken Nuggets",
             "Bean and Cheese Burrito",
             "Turkey & Cheddar Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box",
             "Tater Tots",
             "Baby Carrots",
@@ -977,16 +977,16 @@
             "Fresh Apples"
           ],
           "lunch": [
-            "Cheese Pizza Big Daddy's",
-            "Chicken and Rice Bowl",
-            "Chicken Caesar Salad",
-            "Deli Turkey Sandwich",
+            "Chicken and Rice Burrito Bowl",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey & Cheddar Sandwich",
             "Salami Protein Box",
+            "Pepperoni Pizza Big Daddy's",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges"
+            "Mandarin Oranges",
+            "Kiwi"
           ]
         },
         "2026-04-02": {
@@ -1003,16 +1003,16 @@
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
-            "Pesto Pasta with Chicken",
             "Chicken Caesar Salad",
             "Salami Protein Box",
+            "Pesto Pasta with Chicken",
             "Celery Sticks",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
             "Fresh Oranges",
             "Kiwi",
-            "Sunbutter Cup"
+            "Whole-Grain Artisan Roll"
           ]
         },
         "2026-04-03": {
@@ -1028,9 +1028,9 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Pepperoni French Bread Pizza",
             "Turkey Protein Box",
             "Baby Carrots",
@@ -1074,7 +1074,7 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Honey BBQ Pork Rib Sandwich",
             "Salami Sandwich",
@@ -1132,7 +1132,7 @@
           ],
           "lunch": [
             "Kolt Chipotle Chicken Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Cheddar Sandwich",
             "Pepperoni Pizza Big Daddy's",
             "Spicy Chicken Wrap",
@@ -1161,7 +1161,7 @@
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
             "Teriyaki Chicken & Rice",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Celery Sticks",
             "Baby Carrots",
@@ -1182,8 +1182,8 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
-            "Chicken Caesar Salad",
+            "Kolt Corn Dog",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Sandwich",
             "Salami Protein Box",
             "Pepperoni French Bread Pizza",
@@ -1207,7 +1207,7 @@
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Pepperoni French Bread Pizza",
             "Ham Protein Box",
             "Baby Carrots",
@@ -1260,7 +1260,7 @@
           "lunch": [
             "Cheese Pizza Big Daddy's",
             "Teriyaki Slam Dunker Burger",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
             "Turkey Protein Box",
             "Baby Carrots",
@@ -1286,7 +1286,7 @@
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Chicken Alfredo Pasta",
             "Salami Protein Box",
             "Celery Sticks",
@@ -1312,9 +1312,9 @@
           ],
           "lunch": [
             "Spicy Chicken Burger",
-            "Corn Dog",
+            "Kolt Corn Dog",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Pepperoni French Bread Pizza",
             "Salami Protein Box",
             "Baby Carrots",
@@ -1340,7 +1340,7 @@
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
             "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Meatball Sub",
             "Salami Protein Box",
             "Baby Carrots",
@@ -1392,7 +1392,7 @@
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
             "Beef Soft Taco",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
             "Turkey Protein Box with Cheddar Cheese",
             "Baby Carrots",
@@ -1418,7 +1418,7 @@
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Ham & Cheese Sandwich",
             "Orange Chicken & Rice",
-            "Chicken Caesar Salad",
+            "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Celery Sticks",
             "Baby Carrots",
@@ -1429,7 +1429,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-30T14:56:53.919Z"
+      "lastFetched": "2026-03-31T14:54:18.851Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1956,7 +1956,7 @@
           ]
         }
       },
-      "lastFetched": "2026-03-30T14:56:54.322Z"
+      "lastFetched": "2026-03-31T14:54:19.368Z"
     }
   }
 }
