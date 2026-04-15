@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T15:05:45.686Z",
+  "lastUpdated": "2026-04-15T14:58:45.495Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -964,6 +964,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Meatball Sub",
             "Salami Protein Box",
+            "Krispy Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Oranges",
@@ -1014,6 +1015,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
             "Turkey Protein Box with Cheddar Cheese",
+            "Krispy Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
@@ -1048,7 +1050,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-14T15:05:44.991Z"
+      "lastFetched": "2026-04-15T14:58:44.880Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1315,7 +1317,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-14T15:05:45.686Z"
+      "lastFetched": "2026-04-15T14:58:45.495Z"
     }
   }
 }
