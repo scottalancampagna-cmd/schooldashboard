@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:58:45.495Z",
+  "lastUpdated": "2026-04-16T15:18:12.406Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -729,10 +729,10 @@
         "2026-04-15": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
-            "Apple Empanada",
             "Assorted Cereals",
             "Lemon Breakfast Bread",
             "Bacon Egg Cheese Breakfast Muffin",
+            "Apple Empanada",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Fresh Bananas",
@@ -748,19 +748,17 @@
             "Salami Protein Box",
             "Baby Carrots",
             "Cucumber Slices",
-            "Celery Sticks",
             "Fresh Apples",
-            "Kiwi",
             "Mandarin Oranges"
           ]
         },
         "2026-04-16": {
           "breakfast": [
             "Assorted Cereals",
-            "French Toast Sticks",
             "Bacon Croissant Breakfast Sandwich",
-            "Chocolate Chip Waffle",
             "Blueberry Crumb Cake Loaf",
+            "Strawberry Belgian Waffle",
+            "Chocolate Swirl",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Fresh Bananas",
@@ -1050,7 +1048,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-15T14:58:44.880Z"
+      "lastFetched": "2026-04-16T15:18:11.358Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1275,7 +1273,7 @@
         "2026-04-28": {
           "breakfast": [
             "Honey Cheerios Cereal",
-            "Fresh Apples",
+            "Fresh Oranges",
             "Unsweetened Applesauce Cups",
             "Honey Roasted Sunflower Seeds"
           ],
@@ -1289,7 +1287,7 @@
         "2026-04-29": {
           "breakfast": [
             "Orange Blossom Muffin Top",
-            "Fresh Oranges",
+            "Fresh Apples",
             "Unsweetened Raisins",
             "String Cheese"
           ],
@@ -1317,7 +1315,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-15T14:58:45.495Z"
+      "lastFetched": "2026-04-16T15:18:12.406Z"
     }
   }
 }
