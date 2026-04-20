@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T14:34:30.275Z",
+  "lastUpdated": "2026-04-20T15:08:59.534Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1412,7 +1412,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-19T14:34:29.499Z"
+      "lastFetched": "2026-04-20T15:08:58.930Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1675,11 +1675,11 @@
             "Pesto Pasta with Chicken",
             "Salad Bar",
             "Fresh Oranges",
-            "Dinner Roll"
+            "Whole-Grain Artisan Roll"
           ]
         }
       },
-      "lastFetched": "2026-04-19T14:34:30.275Z"
+      "lastFetched": "2026-04-20T15:08:59.534Z"
     }
   }
 }
