@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T15:00:39.489Z",
+  "lastUpdated": "2026-04-25T14:35:28.806Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -939,7 +939,6 @@
             "Pepperoni French Bread Pizza",
             "Salami Protein Box",
             "Baby Carrots",
-            "Celery Sticks",
             "Cucumber Slices",
             "Fresh Bananas",
             "Fresh Apples",
@@ -1411,7 +1410,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-24T15:00:38.913Z"
+      "lastFetched": "2026-04-25T14:35:28.127Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1678,7 +1677,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-24T15:00:39.489Z"
+      "lastFetched": "2026-04-25T14:35:28.806Z"
     }
   }
 }
