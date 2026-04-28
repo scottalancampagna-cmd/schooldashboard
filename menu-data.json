@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T15:28:55.347Z",
+  "lastUpdated": "2026-04-28T16:03:29.558Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1410,7 +1410,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-27T15:28:54.987Z"
+      "lastFetched": "2026-04-28T16:03:28.806Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1654,18 +1654,17 @@
             "String Cheese"
           ],
           "lunch": [
-            "Chicken Taquitos",
-            "Bean Taquitos",
+            "Hamburger",
+            "Vegan Burger",
             "Baby Carrots",
-            "Corn Niblets",
-            "Mild Salsa",
+            "Jicama Sticks",
             "Fresh Bananas"
           ]
         },
         "2026-04-30": {
           "breakfast": [
-            "Blueberry Chex Cereal",
-            "Fresh Bananas",
+            "Apple Cinnamon Cheerios",
+            "Fresh Oranges",
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
@@ -1677,7 +1676,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-27T15:28:55.347Z"
+      "lastFetched": "2026-04-28T16:03:29.558Z"
     }
   }
 }
