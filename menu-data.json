@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:03:29.558Z",
+  "lastUpdated": "2026-04-29T15:51:34.265Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1243,9 +1243,9 @@
             "Cheese & Green Chili Tamale with Rice",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Cheddar Sandwich",
-            "Popcorn Chicken",
             "Salami Protein Box",
             "Turkey & Salami Wrap",
+            "BBQ Chicken Pull Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1339,9 +1339,9 @@
             "Kenilworth Cheeseburger",
             "WG Chicken Nuggets",
             "Chicken Caesar Salad w/ Dinner Roll",
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples, 125-138 count (1/2 cup)",
@@ -1410,7 +1410,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-28T16:03:28.806Z"
+      "lastFetched": "2026-04-29T15:51:33.540Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1658,7 +1658,7 @@
             "Vegan Burger",
             "Baby Carrots",
             "Jicama Sticks",
-            "Fresh Bananas"
+            "Fresh Oranges"
           ]
         },
         "2026-04-30": {
@@ -1671,12 +1671,12 @@
             "Pesto Pasta",
             "Pesto Pasta with Chicken",
             "Salad Bar",
-            "Fresh Oranges",
+            "Fresh Bananas",
             "Whole-Grain Artisan Roll"
           ]
         }
       },
-      "lastFetched": "2026-04-28T16:03:29.558Z"
+      "lastFetched": "2026-04-29T15:51:34.265Z"
     }
   }
 }
