@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T15:51:34.265Z",
+  "lastUpdated": "2026-04-30T15:42:51.578Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1003,10 +1003,12 @@
             "Cinnamon Roll w/ Icing",
             "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereals",
-            "Lemon Breakfast Bread",
+            "Banana Bread Slice",
             "Assorted Juice Box, 4.23 fl oz",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
+            "Fresh Bananas",
+            "Mandarin Oranges",
             "String Cheese"
           ],
           "lunch": [
@@ -1050,6 +1052,19 @@
           ]
         },
         "2026-05-01": {
+          "breakfast": [
+            "Breakfast Pizza Bagel",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
+            "Assorted Cereals",
+            "Blueberry Crumb Cake Loaf",
+            "Strawberry Cream Cheese Mini Bagels",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples",
+            "Fresh Bananas",
+            "Mandarin Oranges",
+            "String Cheese"
+          ],
           "lunch": [
             "Spicy Chicken Burger",
             "Kolt Corn Dog",
@@ -1062,10 +1077,24 @@
             "Fresh Bananas",
             "Unsweetened Applesauce Cup",
             "Fresh Apples, 125-138 count (1/2 cup)",
-            "Mandarin Oranges"
+            "Mandarin Oranges",
+            "Kiwi"
           ]
         },
         "2026-05-04": {
+          "breakfast": [
+            "Blueberry Bread Slice",
+            "WG Cinnamon Raisin Bagel",
+            "Assorted Cereal, 2 oz",
+            "Cinnamon Swirl",
+            "Bacon Croissant Breakfast Sandwich",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Mandarin Oranges",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Chicken Drumstick with Spicy Potato Wedges",
             "Cheese & Green Chili Tamale with Rice",
@@ -1081,6 +1110,19 @@
           ]
         },
         "2026-05-05": {
+          "breakfast": [
+            "Sausage Breakfast Burrito",
+            "Yogurt Parfait, Blueberry & Strawberry",
+            "Assorted Cereal, 2 oz",
+            "Mini Cinnis",
+            "Chocolate Chip Muffin",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Unsweetened Applesauce Cup",
+            "Assorted Juice Box, 4.23 fl oz",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Kenilworth Cheeseburger",
             "WG Chicken Nuggets",
@@ -1098,6 +1140,18 @@
           ]
         },
         "2026-05-06": {
+          "breakfast": [
+            "Cinnamon Roll w/ Icing",
+            "Turkey Ham Egg and Cheese Breakfast muffin",
+            "Assorted Cereal, 2 oz",
+            "Chocolate Swirl",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Unsweetened Applesauce Cup",
+            "Assorted Juice Box, 4.23 fl oz",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Mac and Cheese",
             "Chicken Caesar Salad w/ Dinner Roll",
@@ -1114,6 +1168,19 @@
           ]
         },
         "2026-05-07": {
+          "breakfast": [
+            "French Toast Sticks",
+            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "Assorted Cereal, 2 oz",
+            "Blueberry Crumb Cake Loaf",
+            "Lemon Bread Slice",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Unsweetened Applesauce Cup",
+            "Assorted Juice Box, 4.23 fl oz",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
@@ -1133,6 +1200,19 @@
           ]
         },
         "2026-05-08": {
+          "breakfast": [
+            "Breakfast Pizza Bagel",
+            "Assorted Cereal, 2 oz",
+            "Concha, Assorted",
+            "White Whole Wheat Bagel",
+            "Vanilla Liege Waffle",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges",
+            "Assorted Juice Box, 4.23 fl oz",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Spicy Chicken Burger",
             "Kolt Corn Dog",
@@ -1153,6 +1233,19 @@
           ]
         },
         "2026-05-11": {
+          "breakfast": [
+            "Chocolate Swirls",
+            "Mini Cinnis",
+            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "Bacon Egg Cheese Breakfast Muffin",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
@@ -1171,6 +1264,19 @@
           ]
         },
         "2026-05-12": {
+          "breakfast": [
+            "Sausage Breakfast Burrito",
+            "Yogurt Parfait, Blueberry & Strawberry",
+            "Double Chocolate Chip Muffin",
+            "Banana Bread Slice",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Unsweetened Applesauce Cup",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Kenilworth Cheeseburger",
             "WG Chicken Nuggets",
@@ -1189,6 +1295,18 @@
           ]
         },
         "2026-05-13": {
+          "breakfast": [
+            "Cinnamon Roll w/ Icing",
+            "Bacon Egg Cheese Breakfast Muffin",
+            "Blueberry Bread Slice",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
             "BBQ Chicken Pull Sandwich",
@@ -1206,6 +1324,19 @@
           ]
         },
         "2026-05-14": {
+          "breakfast": [
+            "French Toast Sticks",
+            "Lemon Breakfast Bread",
+            "Sausage & Egg Tornado",
+            "Assorted Cereal, 2 oz",
+            "Vanilla Liege Waffle",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
@@ -1222,6 +1353,19 @@
           ]
         },
         "2026-05-15": {
+          "breakfast": [
+            "Concha, Assorted",
+            "Bacon Croissant Breakfast Sandwich",
+            "Whole Wheat Bagel",
+            "Assorted Cereal, 2 oz",
+            "Breakfast Pizza Bagel",
+            "Fresh Apples",
+            "Mandarin Oranges",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Unsweetened Applesauce Cup",
+            "String Cheese",
+            "Honey Roasted Sunflower Kernels"
+          ],
           "lunch": [
             "Spicy Chicken Burger",
             "Kolt Corn Dog",
@@ -1238,6 +1382,17 @@
           ]
         },
         "2026-05-18": {
+          "breakfast": [
+            "Bacon Croissant Breakfast Sandwich",
+            "Mini Eggo Pancakes, Confetti",
+            "Mini Cinnis",
+            "Breakfast Sandwich, Egg and Cheese",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Fresh Bananas"
+          ],
           "lunch": [
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
@@ -1259,6 +1414,18 @@
           ]
         },
         "2026-05-19": {
+          "breakfast": [
+            "Sausage Breakfast Burrito",
+            "Yogurt Parfait, Blueberry & Strawberry",
+            "Chocolate Chip Muffin",
+            "Assorted Cereal, 2 oz",
+            "Banana Bread Slice",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Fresh Bananas",
+            "String Cheese"
+          ],
           "lunch": [
             "Kenilworth Cheeseburger",
             "Chicken and Rice Burrito",
@@ -1279,6 +1446,17 @@
           ]
         },
         "2026-05-20": {
+          "breakfast": [
+            "Cinnamon Roll w/ Icing",
+            "Assorted Cereal, 2 oz",
+            "Chocolate Chip Waffle",
+            "Bacon Egg Cheese Breakfast Muffin",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Fresh Bananas",
+            "String Cheese"
+          ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
             "Popcorn Chicken Bowl",
@@ -1297,6 +1475,18 @@
           ]
         },
         "2026-05-21": {
+          "breakfast": [
+            "Lemon Breakfast Bread",
+            "Chocolate Chip Waffle",
+            "Assorted Cereal, 2 oz",
+            "Breakfast Sandwich, Egg and Cheese",
+            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Fresh Bananas",
+            "String Cheese"
+          ],
           "lunch": [
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
@@ -1315,6 +1505,18 @@
           ]
         },
         "2026-05-22": {
+          "breakfast": [
+            "Mini Eggo Chocolate Chip French Toast",
+            "Blueberry Crumble",
+            "Assorted Cereal, 2 oz",
+            "Assorted Bagels",
+            "Breakfast Pizza Bagel",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Fresh Bananas",
+            "String Cheese"
+          ],
           "lunch": [
             "Kolt Corn Dog",
             "Spicy Chicken Burger",
@@ -1332,9 +1534,21 @@
           ]
         },
         "2026-05-25": {
+          "breakfast": [],
           "lunch": []
         },
         "2026-05-26": {
+          "breakfast": [
+            "Sausage Breakfast Burrito",
+            "Yogurt Parfait, Blueberry & Strawberry",
+            "Strawberry Cream Cheese Mini Bagels",
+            "Whole Wheat Bagel",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges"
+          ],
           "lunch": [
             "Kenilworth Cheeseburger",
             "WG Chicken Nuggets",
@@ -1352,6 +1566,16 @@
           ]
         },
         "2026-05-27": {
+          "breakfast": [
+            "Cinnamon Roll w/ Icing",
+            "Sausage Croissant Breakfast Sandwich",
+            "Blueberry Bread Slice",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges"
+          ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
             "Chicken Parmesan Sandwich",
@@ -1369,6 +1593,17 @@
           ]
         },
         "2026-05-28": {
+          "breakfast": [
+            "Sausage & Egg Tornado",
+            "Mini Cinnis",
+            "Double Chocolate Chip Muffin",
+            "Mini Eggo Pancakes, Confetti",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges"
+          ],
           "lunch": [
             "Orange Chicken & Rice",
             "Beef Hot Dog with Whole Grain Bun",
@@ -1389,6 +1624,17 @@
           ]
         },
         "2026-05-29": {
+          "breakfast": [
+            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "French Toast Sticks",
+            "Concha, Assorted",
+            "Whole Wheat Bagel",
+            "Assorted Cereal, 2 oz",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Mandarin Oranges"
+          ],
           "lunch": [
             "Kolt Corn Dog",
             "Pepperoni French Bread Pizza",
@@ -1410,7 +1656,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-29T15:51:33.540Z"
+      "lastFetched": "2026-04-30T15:42:50.781Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1676,7 +1922,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-29T15:51:34.265Z"
+      "lastFetched": "2026-04-30T15:42:51.578Z"
     }
   }
 }
