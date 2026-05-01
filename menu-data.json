@@ -1,568 +1,9 @@
 {
-  "lastUpdated": "2026-04-30T15:42:51.578Z",
+  "lastUpdated": "2026-05-01T14:46:23.008Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
       "menus": {
-        "2026-03-02": {
-          "breakfast": [
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Chocolate Swirl",
-            "Lemon Breakfast Bread",
-            "Assorted Cereals",
-            "Fresh Bananas",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale with Rice",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Corn Dog",
-            "Turkey Protein Box",
-            "Ham & Cheese Sandwich",
-            "Salami Protein Box",
-            "Baby Carrots",
-            "Fresh Oranges",
-            "Fresh Apples",
-            "Dinner Roll WG"
-          ]
-        },
-        "2026-03-03": {
-          "breakfast": [
-            "Breakfast Burrito w/ Sausage, Egg & Cheese",
-            "Chocolate Chip Muffin",
-            "Yogurt Parfait",
-            "Assorted Cereals",
-            "Mandarin Oranges",
-            "Fresh Bananas",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cup",
-            "String Cheese",
-            "Honey Roasted Sunflower Kernels"
-          ],
-          "lunch": [
-            "Kenilworth Cheeseburger",
-            "WG Chicken Nuggets",
-            "Chicken Caesar Salad",
-            "Bean & Cheese Burrito",
-            "Deli Turkey Sandwich",
-            "Turkey Protein Box",
-            "Tater Tots",
-            "Baby Carrots",
-            "Black Beans, Cooked",
-            "Fresh Apples",
-            "Fresh Pears",
-            "Bear Grahams"
-          ]
-        },
-        "2026-03-04": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Bacon Croissant Breakfast Sandwich",
-            "Banana Bread Slice",
-            "Assorted Cereals",
-            "Mandarin Oranges",
-            "Fresh Bananas",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Pepperoni Pizza Big Daddy's",
-            "Chicken Chow Mein",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Turkey Protein Box",
-            "Turkey & Cheddar Sandwich",
-            "Baby Carrots",
-            "Cucumber Sliced Fresh Point",
-            "Fresh Apples",
-            "Fresh Tangerines",
-            "Dinner Roll WG"
-          ]
-        },
-        "2026-03-05": {
-          "breakfast": [
-            "Turkey Ham Egg and Cheese Breakfast muffin",
-            "Mini Cinnis",
-            "Sausage & Egg Tornado",
-            "Assorted Cereals",
-            "Mandarin Oranges",
-            "Fresh Bananas",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cup",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Teriyaki Chicken & Rice",
-            "Hot Dog",
-            "Turkey Protein Box",
-            "Celery Sticks",
-            "Baby Carrots",
-            "Fresh Apples",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-03-06": {
-          "breakfast": [
-            "French Toast Sticks",
-            "Breakfast Pizza Bagel",
-            "Concha, Assorted",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Spicy Chicken Burger",
-            "Kolt Corn Dog",
-            "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "French Bread Cheese Pizza",
-            "Turkey Protein Box",
-            "Baby Carrots",
-            "Celery Sticks",
-            "Fresh Bananas",
-            "Fresh Apples"
-          ]
-        },
-        "2026-03-09": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-03-10": {
-          "breakfast": [
-            "Breakfast Burrito w/ Bacon, Egg & Cheese",
-            "Chocolate Filled Crescent",
-            "Yogurt Parfait, Blueberry & Strawberry",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Kenilworth Cheeseburger",
-            "WG Chicken Nuggets",
-            "Chicken Caesar Salad",
-            "Chicken and Rice Burrito",
-            "Deli Turkey Sandwich",
-            "Turkey Protein Box",
-            "Baby Carrots",
-            "Broccoli Florets",
-            "Black Beans, Cooked",
-            "Tater Tots",
-            "Fresh Apples",
-            "Fresh Pears",
-            "Bear Grahams"
-          ]
-        },
-        "2026-03-11": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Bacon Croissant Breakfast Sandwich",
-            "Blueberry Crumb Cake Loaf",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "BBQ Chicken Pulled Sandwicth",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Cheese Pizza Big Daddy's",
-            "Turkey Protein Box",
-            "Tuna Sandwich",
-            "Baby Carrots",
-            "Cucumber Slices",
-            "Fresh Apples",
-            "Fresh Oranges",
-            "Artisan Dinner Roll"
-          ]
-        },
-        "2026-03-12": {
-          "breakfast": [
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Lemon Bread Slice",
-            "Chocolate Chip Waffle",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Beef Hot Dog with Whole Grain Bun",
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Ham & Cheese Sandwich",
-            "Chicken Alfredo Pasta",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Turkey Protein Box",
-            "Celery Sticks",
-            "Baby Carrots",
-            "Fresh Apples",
-            "Fresh Oranges",
-            "Dinner Roll"
-          ]
-        },
-        "2026-03-13": {
-          "breakfast": [
-            "French Toast Sticks",
-            "Turkey Sausage Breakfast Pizza",
-            "Chocolate Chip Muffin",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges"
-          ],
-          "lunch": [
-            "Spicy Chicken Burger",
-            "Kolt Corn Dog",
-            "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Cheese French Bread Pizza",
-            "Ham Protein Box",
-            "Baby Carrots",
-            "Celery Sticks",
-            "Fresh Bananas"
-          ]
-        },
-        "2026-03-16": {
-          "breakfast": [
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Concha, Assorted",
-            "Chocolate Chip Crumb Cake",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Cheese & Green Chili Tamale with Rice",
-            "Spicy Chicken Burger",
-            "Pepperoni French Bread Pizza",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Sandwich",
-            "Salami Protein Box",
-            "Baby Carrots (1/2 cup)",
-            "Cucumber Slices",
-            "Kidney Beans",
-            "Edamame",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Frozen Fruit Cup - Strawberries",
-            "Salted & Roasted Sunflower Kernels"
-          ]
-        },
-        "2026-03-17": {
-          "breakfast": [
-            "Breakfast Burrito w/ Bacon, Egg & Cheese",
-            "Banana Bread Slice",
-            "Yogurt Parfait, Blueberry & Strawberry",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "WG Chicken Nuggets",
-            "Bean & Cheese Burrito",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Ham & Cheese Sandwich",
-            "Salami Protein Box",
-            "Kenilworth Cheeseburger",
-            "Baby Carrots",
-            "Cucumber Slices",
-            "Tater Tots",
-            "Edamame",
-            "Kidney Beans",
-            "Fresh Bananas",
-            "Fresh Apples",
-            "Dinner Roll WG"
-          ]
-        },
-        "2026-03-18": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Bacon Croissant Breakfast Sandwich",
-            "Chocolate Chip Muffin",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Pepperoni Pizza Big Daddy's",
-            "Honey BBQ Pork Rib Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami & Pepper Jack Sandwich",
-            "Salami Protein Box",
-            "Cucumber Slices",
-            "Baby Carrots (1/2 cup)",
-            "Fresh Bananas",
-            "Fresh Apples, 125-138 count (1/2 cup)"
-          ]
-        },
-        "2026-03-19": {
-          "breakfast": [
-            "Turkey Sausage Breakfast Pizza",
-            "Blueberry Crumb Cake Loaf",
-            "Sausage & Egg Tornado",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges"
-          ],
-          "lunch": [
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Hot Dog",
-            "Orange Chicken & Rice",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Sandwich",
-            "Ham Protein Box",
-            "Baby Carrots",
-            "Cucumber Slices",
-            "Edamame",
-            "Kidney Beans",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Diced Peaches"
-          ]
-        },
-        "2026-03-20": {
-          "breakfast": [
-            "French Toast Sticks",
-            "Turkey Ham Egg and Cheese Breakfast muffin",
-            "Assorted Cereals",
-            "Chocolate Filled Crescent",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Corn Dog",
-            "Spicy Chicken Burger",
-            "Pepperoni French Bread Pizza",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Sandwich",
-            "Turkey Protein Box",
-            "Baby Carrots",
-            "Cucumber Slices",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Diced Peaches"
-          ]
-        },
-        "2026-03-23": {
-          "breakfast": [
-            "Bagel Breakfast Sandwich - Egg and Cheese",
-            "Lemon Breakfast Bread",
-            "French Toast Sticks",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "Fresh Apples",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Cheese & Green Chili Tamale with Rice",
-            "Ham & Cheese Sandwich",
-            "Spicy Chicken Burger",
-            "Salami Protein Box",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Kolt Chipotle Chicken Sandwich",
-            "Baby Carrots",
-            "Fresh Oranges",
-            "Fresh Apples",
-            "Dinner Roll WG"
-          ]
-        },
-        "2026-03-24": {
-          "breakfast": [
-            "Breakfast Burrito w/ Sausage, Egg & Cheese",
-            "Apple Empanada",
-            "Yogurt Parfait, Blueberry & Strawberry",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Turkey Protein Box",
-            "Kenilworth Cheeseburger",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Chicken and Rice Burrito",
-            "Chicken Tenders",
-            "Salami & Pepper Jack Sandwich",
-            "Tater Tots",
-            "Baby Carrots",
-            "Broccoli Florets",
-            "Kidney Beans",
-            "Fresh Apples",
-            "Fresh Pears",
-            "Bear Grahams"
-          ]
-        },
-        "2026-03-25": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Turkey Ham Egg and Cheese Breakfast muffin",
-            "Concha, Assorted",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Pepperoni Pizza Big Daddy's",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Sandwich",
-            "Salami Protein Box",
-            "Teriyaki Slam Dunker Burger",
-            "Spicy Chicken Wrap",
-            "Baby Carrots",
-            "Cucumber Sliced Fresh Point",
-            "Hummus Cup",
-            "Edamame",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Diced Peaches",
-            "Frozen Mixed Berry Cup",
-            "Pretzel Goldfish",
-            "Salted & Roasted Sunflower Kernels"
-          ]
-        },
-        "2026-03-26": {
-          "breakfast": [
-            "Sausage & Egg Tornado",
-            "Banana Bread Slice",
-            "Chocolate Chip Crumb Cake",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Protein Box",
-            "Pasta w/ Meat Sauce",
-            "Hot Dog",
-            "Krispy Spicy Chicken Wrap",
-            "Celery Sticks",
-            "Baby Carrots",
-            "Fresh Apples",
-            "Fresh Oranges",
-            "Frozen Mixed Berry Cup",
-            "Sunbutter Cup"
-          ]
-        },
-        "2026-03-27": {
-          "breakfast": [
-            "Turkey Sausage Breakfast Pizza",
-            "Chocolate Chip Muffin",
-            "Chocolate Chip Waffle",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges"
-          ],
-          "lunch": [
-            "Spicy Chicken Burger",
-            "Kolt Corn Dog",
-            "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Protein Box",
-            "Pepperoni French Bread Pizza",
-            "Baby Carrots",
-            "Celery Sticks",
-            "Fresh Bananas",
-            "Fresh Apples",
-            "Frozen Mixed Berry Cup"
-          ]
-        },
-        "2026-03-30": {
-          "breakfast": [
-            "Mini Eggo Pancakes, Confetti",
-            "Mini Cinnis",
-            "Assorted Cereals",
-            "Sausage Croissant Breakfast Sandwich",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale with Rice",
-            "Ham & Cheese Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Oven Fried Chicken Drumstick w/ Crinkle Cut Fries",
-            "Salami Protein Box",
-            "Baby Carrots",
-            "Cucumber Slices",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ]
-        },
-        "2026-03-31": {
-          "breakfast": [
-            "Breakfast Burrito w/ Bacon, Egg & Cheese",
-            "Chocolate Chip Muffin",
-            "Yogurt Parfait, Blueberry & Strawberry",
-            "Assorted Cereals",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Mandarin Oranges",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Cheeseburger",
-            "WG Chicken Nuggets",
-            "Bean and Cheese Burrito",
-            "Turkey & Cheddar Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Turkey Protein Box",
-            "Tater Tots",
-            "Baby Carrots",
-            "Fresh Apples",
-            "Fresh Bananas",
-            "Kiwi",
-            "Original Hummus Cup"
-          ]
-        },
         "2026-04-01": {
           "breakfast": [
             "Cinnamon Roll w/ Icing",
@@ -1034,6 +475,8 @@
             "Assorted Juice Box, 4.23 fl oz",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
+            "Fresh Bananas",
+            "Mandarin Oranges",
             "String Cheese"
           ],
           "lunch": [
@@ -1219,8 +662,8 @@
             "Ham & Cheese Sandwich",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Pepperoni French Bread Pizza",
-            "Krispy Spicy Chicken Wrap",
             "Salami Protein Box",
+            "Beef, Bean, and Cheese Burrito",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Slices",
@@ -1228,7 +671,6 @@
             "Fresh Apples, 125-138 count (1/2 cup)",
             "Unsweetened Applesauce Cup",
             "Whole Wheat Dinner Roll",
-            "Heartzels Pretzels",
             "String Cheese"
           ]
         },
@@ -1656,7 +1098,7 @@
           ]
         }
       },
-      "lastFetched": "2026-04-30T15:42:50.781Z"
+      "lastFetched": "2026-05-01T14:46:22.336Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1920,9 +1362,289 @@
             "Fresh Bananas",
             "Whole-Grain Artisan Roll"
           ]
+        },
+        "2026-05-01": {
+          "breakfast": [
+            "Cinnamon Toasters Cereal",
+            "Fresh Bananas",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Pepperoni French Bread Pizza",
+            "Cheese French Bread Pizza",
+            "Salad Bar",
+            "Fresh Apples",
+            "Croutons"
+          ]
+        },
+        "2026-05-04": {
+          "breakfast": [
+            "Lemon Breakfast Bread",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Bean & Cheese Burrito",
+            "Salad Bar",
+            "Mild Salsa",
+            "Fresh Pears"
+          ]
+        },
+        "2026-05-05": {
+          "breakfast": [
+            "Honey Cheerios Cereal",
+            "Fresh Pears",
+            "Unsweetened Applesauce Cups",
+            "Honey Roasted Sunflower Seeds"
+          ],
+          "lunch": [
+            "Cheese & Green Chile Tamale",
+            "Chicken Tamale",
+            "Salad Bar",
+            "Fresh Oranges",
+            "Cinco de Mayo Cookie"
+          ]
+        },
+        "2026-05-06": {
+          "breakfast": [
+            "Pumpkin Bread",
+            "Fresh Oranges",
+            "Unsweetened Raisins",
+            "String Cheese"
+          ],
+          "lunch": [
+            "BBQ Beef Rib Sandwich",
+            "Grilled Cheese",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-05-07": {
+          "breakfast": [
+            "Cinnamon Chex Cereal",
+            "Fresh Banana",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Teriyaki Chicken & Rice",
+            "Plant-Based Teriyaki Chicken & Rice",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-05-08": {
+          "breakfast": [
+            "Yogurt and Granola",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Garlic Cheese French Bread",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-05-11": {
+          "breakfast": [
+            "Whole Wheat Bagel with Cream Cheese",
+            "Fresh Oranges",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Chicken Drumstick",
+            "Plant-Based Kickin' Tenders",
+            "Salad Bar",
+            "Fresh Pears",
+            "Whole-Grain Artisan Roll"
+          ]
+        },
+        "2026-05-12": {
+          "breakfast": [
+            "Blueberry Chex Cereal",
+            "Fresh Pears",
+            "Unsweetened Applesauce Cups",
+            "Honey Roasted Sunflower Seeds"
+          ],
+          "lunch": [
+            "BBQ Chicken Sandwich",
+            "BBQ Kickin' Sandwich, Plant Based",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-05-13": {
+          "breakfast": [
+            "Cherry Muffin",
+            "Fresh Oranges",
+            "Unsweetened Raisins",
+            "String Cheese"
+          ],
+          "lunch": [
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-05-14": {
+          "breakfast": [
+            "Apple Cinnamon Cheerios",
+            "Fresh Bananas",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Pasta with Meat Sauce",
+            "Pasta with Marinara Sauce",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-05-15": {
+          "breakfast": [
+            "Vanilla Liege Waffle",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Cheese Breadsticks",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-05-18": {
+          "breakfast": [
+            "Blueberry Muffin, Whole Grain",
+            "Fresh Oranges",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Cheeseburger",
+            "Vegan Burger",
+            "Salad Bar",
+            "Tater Tots",
+            "Fresh Apples"
+          ]
+        },
+        "2026-05-19": {
+          "breakfast": [
+            "Honey Cheerios Cereal",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cups",
+            "Honey Roasted Sunflower Seeds"
+          ],
+          "lunch": [
+            "Mac & Cheese",
+            "Hot Dog",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-05-20": {
+          "breakfast": [
+            "Apple Empanada",
+            "Fresh Oranges",
+            "Unsweetened Raisins",
+            "String Cheese"
+          ],
+          "lunch": [
+            "Cheese Quesadilla",
+            "Chicken and Cheese Quesadilla",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Mild Salsa",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-05-21": {
+          "breakfast": [
+            "Cinnamon Chex Cereal",
+            "Fresh Bananas",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Orange Chicken & Rice",
+            "Plant-Based Sweet & Sour Chicken with Rice",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-05-22": {
+          "breakfast": [
+            "Strawberry Yogurt & Granola",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Pepperoni French Bread Pizza",
+            "Cheese French Bread Pizza",
+            "Salad Bar",
+            "Fresh Oranges",
+            "Pretzel Goldfish"
+          ]
+        },
+        "2026-05-25": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-05-26": {
+          "breakfast": [
+            "Blueberry Chex Cereal",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups",
+            "Honey Roasted Sunflower Seeds"
+          ],
+          "lunch": [
+            "Chicken Burger",
+            "Rebellyous Kickin' Sandwich (Plant-based)",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-05-27": {
+          "breakfast": [
+            "Apple Cinnamon Oatmeal Round",
+            "Fresh Oranges",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Chicken Taquitos",
+            "Bean Taquitos",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Mild Salsa",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-05-28": {
+          "breakfast": [
+            "Apple Cinnamon Cheerios",
+            "Fresh Bananas",
+            "Unsweetened Applesauce Cups",
+            "String Cheese"
+          ],
+          "lunch": [
+            "Pesto Pasta",
+            "Pesto Pasta with Chicken",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-05-29": {
+          "breakfast": [
+            "Vanilla Liege Waffle",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Garlic Cheese French Bread",
+            "Salad Bar",
+            "Fresh Oranges",
+            "Croutons"
+          ]
         }
       },
-      "lastFetched": "2026-04-30T15:42:51.578Z"
+      "lastFetched": "2026-05-01T14:46:23.008Z"
     }
   }
 }
