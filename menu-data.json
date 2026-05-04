@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T14:40:22.865Z",
+  "lastUpdated": "2026-05-04T15:53:56.634Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1098,7 +1098,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-03T14:40:22.210Z"
+      "lastFetched": "2026-05-04T15:53:55.942Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1520,9 +1520,9 @@
           ],
           "lunch": [
             "Cheeseburger",
-            "Vegan Burger",
+            "Veggie Burger w/ Cheese",
             "Salad Bar",
-            "Tater Tots",
+            "Oven Fries",
             "Fresh Apples"
           ]
         },
@@ -1644,7 +1644,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-03T14:40:22.865Z"
+      "lastFetched": "2026-05-04T15:53:56.634Z"
     }
   }
 }
