@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T15:53:56.634Z",
+  "lastUpdated": "2026-05-05T15:37:29.320Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -663,7 +663,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Pepperoni French Bread Pizza",
             "Salami Protein Box",
-            "Beef, Bean, and Cheese Burrito",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Slices",
@@ -1098,7 +1098,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-04T15:53:55.942Z"
+      "lastFetched": "2026-05-05T15:37:28.680Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1644,7 +1644,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-04T15:53:56.634Z"
+      "lastFetched": "2026-05-05T15:37:29.320Z"
     }
   }
 }
