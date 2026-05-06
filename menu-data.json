@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T15:37:29.320Z",
+  "lastUpdated": "2026-05-06T15:56:35.075Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -891,8 +891,8 @@
           "breakfast": [
             "Cinnamon Roll w/ Icing",
             "Assorted Cereal, 2 oz",
-            "Chocolate Chip Waffle",
             "Bacon Egg Cheese Breakfast Muffin",
+            "Apple Empanada",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -921,8 +921,8 @@
             "Lemon Breakfast Bread",
             "Chocolate Chip Waffle",
             "Assorted Cereal, 2 oz",
-            "Breakfast Sandwich, Egg and Cheese",
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "French Toast Sticks",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -948,11 +948,11 @@
         },
         "2026-05-22": {
           "breakfast": [
-            "Mini Eggo Chocolate Chip French Toast",
             "Blueberry Crumble",
             "Assorted Cereal, 2 oz",
             "Assorted Bagels",
             "Breakfast Pizza Bagel",
+            "Concha, Assorted",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -1098,7 +1098,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-05T15:37:28.680Z"
+      "lastFetched": "2026-05-06T15:56:34.403Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1537,13 +1537,13 @@
             "Mac & Cheese",
             "Hot Dog",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Nectarines"
           ]
         },
         "2026-05-20": {
           "breakfast": [
             "Apple Empanada",
-            "Fresh Oranges",
+            "Fresh Nectarines",
             "Unsweetened Raisins",
             "String Cheese"
           ],
@@ -1644,7 +1644,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-05T15:37:29.320Z"
+      "lastFetched": "2026-05-06T15:56:35.075Z"
     }
   }
 }
