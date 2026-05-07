@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T15:56:35.075Z",
+  "lastUpdated": "2026-05-07T15:57:42.922Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -757,7 +757,7 @@
             "Salami Protein Box",
             "Spicy Chicken Wrap",
             "Baby Carrots",
-            "Carrot Sliced, Cooked from Fresh (1/2 cup)",
+            "Cucumber Slices",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
             "Mandarin Oranges",
@@ -815,6 +815,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Cucumber Slices",
             "Unsweetened Applesauce Cup",
@@ -1098,7 +1099,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-06T15:56:34.403Z"
+      "lastFetched": "2026-05-07T15:57:42.078Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1394,8 +1395,7 @@
           "breakfast": [
             "Honey Cheerios Cereal",
             "Fresh Pears",
-            "Unsweetened Applesauce Cups",
-            "Honey Roasted Sunflower Seeds"
+            "Unsweetened Applesauce Cups"
           ],
           "lunch": [
             "Cheese & Green Chile Tamale",
@@ -1437,7 +1437,8 @@
           "breakfast": [
             "Yogurt and Granola",
             "Fresh Apples",
-            "Unsweetened Raisins"
+            "Unsweetened Raisins",
+            "Honey Roasted Sunflower Seeds"
           ],
           "lunch": [
             "Garlic Cheese French Bread",
@@ -1644,7 +1645,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-06T15:56:35.075Z"
+      "lastFetched": "2026-05-07T15:57:42.922Z"
     }
   }
 }
