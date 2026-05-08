@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T15:57:42.922Z",
+  "lastUpdated": "2026-05-08T15:12:46.925Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -967,6 +967,7 @@
             "Salami Sandwich",
             "Salami Protein Box",
             "Chicken Caesar Salad w/ Dinner Roll",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1084,8 +1085,8 @@
             "Spicy Chicken Burger",
             "Salami Protein Box",
             "Salami Sandwich",
-            "Spicy Chicken Wrap",
             "Chicken Caesar Salad w/ Dinner Roll",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Jicama Sticks",
             "Cucumber Slices",
@@ -1099,7 +1100,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-07T15:57:42.078Z"
+      "lastFetched": "2026-05-08T15:12:46.099Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1503,7 +1504,7 @@
         },
         "2026-05-15": {
           "breakfast": [
-            "Vanilla Liege Waffle",
+            "Maple Belgian Waffle",
             "Fresh Apples",
             "Unsweetened Raisins"
           ],
@@ -1645,7 +1646,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-07T15:57:42.922Z"
+      "lastFetched": "2026-05-08T15:12:46.925Z"
     }
   }
 }
