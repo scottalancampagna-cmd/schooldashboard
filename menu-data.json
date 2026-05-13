@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:12:32.233Z",
+  "lastUpdated": "2026-05-13T16:13:33.530Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -714,8 +714,9 @@
             "Assorted Cereal, 2 oz",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
-            "Mandarin Oranges",
             "Unsweetened Applesauce Cup",
+            "Fresh Nectarine, size 56-64",
+            "Kiwi",
             "String Cheese",
             "Honey Roasted Sunflower Kernels"
           ],
@@ -727,11 +728,12 @@
             "Salami Sandwich",
             "Salami Protein Box",
             "Baby Carrots",
-            "Kidney Beans",
             "Tater Tots",
+            "Edamame",
+            "Cucumber Slices",
             "Fresh Apples",
-            "Mandarin Oranges",
             "Kiwi",
+            "Fresh Nectarine, size 56-64",
             "Bear Grahams",
             "String Cheese"
           ]
@@ -760,8 +762,8 @@
             "Cucumber Slices",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
-            "Mandarin Oranges",
             "Kiwi",
+            "Fresh Nectarine, size 56-64",
             "String Cheese"
           ]
         },
@@ -1098,9 +1100,75 @@
             "Dinner Roll WG",
             "String Cheese"
           ]
+        },
+        "2026-06-01": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale with Rice",
+            "Salami Protein Box",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Kolt Chipotle Chicken Sandwich",
+            "Salami & Pepper Jack Sandwich",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Cantaloupe Chunks, 18 count (1/2 cup)",
+            "Mandarin Oranges",
+            "Unsweetened Applesauce Cup"
+          ]
+        },
+        "2026-06-02": {
+          "lunch": [
+            "Kenilworth Cheeseburger",
+            "Turkey & Cheddar Sandwich",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami Protein Box",
+            "Chicken & Rice Burrito (KJHS)",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Fresh Apples",
+            "Cantaloupe Chunks, 18 count (1/2 cup)",
+            "Mandarin Oranges",
+            "Unsweetened Applesauce Cup"
+          ]
+        },
+        "2026-06-03": {
+          "lunch": [
+            "WG Chicken Nuggets",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami Protein Box",
+            "Salami Sandwich",
+            "Spicy Chicken Burger",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Tater Tots",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples",
+            "Cantaloupe Chunks, 18 count (1/2 cup)",
+            "Mandarin Oranges",
+            "Cheddar Goldfish Crackers"
+          ]
+        },
+        "2026-06-04": {
+          "lunch": [
+            "Ham & Cheese Sandwich",
+            "Baby Carrots",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples",
+            "Mandarin Oranges"
+          ]
+        },
+        "2026-06-05": {
+          "lunch": [
+            "Deli Turkey Sandwich",
+            "Baby Carrots",
+            "Edamame",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples"
+          ]
         }
       },
-      "lastFetched": "2026-05-12T16:12:31.567Z"
+      "lastFetched": "2026-05-13T16:13:33.086Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1606,7 +1674,7 @@
         "2026-05-27": {
           "breakfast": [
             "Apple Cinnamon Oatmeal Round",
-            "Fresh Oranges",
+            "Fresh Apples",
             "Unsweetened Raisins"
           ],
           "lunch": [
@@ -1635,18 +1703,18 @@
         "2026-05-29": {
           "breakfast": [
             "Vanilla Liege Waffle",
-            "Fresh Apples",
+            "Fresh Oranges",
             "Unsweetened Raisins"
           ],
           "lunch": [
             "Garlic Cheese French Bread",
             "Salad Bar",
-            "Fresh Oranges",
+            "Fresh Apples",
             "Croutons"
           ]
         }
       },
-      "lastFetched": "2026-05-12T16:12:32.233Z"
+      "lastFetched": "2026-05-13T16:13:33.530Z"
     }
   }
 }
