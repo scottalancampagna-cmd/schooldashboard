@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T16:13:33.530Z",
+  "lastUpdated": "2026-05-14T16:04:16.155Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -747,7 +747,8 @@
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
-            "Mandarin Oranges",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
             "String Cheese",
             "Honey Roasted Sunflower Kernels"
           ],
@@ -1102,6 +1103,16 @@
           ]
         },
         "2026-06-01": {
+          "breakfast": [
+            "Assorted Cereals",
+            "Bacon Croissant Breakfast Sandwich",
+            "Cinnamon Crumb Cake Loaf",
+            "Chocolate Chip Muffin",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples",
+            "Fresh Nectarine, size 56-64"
+          ],
           "lunch": [
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
@@ -1112,63 +1123,92 @@
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
-            "Cantaloupe Chunks, 18 count (1/2 cup)",
-            "Mandarin Oranges",
-            "Unsweetened Applesauce Cup"
+            "Unsweetened Applesauce Cup",
+            "Fresh Nectarine, size 56-64",
+            "Kiwi"
           ]
         },
         "2026-06-02": {
+          "breakfast": [
+            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "Assorted Cereals",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup"
+          ],
           "lunch": [
             "Kenilworth Cheeseburger",
-            "Turkey & Cheddar Sandwich",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Protein Box",
             "Chicken & Rice Burrito (KJHS)",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
-            "Cantaloupe Chunks, 18 count (1/2 cup)",
-            "Mandarin Oranges",
-            "Unsweetened Applesauce Cup"
+            "Unsweetened Applesauce Cup",
+            "Fresh Nectarine, size 56-64",
+            "Kiwi"
           ]
         },
         "2026-06-03": {
+          "breakfast": [
+            "Bacon Croissant Breakfast Sandwich",
+            "Assorted Cereals",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples",
+            "Pretzel Goldfish"
+          ],
           "lunch": [
             "WG Chicken Nuggets",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Protein Box",
-            "Salami Sandwich",
             "Spicy Chicken Burger",
             "Baby Carrots",
             "Cucumber Slices",
             "Tater Tots",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
-            "Cantaloupe Chunks, 18 count (1/2 cup)",
-            "Mandarin Oranges",
+            "Fresh Nectarine, size 56-64",
+            "Kiwi",
             "Cheddar Goldfish Crackers"
           ]
         },
         "2026-06-04": {
+          "breakfast": [
+            "Assorted Cereals",
+            "Blueberry Crumb Cake Loaf",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Unsweetened Applesauce Cup",
+            "Fresh Apples",
+            "Goldfish Crackers"
+          ],
           "lunch": [
             "Ham & Cheese Sandwich",
             "Baby Carrots",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
-            "Mandarin Oranges"
+            "Fresh Nectarine, size 56-64",
+            "Kiwi"
           ]
         },
         "2026-06-05": {
+          "breakfast": [
+            "Assorted Cereals",
+            "Cinnamon Swirl",
+            "Assorted Juice Box, 4.23 fl oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cup",
+            "Goldfish Crackers"
+          ],
           "lunch": [
             "Deli Turkey Sandwich",
             "Baby Carrots",
             "Edamame",
             "Unsweetened Applesauce Cup",
-            "Fresh Apples"
+            "Fresh Apples",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Cheddar Goldfish Crackers"
           ]
         }
       },
-      "lastFetched": "2026-05-13T16:13:33.086Z"
+      "lastFetched": "2026-05-14T16:04:15.584Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1607,13 +1647,13 @@
             "Mac & Cheese",
             "Hot Dog",
             "Salad Bar",
-            "Fresh Nectarines"
+            "Farm to School Peaches"
           ]
         },
         "2026-05-20": {
           "breakfast": [
             "Apple Empanada",
-            "Fresh Nectarines",
+            "Farm to School Peaches",
             "Unsweetened Raisins",
             "String Cheese"
           ],
@@ -1714,7 +1754,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-13T16:13:33.530Z"
+      "lastFetched": "2026-05-14T16:04:16.155Z"
     }
   }
 }
