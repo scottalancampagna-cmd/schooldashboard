@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T15:55:51.748Z",
+  "lastUpdated": "2026-05-16T14:47:11.331Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1118,8 +1118,8 @@
             "Cheese & Green Chili Tamale with Rice",
             "Salami Protein Box",
             "Chicken Caesar Salad w/ Dinner Roll",
-            "Kolt Chipotle Chicken Sandwich",
             "Salami & Pepper Jack Sandwich",
+            "BBQ Pork Rib Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
@@ -1141,6 +1141,7 @@
             "Chicken & Rice Burrito (KJHS)",
             "Baby Carrots",
             "Cucumber Slices",
+            "Potato Wedges",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
             "Fresh Nectarine, size 56-64",
@@ -1157,11 +1158,11 @@
             "Pretzel Goldfish"
           ],
           "lunch": [
-            "WG Chicken Nuggets",
-            "Spicy Chicken Burger",
+            "Teriyaki Meatballs & Rice",
+            "Pepperoni French Bread Pizza",
             "Baby Carrots",
             "Cucumber Slices",
-            "Tater Tots",
+            "Edamame",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
             "Fresh Nectarine, size 56-64",
@@ -1208,7 +1209,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-15T15:55:50.940Z"
+      "lastFetched": "2026-05-16T14:47:10.542Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1754,7 +1755,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-15T15:55:51.748Z"
+      "lastFetched": "2026-05-16T14:47:11.331Z"
     }
   }
 }
