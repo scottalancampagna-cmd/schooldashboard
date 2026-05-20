@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T16:44:14.037Z",
+  "lastUpdated": "2026-05-20T16:44:53.245Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -864,11 +864,12 @@
             "Yogurt Parfait, Blueberry & Strawberry",
             "Chocolate Chip Muffin",
             "Assorted Cereal, 2 oz",
-            "Banana Bread Slice",
+            "Cinnamon Swirl",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
+            "Kiwi",
             "String Cheese"
           ],
           "lunch": [
@@ -878,7 +879,6 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box (Pretzels)",
             "Salami & Pepper Jack Sandwich",
-            "Jicama Sticks",
             "Cucumber Slices",
             "Baby Carrots",
             "Unsweetened Applesauce Cup",
@@ -907,11 +907,9 @@
             "Popcorn Chicken Bowl",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Pepper Jack Sandwich",
-            "Krispy Spicy Chicken Wrap",
             "Salami Protein Box",
             "Baby Carrots",
             "Cucumber Slices",
-            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Fresh Apples, 125-138 count (1/2 cup)",
             "Fresh Bananas",
@@ -1208,7 +1206,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-19T16:44:13.279Z"
+      "lastFetched": "2026-05-20T16:44:52.614Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1754,7 +1752,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-19T16:44:14.037Z"
+      "lastFetched": "2026-05-20T16:44:53.245Z"
     }
   }
 }
