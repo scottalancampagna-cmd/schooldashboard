@@ -45,35 +45,35 @@ app.post('/api/scrape', async (req, res) => {
     }
 });
 
-// Weather API proxy (to handle CORS)
-app.get('/api/weather/:lat/:lon', async (req, res) => {
+const axios = require('axios');
+
+// Weather API proxy (mirrors api/weather.js for local Mac Mini use)
+app.get('/api/weather', async (req, res) => {
+    const apiKey = process.env.OPENWEATHER_API_KEY;
+    if (!apiKey) return res.status(500).json({ error: 'Weather API key not configured' });
+    const { lat = 38.2324, lon = -122.6367 } = req.query;
     try {
-        const { lat, lon } = req.params;
-        const apiKey = 'e0c8d9e6588b4bfe7c5655ed385a9567'; // Your API key
-        const axios = require('axios');
-        
-        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
-        const response = await axios.get(url);
-        
-        res.json(response.data);
-    } catch (error) {
-        res.status(500).json({ error: 'Weather fetch failed' });
+        const { data } = await axios.get(
+            `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`
+        );
+        res.json(data);
+    } catch (err) {
+        res.status(502).json({ error: 'Weather fetch failed' });
     }
 });
 
-// Weather forecast proxy
-app.get('/api/forecast/:lat/:lon', async (req, res) => {
+// Weather forecast proxy (mirrors api/forecast.js for local Mac Mini use)
+app.get('/api/forecast', async (req, res) => {
+    const apiKey = process.env.OPENWEATHER_API_KEY;
+    if (!apiKey) return res.status(500).json({ error: 'Weather API key not configured' });
+    const { lat = 38.2324, lon = -122.6367 } = req.query;
     try {
-        const { lat, lon } = req.params;
-        const apiKey = 'e0c8d9e6588b4bfe7c5655ed385a9567';
-        const axios = require('axios');
-        
-        const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
-        const response = await axios.get(url);
-        
-        res.json(response.data);
-    } catch (error) {
-        res.status(500).json({ error: 'Weather forecast failed' });
+        const { data } = await axios.get(
+            `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`
+        );
+        res.json(data);
+    } catch (err) {
+        res.status(502).json({ error: 'Forecast fetch failed' });
     }
 });
 

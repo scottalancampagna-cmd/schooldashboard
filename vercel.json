@@ -1,5 +1,5 @@
 {
   "buildCommand": "",
-  "installCommand": "",
+  "installCommand": "npm install",
   "outputDirectory": "."
 }

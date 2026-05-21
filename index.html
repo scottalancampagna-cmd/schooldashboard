@@ -573,7 +573,6 @@
     <!-- ═══════════════════════════════════════════════════════════════ -->
     <script>
         const CONFIG = {
-            WEATHER_API_KEY: 'e0c8d9e6588b4bfe7c5655ed385a9567',
             PETALUMA_COORDS: { lat: 38.2324, lon: -122.6367 },
             SCHOOL_DATA_URL: './school-data.json',
             MENU_DATA_URL:   './menu-data.json',
@@ -722,8 +721,8 @@
             const isToday = date.toDateString() === new Date().toDateString();
             try {
                 const url = isToday
-                    ? `https://api.openweathermap.org/data/2.5/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}&appid=${CONFIG.WEATHER_API_KEY}&units=imperial`
-                    : `https://api.openweathermap.org/data/2.5/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}&appid=${CONFIG.WEATHER_API_KEY}&units=imperial`;
+                    ? `/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
+                    : `/api/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`;
 
                 const data = await (await fetch(url)).json();
                 let w;
