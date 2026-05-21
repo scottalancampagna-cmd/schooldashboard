@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T16:44:53.245Z",
+  "lastUpdated": "2026-05-21T16:34:02.097Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -647,7 +647,7 @@
             "Breakfast Pizza Bagel",
             "Assorted Cereal, 2 oz",
             "Concha, Assorted",
-            "White Whole Wheat Bagel",
+            "Whole Wheat Bagel",
             "Vanilla Liege Waffle",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -896,6 +896,7 @@
             "Assorted Cereal, 2 oz",
             "Bacon Egg Cheese Breakfast Muffin",
             "Apple Empanada",
+            "Mini Cinnis",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -1206,7 +1207,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-20T16:44:52.614Z"
+      "lastFetched": "2026-05-21T16:34:01.292Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1728,8 +1729,7 @@
           "breakfast": [
             "Apple Cinnamon Cheerios",
             "Fresh Bananas",
-            "Unsweetened Applesauce Cups",
-            "String Cheese"
+            "Unsweetened Applesauce Cups"
           ],
           "lunch": [
             "Pesto Pasta",
@@ -1752,7 +1752,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-20T16:44:53.245Z"
+      "lastFetched": "2026-05-21T16:34:02.097Z"
     }
   }
 }
