@@ -1,5 +1,6 @@
 // Local Mac Mini server for Eleanor & Daniel's School Dashboard
 // On Vercel, weather is handled by api/weather.js + api/forecast.js serverless functions.
+require('dotenv').config();
 const express = require('express');
 const cors    = require('cors');
 const fs      = require('fs').promises;
@@ -82,6 +83,12 @@ app.get('/api/forecast', async (req, res) => {
     } catch (err) {
         res.status(502).json({ error: 'Forecast fetch failed' });
     }
+});
+
+// Google Calendar proxy (mirrors api/gcal.js for local Mac Mini use)
+app.get('/api/gcal', async (req, res) => {
+    const gcalHandler = require('./api/gcal');
+    return gcalHandler(req, res);
 });
 
 app.listen(PORT, '0.0.0.0', () => {

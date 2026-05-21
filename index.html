@@ -277,11 +277,64 @@
         }
         .cal-day.selected .cal-ms  { background: #000055; color: #aaddff; }
         .cal-day.selected .cal-elem { background: #440000; color: #ffbbbb; }
+        .cal-wx {
+            font-size: 8px;
+            color: #003366;
+            background: #c8e4ff;
+            border-top: 1px solid #99bbdd;
+            margin-top: 2px;
+            padding: 1px 3px;
+            text-align: center;
+            letter-spacing: 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .cal-wx-none { background: transparent; border-top: none; color: #666; }
+        .cal-day.selected .cal-wx { background: #002244; color: #88ccff; border-top-color: #336699; }
+        .cal-evt-dot {
+            display: inline-block;
+            width: 5px; height: 5px;
+            background: #ffcc00;
+            border-radius: 50%;
+            margin-left: 3px;
+            vertical-align: middle;
+        }
         .cal-legend {
             font-size: 10px;
             color: #000080;
             margin-top: 5px;
             font-family: Arial, sans-serif;
+        }
+
+        /* ── EVENTS PANEL ────────────────────────────────────────── */
+        .event-item {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            padding: 4px 6px;
+            border-bottom: 1px solid #c0c0c0;
+            font-size: 12px;
+        }
+        .event-item:last-child { border-bottom: none; }
+        .event-time {
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            color: #000080;
+            font-weight: bold;
+            white-space: nowrap;
+            min-width: 70px;
+        }
+        .event-title { flex: 1; }
+        .event-location {
+            font-size: 10px;
+            color: #666;
+            font-style: italic;
+        }
+        .event-none {
+            padding: 8px 6px;
+            color: #666;
+            font-size: 12px;
+            font-style: italic;
         }
 
         /* ── MENUS ────────────────────────────────────────────────── */
@@ -395,6 +448,7 @@
             .cal-tbl th,
             .cal-ms,
             .cal-elem   { font-size: 8px; }
+            .cal-wx     { font-size: 7px; }
             .cal-num    { font-size: 0.9rem; }
             .site-title { letter-spacing: 2px; }
         }
@@ -454,6 +508,14 @@
                             <td class="wx-lbl">Wind</td>
                             <td id="windSpeed">--</td>
                         </tr>
+                        <tr>
+                            <td class="wx-lbl">Hi / Lo</td>
+                            <td id="hiLo">--</td>
+                        </tr>
+                        <tr>
+                            <td class="wx-lbl">Rain</td>
+                            <td id="rainChance">--</td>
+                        </tr>
                     </table>
                 </div>
             </div>
@@ -469,7 +531,7 @@
     <!-- ═══ CALENDAR WINDOW ══════════════════════════════════════════ -->
     <div class="w95">
         <div class="w95-title">
-            <span>📅&nbsp; School Calendar — This Week</span>
+            <span>📅&nbsp; Weekly Calendar — This Week</span>
             <div class="w95-btns">
                 <div class="w95-btn">_</div>
                 <div class="w95-btn">□</div>
@@ -493,6 +555,20 @@
                 <span style="color:#ff0000; font-weight:bold;">Red border</span> = today &nbsp;·&nbsp;
                 Click a day to load its menus
             </div>
+        </div>
+    </div>
+
+    <!-- ═══ EVENTS PANEL ════════════════════════════════════════════ -->
+    <div class="w95" id="eventsWindow" style="display:none; margin-top:8px;">
+        <div class="w95-title">
+            <span>📌&nbsp; Events — <span id="eventsPanelDate">Today</span></span>
+            <div class="w95-btns">
+                <div class="w95-btn">_</div>
+                <div class="w95-btn">□</div>
+                <div class="w95-btn">✕</div>
+            </div>
+        </div>
+        <div class="w95-body" id="eventsList" style="padding:4px 0;">
         </div>
     </div>
 
@@ -581,6 +657,9 @@
         let selectedDate   = new Date();
         let realSchoolData = null;
         let menuData       = null;
+        let weeklyForecast = {};
+        let rawForecastList = [];
+        let calEvents = {};
 
         // ── Rainbow title ────────────────────────────────────────────
         function buildRainbowTitle() {
@@ -695,10 +774,19 @@
 
                 const shortLabel = s => s.replace(/^No\s*School\s*[-–]\s*/i, '').replace(/^No\s*school\s*[-–]\s*/i, '');
 
+                const fc = weeklyForecast[date.toDateString()];
+                const wxHtml = fc
+                    ? `<div class="cal-wx">${fc.high}°/${fc.low}°${fc.rainChance > 0 ? ` · 💧${fc.rainChance}%` : ''}</div>`
+                    : `<div class="cal-wx cal-wx-none">--</div>`;
+
+                const hasEvents = (calEvents[date.toDateString()] || []).length > 0;
+                const evtDot = hasEvents ? '<span class="cal-evt-dot" title="Has events"></span>' : '';
+
                 td.innerHTML = `
-                    <div class="cal-num">${date.getDate()}</div>
+                    <div class="cal-num">${date.getDate()}${evtDot}</div>
                     <div class="cal-ms">🎓 ${ms.isSchool  ? 'School' : shortLabel(ms.label)}</div>
                     <div class="cal-elem">🌸 ${elem.isSchool ? 'School' : shortLabel(elem.label)}</div>
+                    ${wxHtml}
                 `;
                 td.addEventListener('click', () => selectDate(date));
                 weekRow.appendChild(td);
@@ -716,27 +804,98 @@
             document.getElementById('elemLunch').innerHTML     = renderMenu(elem.lunch,       elem.weekend);
         }
 
+        // ── Google Calendar events ────────────────────────────────────
+        async function loadCalEvents() {
+            try {
+                const data = await (await fetch('/api/gcal')).json();
+                calEvents = {};
+                (data.events || []).forEach(e => {
+                    const key = new Date(e.dtstart).toDateString();
+                    if (!calEvents[key]) calEvents[key] = [];
+                    calEvents[key].push(e);
+                });
+            } catch (e) {
+                console.warn('Cal events load failed:', e);
+            }
+        }
+
+        function updateEventsPanel(date) {
+            const key    = date.toDateString();
+            const events = calEvents[key] || [];
+            const label  = date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+
+            document.getElementById('eventsPanelDate').textContent = label;
+
+            if (events.length === 0) {
+                document.getElementById('eventsWindow').style.display = 'none';
+                return;
+            }
+
+            document.getElementById('eventsWindow').style.display = '';
+            document.getElementById('eventsList').innerHTML = events.map(e => {
+                const timeStr = e.allDay
+                    ? 'All day'
+                    : new Date(e.dtstart).toLocaleTimeString('en-US',
+                        { hour: 'numeric', minute: '2-digit', hour12: true });
+                const loc = e.location
+                    ? `<span class="event-location"> · ${e.location}</span>`
+                    : '';
+                return `<div class="event-item">
+                    <span class="event-time">${timeStr}</span>
+                    <span class="event-title">${e.summary}${loc}</span>
+                </div>`;
+            }).join('');
+        }
+
+        // ── Forecast cache (fetched once at init) ────────────────────
+        async function loadForecastCache() {
+            try {
+                const data = await (await fetch(
+                    `/api/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
+                )).json();
+                rawForecastList = data.list || [];
+                const days = {};
+                rawForecastList.forEach(item => {
+                    const key = new Date(item.dt * 1000).toDateString();
+                    if (!days[key]) days[key] = { temps: [], pops: [] };
+                    days[key].temps.push(item.main.temp);
+                    days[key].pops.push(item.pop || 0);
+                });
+                Object.entries(days).forEach(([key, d]) => {
+                    weeklyForecast[key] = {
+                        high: Math.round(Math.max(...d.temps)),
+                        low:  Math.round(Math.min(...d.temps)),
+                        rainChance: Math.round(Math.max(...d.pops) * 100),
+                    };
+                });
+            } catch (e) {
+                console.warn('Forecast cache load failed:', e);
+            }
+        }
+
         // ── Weather ──────────────────────────────────────────────────
         async function fetchWeather(date) {
             const isToday = date.toDateString() === new Date().toDateString();
+            const fc = weeklyForecast[date.toDateString()];
             try {
-                const url = isToday
-                    ? `/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
-                    : `/api/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`;
-
-                const data = await (await fetch(url)).json();
                 let w;
                 if (isToday) {
+                    const data = await (await fetch(
+                        `/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
+                    )).json();
                     w = { temp: Math.round(data.main.temp), feels: Math.round(data.main.feels_like),
                           desc: data.weather[0].description, hum: data.main.humidity,
                           wind: Math.round(data.wind.speed) };
-                } else {
+                } else if (rawForecastList.length) {
                     const target = new Date(date); target.setHours(12, 0, 0, 0);
-                    const best   = data.list.reduce((b, x) =>
+                    const best = rawForecastList.reduce((b, x) =>
                         Math.abs(new Date(x.dt * 1000) - target) < Math.abs(new Date(b.dt * 1000) - target) ? x : b);
                     w = { temp: Math.round(best.main.temp), feels: Math.round(best.main.feels_like),
                           desc: best.weather[0].description, hum: best.main.humidity,
                           wind: Math.round(best.wind.speed) };
+                } else {
+                    document.getElementById('weatherDesc').textContent = 'No forecast available';
+                    return;
                 }
 
                 document.getElementById('tempDisplay').textContent = `${w.temp}°F`;
@@ -744,9 +903,12 @@
                 document.getElementById('feelsLike').textContent    = `${w.feels}°F`;
                 document.getElementById('humidity').textContent     = `${w.hum}%`;
                 document.getElementById('windSpeed').textContent    = `${w.wind} mph`;
+                document.getElementById('hiLo').textContent        = fc ? `${fc.high}° / ${fc.low}°F` : '--';
+                document.getElementById('rainChance').textContent  = fc ? `${fc.rainChance}%` : '--';
 
+                const rainNote = fc?.rainChance > 0 ? `  ·  ${fc.rainChance}% rain` : '';
                 document.getElementById('marqueeText').textContent =
-                    `☆   ${w.temp}°F in Petaluma — ${w.desc}   ☆          ` +
+                    `☆   ${w.temp}°F in Petaluma — ${w.desc}${rainNote}   ☆          ` +
                     `☆   School menus updated daily from healthepro.com   ☆          ` +
                     `☆   Click any day to see that day's menus   ☆          `;
             } catch (e) {
@@ -760,6 +922,7 @@
             setDatePanel(date);
             buildCalendar();
             updateMenus(date);
+            updateEventsPanel(date);
             await fetchWeather(date);
         }
 
@@ -770,6 +933,7 @@
             document.getElementById('footerYear').textContent = new Date().getFullYear();
 
             await loadData();
+            await Promise.all([loadForecastCache(), loadCalEvents()]);
             buildCalendar();
             await selectDate(new Date());
         });
