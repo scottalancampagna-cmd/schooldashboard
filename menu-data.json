@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T16:34:02.097Z",
+  "lastUpdated": "2026-05-22T16:14:23.179Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -941,7 +941,6 @@
             "Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Slices",
-            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Fresh Apples, 125-138 count (1/2 cup)",
             "Fresh Bananas",
@@ -1207,7 +1206,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-21T16:34:01.292Z"
+      "lastFetched": "2026-05-22T16:14:22.768Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1752,7 +1751,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-21T16:34:02.097Z"
+      "lastFetched": "2026-05-22T16:14:23.179Z"
     }
   }
 }
