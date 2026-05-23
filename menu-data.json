@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T16:14:23.179Z",
+  "lastUpdated": "2026-05-23T14:52:54.168Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -952,8 +952,8 @@
             "Blueberry Crumble",
             "Assorted Cereal, 2 oz",
             "Assorted Bagels",
-            "Breakfast Pizza Bagel",
             "Concha, Assorted",
+            "Bacon Egg Cheese Breakfast Muffin",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -970,7 +970,6 @@
             "Bean & Cheese Burrito",
             "Baby Carrots",
             "Cucumber Slices",
-            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Fresh Apples, 125-138 count (1/2 cup)",
             "Fresh Bananas",
@@ -1155,8 +1154,9 @@
             "Pretzel Goldfish"
           ],
           "lunch": [
-            "Teriyaki Meatballs & Rice",
-            "Pepperoni French Bread Pizza",
+            "Spicy Chicken Burger",
+            "Kolt Corn Dog",
+            "Chicken & Rice Burrito (KJHS)",
             "Baby Carrots",
             "Cucumber Slices",
             "Edamame",
@@ -1206,7 +1206,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-22T16:14:22.768Z"
+      "lastFetched": "2026-05-23T14:52:53.488Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1751,7 +1751,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-22T16:14:23.179Z"
+      "lastFetched": "2026-05-23T14:52:54.168Z"
     }
   }
 }
