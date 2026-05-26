@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T16:14:52.062Z",
+  "lastUpdated": "2026-05-26T17:19:47.726Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1003,17 +1003,16 @@
             "Cucumber Slices",
             "Fresh Apples, 125-138 count (1/2 cup)",
             "Unsweetened Applesauce Cup",
-            "Fresh Banana",
             "Mandarin Oranges",
             "String Cheese"
           ]
         },
         "2026-05-27": {
           "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Sausage Croissant Breakfast Sandwich",
             "Blueberry Bread Slice",
             "Assorted Cereal, 2 oz",
+            "Double Chocolate Chip Muffin",
+            "Bacon Egg Cheese Breakfast Muffin",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -1206,271 +1205,11 @@
           ]
         }
       },
-      "lastFetched": "2026-05-25T16:14:51.531Z"
+      "lastFetched": "2026-05-26T17:19:47.351Z"
     },
     "penngrove": {
       "label": "Elementary",
       "menus": {
-        "2026-04-01": {
-          "breakfast": [
-            "Apple Cinnamon Oatmeal Round",
-            "Fresh Apples",
-            "Unsweetened Raisins",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Cheese Quesadilla",
-            "Chicken and Cheese Quesadilla",
-            "Baby Carrots",
-            "Corn Niblets",
-            "Mild Salsa",
-            "Fresh Bananas"
-          ]
-        },
-        "2026-04-02": {
-          "breakfast": [
-            "Cinnamon Chex Cereal",
-            "Fresh Bananas",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Teriyaki Chicken & Rice",
-            "Plant-Based Teriyaki Chicken & Rice",
-            "Salad Bar",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-04-03": {
-          "breakfast": [
-            "Lemon Breakfast Bread",
-            "Fresh Oranges",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Pepperoni French Bread Pizza",
-            "Cheese French Bread Pizza",
-            "Salad Bar",
-            "Fresh Apples",
-            "Green Easter Egg Cookie",
-            "Croutons"
-          ]
-        },
-        "2026-04-06": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-04-07": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-04-08": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-04-09": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-04-10": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-04-13": {
-          "breakfast": [
-            "Honey Cheerios Cereal",
-            "Unsweetened Raisins",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Chicken Burger",
-            "Rebellyous Kickin' Sandwich (Plant-based)",
-            "Baby Carrots",
-            "Sea Salt Roasted Chickpeas",
-            "Fresh Apples"
-          ]
-        },
-        "2026-04-14": {
-          "breakfast": [
-            "Banana Bread Slice",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cups",
-            "Honey Roasted Sunflower Seeds"
-          ],
-          "lunch": [
-            "Bean & Cheese Burrito",
-            "Salad Bar",
-            "Mild Salsa",
-            "Fresh Oranges",
-            "Tortilla Chips"
-          ]
-        },
-        "2026-04-15": {
-          "breakfast": [
-            "Whole Wheat Bagel with Cream Cheese",
-            "Fresh Oranges",
-            "Unsweetened Raisins",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Grilled Cheese",
-            "BBQ Beef Rib Sandwich",
-            "Baby Carrots",
-            "Corn Niblets",
-            "Fresh Apples"
-          ]
-        },
-        "2026-04-16": {
-          "breakfast": [
-            "Vanilla Liege Waffle",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Pasta with Meat Sauce",
-            "Pasta with Marinara Sauce",
-            "Salad Bar",
-            "Fresh Banana"
-          ]
-        },
-        "2026-04-17": {
-          "breakfast": [
-            "Blueberry Chex Cereal",
-            "Fresh Banana",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Garlic Cheese French Bread",
-            "Salad Bar",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-04-20": {
-          "breakfast": [
-            "Apple Cinnamon Oatmeal Round",
-            "Fresh Oranges",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Cheeseburger",
-            "Veggie Burger w/ Cheese",
-            "Tater Tots",
-            "Corn Niblets",
-            "Fresh Apples"
-          ]
-        },
-        "2026-04-21": {
-          "breakfast": [
-            "Apple Cinnamon Cheerios",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cups",
-            "Honey Roasted Sunflower Seeds"
-          ],
-          "lunch": [
-            "Chicken Drumstick",
-            "Plant-Based Kickin' Tenders",
-            "Salad Bar",
-            "Fresh Oranges",
-            "Dinner Roll"
-          ]
-        },
-        "2026-04-22": {
-          "breakfast": [
-            "Blueberry Muffin, Whole Grain",
-            "Fresh Oranges",
-            "Unsweetened Raisins",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Baby Carrots",
-            "Corn Niblets",
-            "Mild Salsa",
-            "Fresh Bananas",
-            "Tortilla Chips"
-          ]
-        },
-        "2026-04-23": {
-          "breakfast": [
-            "Cinnamon Chex Cereal",
-            "Fresh Banana",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Orange Chicken & Rice",
-            "Plant-Based Sweet & Sour Chicken with Rice",
-            "Salad Bar",
-            "Fresh Apples"
-          ]
-        },
-        "2026-04-24": {
-          "breakfast": [
-            "Yogurt and Granola",
-            "Fresh Apples",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Cheese Breadsticks",
-            "Salad Bar",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-04-27": {
-          "breakfast": [
-            "Mantecada Muffin",
-            "Fresh Oranges",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Chicken Tenders",
-            "Plant-Based Kickin' Tenders",
-            "Salad Bar",
-            "Fresh Oranges",
-            "Pretzel Goldfish"
-          ]
-        },
-        "2026-04-28": {
-          "breakfast": [
-            "Honey Cheerios Cereal",
-            "Fresh Oranges",
-            "Unsweetened Applesauce Cups",
-            "Honey Roasted Sunflower Seeds"
-          ],
-          "lunch": [
-            "Hot Dog",
-            "Mac & Cheese",
-            "Salad Bar",
-            "Fresh Apples"
-          ]
-        },
-        "2026-04-29": {
-          "breakfast": [
-            "Orange Blossom Muffin Top",
-            "Fresh Apples",
-            "Unsweetened Raisins",
-            "String Cheese"
-          ],
-          "lunch": [
-            "Hamburger",
-            "Vegan Burger",
-            "Baby Carrots",
-            "Jicama Sticks",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-04-30": {
-          "breakfast": [
-            "Apple Cinnamon Cheerios",
-            "Fresh Oranges",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Pesto Pasta",
-            "Pesto Pasta with Chicken",
-            "Salad Bar",
-            "Fresh Bananas",
-            "Whole-Grain Artisan Roll"
-          ]
-        },
         "2026-05-01": {
           "breakfast": [
             "Cinnamon Toasters Cereal",
@@ -1749,9 +1488,76 @@
             "Fresh Apples",
             "Croutons"
           ]
+        },
+        "2026-06-01": {
+          "breakfast": [
+            "Lemon Breakfast Bread",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Hamburger",
+            "Vegan Burger",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-06-02": {
+          "breakfast": [
+            "White Concha",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups",
+            "Honey Roasted Sunflower Seeds"
+          ],
+          "lunch": [
+            "Grilled Cheese",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-06-03": {
+          "breakfast": [
+            "Honey Cheerios Cereal",
+            "Fresh Apples",
+            "Unsweetened Raisins",
+            "Mozzarella String Cheese"
+          ],
+          "lunch": [
+            "Bean & Cheese Burrito",
+            "Salad Bar",
+            "Corn Niblets",
+            "Fresh Bananas",
+            "Tortilla Chips"
+          ]
+        },
+        "2026-06-04": {
+          "breakfast": [
+            "Banana Bread Slice",
+            "Fresh Bananas",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Cheese Breadsticks",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-06-05": {
+          "breakfast": [
+            "Cinnamon Chex Cereal",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Turkey & American Cheese Hoagie",
+            "Sunbutter & Grape Jelly Sandwich",
+            "Baby Carrots",
+            "Ranch Roasted Chickpeas",
+            "Fresh Oranges"
+          ]
         }
       },
-      "lastFetched": "2026-05-25T16:14:52.061Z"
+      "lastFetched": "2026-05-26T17:19:47.726Z"
     }
   }
 }
