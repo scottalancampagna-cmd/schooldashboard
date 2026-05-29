@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:30:32.405Z",
+  "lastUpdated": "2026-05-29T17:26:18.048Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1074,7 +1074,7 @@
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
-            "Mandarin Oranges"
+            "Fresh Nectarine, size 56-64"
           ],
           "lunch": [
             "Kolt Corn Dog",
@@ -1085,13 +1085,13 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Bean & Cheese Burrito",
             "Baby Carrots",
-            "Jicama Sticks",
             "Cucumber Slices",
             "Hummus Cup",
+            "Jicama Sticks",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
-            "Kiwi",
-            "Mandarin Oranges",
+            "Fresh Watermelon Chunks",
+            "Fresh Nectarine, size 56-64",
             "Dinner Roll WG",
             "String Cheese"
           ]
@@ -1114,12 +1114,12 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
             "BBQ Pork Rib Sandwich",
+            "Beef Hot Dog with Whole Grain Bun",
             "Baby Carrots",
             "Cucumber Slices",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
-            "Fresh Nectarine, size 56-64",
-            "Kiwi"
+            "Fresh Nectarine, size 56-64"
           ]
         },
         "2026-06-02": {
@@ -1133,13 +1133,14 @@
           "lunch": [
             "Kenilworth Cheeseburger",
             "Chicken & Rice Burrito (KJHS)",
+            "Kolt Corn Dog",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Baby Carrots",
             "Cucumber Slices",
             "Potato Wedges",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
-            "Fresh Nectarine, size 56-64",
-            "Kiwi"
+            "Fresh Nectarine, size 56-64"
           ]
         },
         "2026-06-03": {
@@ -1152,16 +1153,16 @@
             "Pretzel Goldfish"
           ],
           "lunch": [
-            "Spicy Chicken Burger",
-            "Kolt Corn Dog",
-            "Chicken & Rice Burrito (KJHS)",
+            "Orange Chicken & Brown Rice HS",
+            "Kolt Chipotle Chicken Sandwich",
+            "Galaxy Pepperoni Pizza",
+            "Cheese & Green Chili Tamale with Rice",
             "Baby Carrots",
             "Cucumber Slices",
             "Edamame",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
             "Fresh Nectarine, size 56-64",
-            "Kiwi",
             "Cheddar Goldfish Crackers"
           ]
         },
@@ -1204,7 +1205,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-28T17:30:32.017Z"
+      "lastFetched": "2026-05-29T17:26:17.468Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1556,7 +1557,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-28T17:30:32.405Z"
+      "lastFetched": "2026-05-29T17:26:18.048Z"
     }
   }
 }
