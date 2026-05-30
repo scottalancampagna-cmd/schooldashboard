@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T17:26:18.048Z",
+  "lastUpdated": "2026-05-30T14:57:57.504Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1067,10 +1067,10 @@
         "2026-05-29": {
           "breakfast": [
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "French Toast Sticks",
-            "Concha, Assorted",
-            "Whole Wheat Bagel",
             "Assorted Cereal, 2 oz",
+            "Concha, Assorted",
+            "French Toast Sticks",
+            "Whole Wheat Bagel",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -1205,7 +1205,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-29T17:26:17.468Z"
+      "lastFetched": "2026-05-30T14:57:57.065Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1557,7 +1557,7 @@
           ]
         }
       },
-      "lastFetched": "2026-05-29T17:26:18.048Z"
+      "lastFetched": "2026-05-30T14:57:57.504Z"
     }
   }
 }
