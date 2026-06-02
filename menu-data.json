@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T19:14:54.014Z",
+  "lastUpdated": "2026-06-02T17:58:41.731Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -636,6 +636,8 @@
           "breakfast": [
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
             "Assorted Cereals",
+            "Blueberry Bread Slice",
+            "Maple Flavored Waffles",
             "Assorted Juice Box, 4.23 fl oz",
             "Fresh Apples",
             "Unsweetened Applesauce Cup"
@@ -646,7 +648,6 @@
             "Kolt Corn Dog",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Baby Carrots",
-            "Cucumber Slices",
             "Potato Wedges",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
@@ -657,6 +658,8 @@
           "breakfast": [
             "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereals",
+            "Blueberry Bread Slice",
+            "Maple Flavored Waffles",
             "Assorted Juice Box, 4.23 fl oz",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
@@ -668,7 +671,6 @@
             "Galaxy Pepperoni Pizza",
             "Cheese & Green Chili Tamale with Rice",
             "Baby Carrots",
-            "Cucumber Slices",
             "Edamame",
             "Unsweetened Applesauce Cup",
             "Fresh Apples",
@@ -715,7 +717,7 @@
           ]
         }
       },
-      "lastFetched": "2026-06-01T19:14:53.235Z"
+      "lastFetched": "2026-06-02T17:58:41.333Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1029,8 +1031,7 @@
           "breakfast": [
             "Honey Cheerios Cereal",
             "Fresh Apples",
-            "Unsweetened Raisins",
-            "Mozzarella String Cheese"
+            "Unsweetened Raisins"
           ],
           "lunch": [
             "Bean & Cheese Burrito",
@@ -1067,7 +1068,7 @@
           ]
         }
       },
-      "lastFetched": "2026-06-01T19:14:54.014Z"
+      "lastFetched": "2026-06-02T17:58:41.731Z"
     }
   }
 }
