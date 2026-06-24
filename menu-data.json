@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T16:19:46.612Z",
+  "lastUpdated": "2026-06-24T16:07:56.472Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -77,7 +77,7 @@
             "Honey Roasted Sunflower Kernels"
           ],
           "lunch": [
-            "Kenilworth Cheeseburger",
+            "Cheese Burger (KJHS)",
             "WG Chicken Nuggets",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Pepper Jack Sandwich",
@@ -231,7 +231,7 @@
             "Honey Roasted Sunflower Kernels"
           ],
           "lunch": [
-            "Kenilworth Cheeseburger",
+            "Cheese Burger (KJHS)",
             "WG Chicken Nuggets",
             "Bean & Cheese Burrito",
             "Chicken Caesar Salad w/ Dinner Roll",
@@ -383,7 +383,7 @@
             "String Cheese"
           ],
           "lunch": [
-            "Kenilworth Cheeseburger",
+            "Cheese Burger (KJHS)",
             "Chicken and Rice Burrito",
             "Chicken Tenders & Tater Tots",
             "Chicken Caesar Salad w/ Dinner Roll",
@@ -503,7 +503,7 @@
             "Mandarin Oranges"
           ],
           "lunch": [
-            "Kenilworth Cheeseburger",
+            "Cheese Burger (KJHS)",
             "WG Chicken Nuggets",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
@@ -643,7 +643,7 @@
             "Unsweetened Applesauce Cup"
           ],
           "lunch": [
-            "Kenilworth Cheeseburger",
+            "Cheese Burger (KJHS)",
             "Chicken & Rice Burrito (KJHS)",
             "Kolt Corn Dog",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
@@ -717,7 +717,7 @@
           ]
         }
       },
-      "lastFetched": "2026-06-23T16:19:46.219Z"
+      "lastFetched": "2026-06-24T16:07:55.679Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1068,7 +1068,7 @@
           ]
         }
       },
-      "lastFetched": "2026-06-23T16:19:46.612Z"
+      "lastFetched": "2026-06-24T16:07:56.472Z"
     }
   }
 }
