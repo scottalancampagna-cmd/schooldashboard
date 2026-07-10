@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:21:16.331Z",
+  "lastUpdated": "2026-07-10T16:13:21.902Z",
   "calendars": {
     "kenilworth": {
       "label": "Middle School",
@@ -2220,7 +2220,7 @@
           "events": []
         }
       },
-      "lastScraped": "2026-07-09T16:21:15.891Z",
+      "lastScraped": "2026-07-10T16:13:21.486Z",
       "pdfEventsFound": 16,
       "fallback": false
     },
@@ -4460,7 +4460,7 @@
           "events": []
         }
       },
-      "lastScraped": "2026-07-09T16:21:16.331Z",
+      "lastScraped": "2026-07-10T16:13:21.902Z",
       "pdfEventsFound": 20,
       "fallback": false
     }
