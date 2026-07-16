@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T15:17:22.951Z",
+  "lastUpdated": "2026-07-16T15:25:14.545Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -115,7 +115,7 @@
           ]
         }
       },
-      "lastFetched": "2026-07-15T15:17:22.406Z"
+      "lastFetched": "2026-07-16T15:25:13.832Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -141,7 +141,7 @@
             "Honey Roasted Sunflower Seeds"
           ],
           "lunch": [
-            "Grilled Cheese",
+            "Grilled Cheese Sandwich",
             "Salad Bar",
             "Fresh Apples"
           ]
@@ -187,7 +187,7 @@
           ]
         }
       },
-      "lastFetched": "2026-07-15T15:17:22.951Z"
+      "lastFetched": "2026-07-16T15:25:14.545Z"
     }
   }
 }
