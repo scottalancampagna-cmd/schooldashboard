@@ -32,8 +32,8 @@ const SCHOOLS = {
     calendarUrl: 'https://petalumacityschools.org/penngrove/our-school/calendars',
     calendarType: 'year-round',
     menus: {
-      breakfast: 104333, // Elementary School Breakfast
-      lunch:     104335, // Elementary School Lunch
+      breakfast: 122405, // Penngrove Elementary Breakfast 25/26
+      lunch:     122404, // Penngrove Elementary Lunch 25/26
     },
   },
 };
@@ -225,10 +225,10 @@ async function scrapeCalendarForSchool(schoolKey, config) {
     }
   }
 
-  // Build a full school-year day map (Aug → Jul)
+  // Build a full school-year day map (Jul → Jun, covers year-round starts)
   const yr = new Date().getFullYear();
-  const start = new Date(yr, 7, 1);
-  const end   = new Date(yr + 1, 6, 31);
+  const start = new Date(yr, 6, 1);  // July 1 — catches year-round school starts
+  const end   = new Date(yr + 1, 5, 30);
   const schoolDays = {};
 
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {

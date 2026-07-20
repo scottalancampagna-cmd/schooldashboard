@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T15:44:17.739Z",
+  "lastUpdated": "2026-07-20T19:40:02.681Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -115,79 +115,186 @@
           ]
         }
       },
-      "lastFetched": "2026-07-20T15:44:17.106Z"
+      "lastFetched": "2026-07-20T19:40:02.216Z"
     },
     "penngrove": {
       "label": "Elementary",
       "menus": {
-        "2026-06-01": {
+        "2026-07-13": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-07-14": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-07-15": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-07-16": {
           "breakfast": [
-            "Lemon Breakfast Bread",
-            "Fresh Apples",
-            "Unsweetened Raisins"
+            "Vanilla Concha",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups",
+            "Honey Graham Crackers"
           ],
           "lunch": [
             "Hamburger",
             "Vegan Burger",
-            "Salad Bar",
-            "Fresh Oranges"
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Apples",
+            "Pretzel Goldfish"
           ]
         },
-        "2026-06-02": {
+        "2026-07-17": {
           "breakfast": [
-            "White Concha",
-            "Fresh Oranges",
-            "Unsweetened Applesauce Cups",
-            "Honey Roasted Sunflower Seeds"
-          ],
-          "lunch": [
-            "Grilled Cheese Sandwich",
-            "Salad Bar",
-            "Fresh Apples"
-          ]
-        },
-        "2026-06-03": {
-          "breakfast": [
-            "Honey Cheerios Cereal",
+            "Whole Wheat Bagel",
             "Fresh Apples",
             "Unsweetened Raisins"
           ],
           "lunch": [
-            "Bean & Cheese Burrito",
+            "Cheese French Bread Pizza",
+            "Pepperoni French Bread Pizza",
             "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-07-20": {
+          "breakfast": [
+            "Egg & Cheese Breakfast Scrambler",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Breaded Chicken Burger",
+            "Rebellyous Kickin' Sandwich (Plant-based)",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-07-21": {
+          "breakfast": [
+            "Apple Cinnamon Oatmeal Round",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "BBQ Beef Rib Sandwich",
+            "Grilled Cheese Sandwich",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-07-22": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Bean and Cheese Pupusa",
+            "Baby Carrots",
             "Corn Niblets",
             "Fresh Bananas",
             "Tortilla Chips"
           ]
         },
-        "2026-06-04": {
+        "2026-07-23": {
+          "breakfast": [
+            "Banana Muffin",
+            "Fresh Bananas",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Teriyaki Chicken & Rice",
+            "Plant-Based Sweet & Sour Chik'n with Rice",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-07-24": {
+          "breakfast": [
+            "Strawberry Yogurt & Granola",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Cheese Breadsticks",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-07-27": {
+          "breakfast": [
+            "Mini Maple Pancakes",
+            "Fresh Oranges",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Cheeseburger",
+            "Plant-Based Burger w/ Cheese",
+            "Salad Bar",
+            "Tater Tots",
+            "Fresh Apples"
+          ]
+        },
+        "2026-07-28": {
+          "breakfast": [
+            "Blueberry Muffin",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Chicken Tenders",
+            "Plant-Based Kickin' Tenders",
+            "Salad Bar",
+            "Fresh Oranges",
+            "Pretzel Goldfish"
+          ]
+        },
+        "2026-07-29": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Oranges",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Cheese Quesadilla",
+            "Chicken and Cheese Quesadilla",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-07-30": {
           "breakfast": [
             "Banana Bread Slice",
             "Fresh Bananas",
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
-            "Cheese Breadsticks",
+            "Mac & Cheese",
+            "Hot Dog",
             "Salad Bar",
             "Fresh Apples"
           ]
         },
-        "2026-06-05": {
+        "2026-07-31": {
           "breakfast": [
-            "Cinnamon Chex Cereal",
+            "Ham and Swiss Cheese Croissant",
             "Fresh Apples",
-            "Unsweetened Raisins"
+            "Orange Tangerine Juice"
           ],
           "lunch": [
-            "Turkey & American Cheese Hoagie",
-            "Sunbutter & Grape Jelly Sandwich",
-            "Baby Carrots",
-            "Ranch Roasted Chickpeas",
+            "Garlic Cheese French Bread",
+            "Salad Bar",
             "Fresh Oranges"
           ]
         }
       },
-      "lastFetched": "2026-07-20T15:44:17.739Z"
+      "lastFetched": "2026-07-20T19:40:02.681Z"
     }
   }
 }

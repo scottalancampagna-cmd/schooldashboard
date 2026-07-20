@@ -1,10 +1,196 @@
 {
-  "lastUpdated": "2026-07-20T15:44:16.136Z",
+  "lastUpdated": "2026-07-20T19:40:01.538Z",
   "calendars": {
     "kenilworth": {
       "label": "Middle School",
       "calendarType": "traditional",
       "schoolDays": {
+        "2026-07-01": {
+          "date": "2026-07-01",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-02": {
+          "date": "2026-07-02",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-03": {
+          "date": "2026-07-03",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-04": {
+          "date": "2026-07-04",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-05": {
+          "date": "2026-07-05",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-06": {
+          "date": "2026-07-06",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-07": {
+          "date": "2026-07-07",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-08": {
+          "date": "2026-07-08",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-09": {
+          "date": "2026-07-09",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-10": {
+          "date": "2026-07-10",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-11": {
+          "date": "2026-07-11",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-12": {
+          "date": "2026-07-12",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-13": {
+          "date": "2026-07-13",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-14": {
+          "date": "2026-07-14",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-15": {
+          "date": "2026-07-15",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-16": {
+          "date": "2026-07-16",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-17": {
+          "date": "2026-07-17",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-18": {
+          "date": "2026-07-18",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-19": {
+          "date": "2026-07-19",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-20": {
+          "date": "2026-07-20",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-21": {
+          "date": "2026-07-21",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-22": {
+          "date": "2026-07-22",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-23": {
+          "date": "2026-07-23",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-24": {
+          "date": "2026-07-24",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-25": {
+          "date": "2026-07-25",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-26": {
+          "date": "2026-07-26",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-27": {
+          "date": "2026-07-27",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-28": {
+          "date": "2026-07-28",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-29": {
+          "date": "2026-07-29",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-30": {
+          "date": "2026-07-30",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-31": {
+          "date": "2026-07-31",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
         "2026-08-01": {
           "date": "2026-08-01",
           "isSchoolDay": false,
@@ -2032,195 +2218,9 @@
           "isSchoolDay": true,
           "status": "School Day",
           "events": []
-        },
-        "2027-07-01": {
-          "date": "2027-07-01",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-02": {
-          "date": "2027-07-02",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-03": {
-          "date": "2027-07-03",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-04": {
-          "date": "2027-07-04",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-05": {
-          "date": "2027-07-05",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-06": {
-          "date": "2027-07-06",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-07": {
-          "date": "2027-07-07",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-08": {
-          "date": "2027-07-08",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-09": {
-          "date": "2027-07-09",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-10": {
-          "date": "2027-07-10",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-11": {
-          "date": "2027-07-11",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-12": {
-          "date": "2027-07-12",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-13": {
-          "date": "2027-07-13",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-14": {
-          "date": "2027-07-14",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-15": {
-          "date": "2027-07-15",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-16": {
-          "date": "2027-07-16",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-17": {
-          "date": "2027-07-17",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-18": {
-          "date": "2027-07-18",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-19": {
-          "date": "2027-07-19",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-20": {
-          "date": "2027-07-20",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-21": {
-          "date": "2027-07-21",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-22": {
-          "date": "2027-07-22",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-23": {
-          "date": "2027-07-23",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-24": {
-          "date": "2027-07-24",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-25": {
-          "date": "2027-07-25",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-26": {
-          "date": "2027-07-26",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-27": {
-          "date": "2027-07-27",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-28": {
-          "date": "2027-07-28",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-29": {
-          "date": "2027-07-29",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-30": {
-          "date": "2027-07-30",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-31": {
-          "date": "2027-07-31",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
         }
       },
-      "lastScraped": "2026-07-20T15:44:15.572Z",
+      "lastScraped": "2026-07-20T19:40:01.179Z",
       "pdfEventsFound": 16,
       "fallback": false
     },
@@ -2228,6 +2228,192 @@
       "label": "Elementary",
       "calendarType": "year-round",
       "schoolDays": {
+        "2026-07-01": {
+          "date": "2026-07-01",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-02": {
+          "date": "2026-07-02",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-03": {
+          "date": "2026-07-03",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-04": {
+          "date": "2026-07-04",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-05": {
+          "date": "2026-07-05",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-06": {
+          "date": "2026-07-06",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-07": {
+          "date": "2026-07-07",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-08": {
+          "date": "2026-07-08",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-09": {
+          "date": "2026-07-09",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-10": {
+          "date": "2026-07-10",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-11": {
+          "date": "2026-07-11",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-12": {
+          "date": "2026-07-12",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-13": {
+          "date": "2026-07-13",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-14": {
+          "date": "2026-07-14",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-15": {
+          "date": "2026-07-15",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-16": {
+          "date": "2026-07-16",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-17": {
+          "date": "2026-07-17",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-18": {
+          "date": "2026-07-18",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-19": {
+          "date": "2026-07-19",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-20": {
+          "date": "2026-07-20",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-21": {
+          "date": "2026-07-21",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-22": {
+          "date": "2026-07-22",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-23": {
+          "date": "2026-07-23",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-24": {
+          "date": "2026-07-24",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-25": {
+          "date": "2026-07-25",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-26": {
+          "date": "2026-07-26",
+          "isSchoolDay": false,
+          "status": "Weekend",
+          "events": []
+        },
+        "2026-07-27": {
+          "date": "2026-07-27",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-28": {
+          "date": "2026-07-28",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-29": {
+          "date": "2026-07-29",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-30": {
+          "date": "2026-07-30",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
+        "2026-07-31": {
+          "date": "2026-07-31",
+          "isSchoolDay": true,
+          "status": "School Day",
+          "events": []
+        },
         "2026-08-01": {
           "date": "2026-08-01",
           "isSchoolDay": false,
@@ -4272,195 +4458,9 @@
           "isSchoolDay": true,
           "status": "School Day",
           "events": []
-        },
-        "2027-07-01": {
-          "date": "2027-07-01",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-02": {
-          "date": "2027-07-02",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-03": {
-          "date": "2027-07-03",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-04": {
-          "date": "2027-07-04",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-05": {
-          "date": "2027-07-05",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-06": {
-          "date": "2027-07-06",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-07": {
-          "date": "2027-07-07",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-08": {
-          "date": "2027-07-08",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-09": {
-          "date": "2027-07-09",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-10": {
-          "date": "2027-07-10",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-11": {
-          "date": "2027-07-11",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-12": {
-          "date": "2027-07-12",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-13": {
-          "date": "2027-07-13",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-14": {
-          "date": "2027-07-14",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-15": {
-          "date": "2027-07-15",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-16": {
-          "date": "2027-07-16",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-17": {
-          "date": "2027-07-17",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-18": {
-          "date": "2027-07-18",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-19": {
-          "date": "2027-07-19",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-20": {
-          "date": "2027-07-20",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-21": {
-          "date": "2027-07-21",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-22": {
-          "date": "2027-07-22",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-23": {
-          "date": "2027-07-23",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-24": {
-          "date": "2027-07-24",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-25": {
-          "date": "2027-07-25",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
-        },
-        "2027-07-26": {
-          "date": "2027-07-26",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-27": {
-          "date": "2027-07-27",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-28": {
-          "date": "2027-07-28",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-29": {
-          "date": "2027-07-29",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-30": {
-          "date": "2027-07-30",
-          "isSchoolDay": true,
-          "status": "School Day",
-          "events": []
-        },
-        "2027-07-31": {
-          "date": "2027-07-31",
-          "isSchoolDay": false,
-          "status": "Weekend",
-          "events": []
         }
       },
-      "lastScraped": "2026-07-20T15:44:16.136Z",
+      "lastScraped": "2026-07-20T19:40:01.538Z",
       "pdfEventsFound": 20,
       "fallback": false
     }
