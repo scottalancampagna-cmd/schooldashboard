@@ -57,31 +57,17 @@ app.post('/api/update-data', (req, res) => {
 
 // Weather proxy (mirrors api/weather.js for local Mac Mini use)
 app.get('/api/weather', async (req, res) => {
-    const apiKey = process.env.OPENWEATHER_API_KEY;
-    if (!apiKey) return res.status(500).json({ error: 'Weather API key not configured' });
     const { lat = 38.2324, lon = -122.6367 } = req.query;
+    const url =
+        `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
+        `&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,relative_humidity_2m` +
+        `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code` +
+        `&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FLos_Angeles`;
     try {
-        const { data } = await axios.get(
-            `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`
-        );
+        const { data } = await axios.get(url);
         res.json(data);
     } catch (err) {
         res.status(502).json({ error: 'Weather fetch failed' });
-    }
-});
-
-// Forecast proxy (mirrors api/forecast.js for local Mac Mini use)
-app.get('/api/forecast', async (req, res) => {
-    const apiKey = process.env.OPENWEATHER_API_KEY;
-    if (!apiKey) return res.status(500).json({ error: 'Weather API key not configured' });
-    const { lat = 38.2324, lon = -122.6367 } = req.query;
-    try {
-        const { data } = await axios.get(
-            `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`
-        );
-        res.json(data);
-    } catch (err) {
-        res.status(502).json({ error: 'Forecast fetch failed' });
     }
 });
 
@@ -100,8 +86,7 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log('  GET  /api/school-data   → Calendar data');
     console.log('  GET  /api/menu-data     → Menu data');
     console.log('  POST /api/update-data   → Trigger data-updater.js');
-    console.log('  GET  /api/weather       → Current weather');
-    console.log('  GET  /api/forecast      → Forecast');
+    console.log('  GET  /api/weather       → Weather + forecast (Open-Meteo)');
 
     scheduleDataUpdates();
 });

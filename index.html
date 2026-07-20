@@ -661,8 +661,20 @@
         let realSchoolData = null;
         let menuData       = null;
         let weeklyForecast = {};
-        let rawForecastList = [];
+        let currentWeather  = null;
         let calEvents = {};
+
+        const WMO = {
+            0:'Clear Sky', 1:'Mainly Clear', 2:'Partly Cloudy', 3:'Overcast',
+            45:'Fog', 48:'Freezing Fog',
+            51:'Light Drizzle', 53:'Drizzle', 55:'Heavy Drizzle',
+            61:'Light Rain', 63:'Rain', 65:'Heavy Rain',
+            71:'Light Snow', 73:'Snow', 75:'Heavy Snow', 77:'Snow Grains',
+            80:'Light Showers', 81:'Rain Showers', 82:'Heavy Showers',
+            85:'Snow Showers', 86:'Heavy Snow Showers',
+            95:'Thunderstorm', 96:'Thunderstorm w/ Hail', 99:'Thunderstorm w/ Hail',
+        };
+        const wmoDesc = code => WMO[code] ?? 'Unknown';
 
         // ── Rainbow title ────────────────────────────────────────────
         function buildRainbowTitle() {
@@ -869,100 +881,75 @@
             }).join('');
         }
 
-        // ── Forecast cache (fetched once at init) ────────────────────
-        async function loadForecastCache() {
+        // ── Weather + forecast (fetched once at init via Open-Meteo) ─
+        async function loadWeather() {
             try {
-                const [forecastResp, curResp] = await Promise.all([
-                    fetch(`/api/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`),
-                    fetch(`/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`),
-                ]);
-                const data = await forecastResp.json();
-                rawForecastList = data.list || [];
-                const days = {};
-                rawForecastList.forEach(item => {
-                    const key = new Date(item.dt * 1000).toDateString();
-                    if (!days[key]) days[key] = { temps: [], pops: [] };
-                    days[key].temps.push(item.main.temp);
-                    days[key].pops.push(item.pop || 0);
-                });
-                Object.entries(days).forEach(([key, d]) => {
+                const resp = await fetch(
+                    `/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
+                );
+                const data = await resp.json();
+                currentWeather = data.current;
+                const { time, temperature_2m_max, temperature_2m_min,
+                        precipitation_probability_max, weather_code } = data.daily;
+                time.forEach((dateStr, i) => {
+                    // Parse as noon local time to avoid midnight UTC boundary shifts
+                    const key = new Date(dateStr + 'T12:00:00').toDateString();
                     weeklyForecast[key] = {
-                        high: Math.round(Math.max(...d.temps)),
-                        low:  Math.round(Math.min(...d.temps)),
-                        rainChance: Math.round(Math.max(...d.pops) * 100),
+                        high:       Math.round(temperature_2m_max[i]),
+                        low:        Math.round(temperature_2m_min[i]),
+                        rainChance: precipitation_probability_max[i] || 0,
+                        code:       weather_code[i],
                     };
                 });
-                // The 3-hour forecast only has future intervals, so today's morning low/high
-                // is missing. Fold in the current observed temp to correct today's range.
-                if (curResp.ok) {
-                    const cur = await curResp.json();
-                    const t = cur.main?.temp;
-                    if (t != null) {
-                        const todayKey = new Date().toDateString();
-                        if (weeklyForecast[todayKey]) {
-                            weeklyForecast[todayKey].high = Math.round(Math.max(weeklyForecast[todayKey].high, t));
-                            weeklyForecast[todayKey].low  = Math.round(Math.min(weeklyForecast[todayKey].low,  t));
-                        } else {
-                            weeklyForecast[todayKey] = { high: Math.round(t), low: Math.round(t), rainChance: 0 };
-                        }
-                    }
-                }
             } catch (e) {
-                console.warn('Forecast cache load failed:', e);
+                console.warn('Weather load failed:', e);
             }
         }
 
-        // ── Weather ──────────────────────────────────────────────────
-        async function fetchWeather(date) {
+        // ── Weather display (uses pre-loaded data from loadWeather) ──
+        function showWeather(date) {
             const isToday = date.toDateString() === new Date().toDateString();
             const fc = weeklyForecast[date.toDateString()];
-            try {
-                let w;
-                if (isToday) {
-                    const data = await (await fetch(
-                        `/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
-                    )).json();
-                    w = { temp: Math.round(data.main.temp), feels: Math.round(data.main.feels_like),
-                          desc: data.weather[0].description, hum: data.main.humidity,
-                          wind: Math.round(data.wind.speed) };
-                } else if (rawForecastList.length) {
-                    const target = new Date(date); target.setHours(12, 0, 0, 0);
-                    const best = rawForecastList.reduce((b, x) =>
-                        Math.abs(new Date(x.dt * 1000) - target) < Math.abs(new Date(b.dt * 1000) - target) ? x : b);
-                    w = { temp: Math.round(best.main.temp), feels: Math.round(best.main.feels_like),
-                          desc: best.weather[0].description, hum: best.main.humidity,
-                          wind: Math.round(best.wind.speed) };
-                } else {
-                    document.getElementById('weatherDesc').textContent = 'No forecast available';
-                    return;
-                }
 
-                document.getElementById('tempDisplay').textContent = `${w.temp}°F`;
-                document.getElementById('weatherDesc').textContent  = w.desc;
-                document.getElementById('feelsLike').textContent    = `${w.feels}°F`;
-                document.getElementById('humidity').textContent     = `${w.hum}%`;
-                document.getElementById('windSpeed').textContent    = `${w.wind} mph`;
-                document.getElementById('hiLo').textContent        = fc ? `${fc.high}° / ${fc.low}°F` : '--';
-                document.getElementById('rainChance').textContent  = fc ? `${fc.rainChance}%` : '--';
-
-                const rainNote = fc?.rainChance > 0 ? `  ·  ${fc.rainChance}% rain` : '';
-                document.getElementById('marqueeText').textContent =
-                    `☆   ${w.temp}°F in Petaluma — ${w.desc}${rainNote}   ☆          ` +
-                    `☆   School menus updated daily from healthepro.com   ☆          ` +
-                    `☆   Click any day to see that day's menus   ☆          `;
-            } catch (e) {
-                document.getElementById('weatherDesc').textContent = 'Weather data unavailable';
+            let w;
+            if (isToday && currentWeather) {
+                w = {
+                    temp:  Math.round(currentWeather.temperature_2m),
+                    feels: Math.round(currentWeather.apparent_temperature),
+                    desc:  wmoDesc(currentWeather.weather_code),
+                    hum:   currentWeather.relative_humidity_2m,
+                    wind:  Math.round(currentWeather.wind_speed_10m),
+                };
+            } else if (fc) {
+                w = { temp: fc.high, feels: null, desc: wmoDesc(fc.code), hum: null, wind: null };
+            } else {
+                document.getElementById('weatherDesc').textContent = 'No forecast available';
+                return;
             }
+
+            document.getElementById('tempDisplay').textContent = `${w.temp}°F`;
+            document.getElementById('weatherDesc').textContent  = w.desc;
+            document.getElementById('feelsLike').textContent    = w.feels != null ? `${w.feels}°F` : '--';
+            document.getElementById('humidity').textContent     = w.hum   != null ? `${w.hum}%`    : '--';
+            document.getElementById('windSpeed').textContent    = w.wind  != null ? `${w.wind} mph` : '--';
+            document.getElementById('hiLo').textContent        = fc ? `${fc.high}° / ${fc.low}°F` : '--';
+            document.getElementById('rainChance').textContent  = fc ? `${fc.rainChance}%` : '--';
+
+            const rainNote = fc?.rainChance > 0 ? `  ·  ${fc.rainChance}% rain` : '';
+            document.getElementById('marqueeText').textContent =
+                `☆   ${w.temp}°F in Petaluma — ${w.desc}${rainNote}   ☆          ` +
+                `☆   School menus updated daily from healthepro.com   ☆          ` +
+                `☆   Click any day to see that day's menus   ☆          `;
         }
 
         // ── Select a date ────────────────────────────────────────────
-        async function selectDate(date) {
+        function selectDate(date) {
             selectedDate = new Date(date);
             setDatePanel(date);
             buildCalendar();
             updateMenus(date);
             updateEventsPanel(date);
-            await fetchWeather(date);
+            showWeather(date);
         }
 
         // ── Init ─────────────────────────────────────────────────────
@@ -972,9 +959,8 @@
             document.getElementById('footerYear').textContent = new Date().getFullYear();
 
             await loadData();
-            await Promise.all([loadForecastCache(), loadCalEvents()]);
-            buildCalendar();
-            await selectDate(new Date());
+            await Promise.all([loadWeather(), loadCalEvents()]);
+            selectDate(new Date());
         });
     </script>
 </body>
