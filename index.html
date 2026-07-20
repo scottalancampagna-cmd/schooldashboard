@@ -672,8 +672,17 @@
                 ).join('');
         }
 
-        // ── Hit counter (persists locally for fun) ───────────────────
-        function initHitCounter() {
+        // ── Hit counter (cross-browser via Upstash Redis) ────────────
+        async function initHitCounter() {
+            try {
+                const data = await (await fetch('/api/hits')).json();
+                if (data.count != null) {
+                    const n = Math.min(data.count, 9999999);
+                    document.getElementById('hitCounter').textContent = String(n).padStart(7, '0');
+                    return;
+                }
+            } catch (e) { /* fall through */ }
+            // Fallback: local session count if server counter isn't configured
             let n = (parseInt(localStorage.getItem('kc_hits') || '0') + 1);
             if (n > 9999999) n = 1;
             localStorage.setItem('kc_hits', n);
@@ -850,9 +859,11 @@
         // ── Forecast cache (fetched once at init) ────────────────────
         async function loadForecastCache() {
             try {
-                const data = await (await fetch(
-                    `/api/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`
-                )).json();
+                const [forecastResp, curResp] = await Promise.all([
+                    fetch(`/api/forecast?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`),
+                    fetch(`/api/weather?lat=${CONFIG.PETALUMA_COORDS.lat}&lon=${CONFIG.PETALUMA_COORDS.lon}`),
+                ]);
+                const data = await forecastResp.json();
                 rawForecastList = data.list || [];
                 const days = {};
                 rawForecastList.forEach(item => {
@@ -868,6 +879,21 @@
                         rainChance: Math.round(Math.max(...d.pops) * 100),
                     };
                 });
+                // The 3-hour forecast only has future intervals, so today's morning low/high
+                // is missing. Fold in the current observed temp to correct today's range.
+                if (curResp.ok) {
+                    const cur = await curResp.json();
+                    const t = cur.main?.temp;
+                    if (t != null) {
+                        const todayKey = new Date().toDateString();
+                        if (weeklyForecast[todayKey]) {
+                            weeklyForecast[todayKey].high = Math.round(Math.max(weeklyForecast[todayKey].high, t));
+                            weeklyForecast[todayKey].low  = Math.round(Math.min(weeklyForecast[todayKey].low,  t));
+                        } else {
+                            weeklyForecast[todayKey] = { high: Math.round(t), low: Math.round(t), rainChance: 0 };
+                        }
+                    }
+                }
             } catch (e) {
                 console.warn('Forecast cache load failed:', e);
             }

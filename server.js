@@ -91,6 +91,16 @@ app.get('/api/gcal', async (req, res) => {
     return gcalHandler(req, res);
 });
 
+// Hit counter proxy (mirrors api/hits.js for local Mac Mini use)
+app.post('/api/hits', async (req, res) => {
+    const hitsHandler = require('./api/hits');
+    return hitsHandler(req, res);
+});
+app.get('/api/hits', async (req, res) => {
+    const hitsHandler = require('./api/hits');
+    return hitsHandler(req, res);
+});
+
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 School Dashboard running at http://localhost:${PORT}`);
     console.log('');
