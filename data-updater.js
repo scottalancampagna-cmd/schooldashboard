@@ -187,30 +187,40 @@ function parseDateLine(line) {
   return [];
 }
 
-// Extract all no-school dates from PDF text using the "Non-Student Days" section.
-// Petaluma City Schools PDFs include bilingual (English + Spanish) versions of the
-// calendar. We scan only the English section:
-//   start: "Non-Student Days" header
-//   end:   "Grading Periods", "Semesters", "Trimesters", "CALENDARIO DE", or "Board Approved"
-// This range covers both the Non-Student Days and Teachers' Workdays boxes and
-// avoids false positives from grading-period end dates that appear later in the PDF.
+// Extract no-school dates and the student start date from PDF text.
+// Returns { noSchoolDates: string[], studentStart: string|null }
+//
+// No-school dates come from the "Non-Student Days" section (English only, stops
+// at Grading Periods / Semesters / CALENDARIO DE / Board Approved).
+// Student start date comes from the "Start date for Students" label + following date line.
 function extractNoSchoolDatesFromPdf(text) {
   const lines = text.split('\n');
   const dates = new Set();
+  let studentStart = null;
 
   const SECTION_START = /non-student days/i;
   const SECTION_END = /grading periods?|semesters?|trimesters?|calendario de|board approved/i;
+  const STUDENT_START_LABEL = /start date for students/i;
 
   let inSection = false;
 
   for (let i = 0; i < lines.length; i++) {
     const l = lines[i];
+
+    // Detect "Start date for Students" and grab the date from the next few lines
+    if (!studentStart && STUDENT_START_LABEL.test(l)) {
+      for (let j = i + 1; j < Math.min(i + 5, lines.length); j++) {
+        const parsed = parseDateLine(lines[j]);
+        if (parsed.length === 1) { studentStart = parsed[0]; break; }
+      }
+    }
+
     if (!inSection && SECTION_START.test(l)) { inSection = true; continue; }
     if (inSection && SECTION_END.test(l)) break;
     if (inSection) parseDateLine(l).forEach(d => dates.add(d));
   }
 
-  return [...dates];
+  return { noSchoolDates: [...dates], studentStart };
 }
 
 async function scrapeCalendarForSchool(schoolKey, config) {
@@ -242,13 +252,17 @@ async function scrapeCalendarForSchool(schoolKey, config) {
   }
 
   const noSchoolDates = new Set();
+  let schoolYearStart = null;
 
   for (const pdfUrl of pdfLinks.slice(0, 3)) {
     try {
       const dl = await axios.get(pdfUrl, { responseType: 'arraybuffer', timeout: 60000 });
       const parsed = await pdf(Buffer.from(dl.data));
-      extractNoSchoolDatesFromPdf(parsed.text).forEach(d => noSchoolDates.add(d));
-      console.log(`   ✅ Extracted ${noSchoolDates.size} no-school dates from PDF`);
+      const { noSchoolDates: extracted, studentStart } = extractNoSchoolDatesFromPdf(parsed.text);
+      extracted.forEach(d => noSchoolDates.add(d));
+      if (studentStart) schoolYearStart = studentStart;
+      console.log(`   ✅ Extracted ${noSchoolDates.size} no-school dates from PDF` +
+                  (studentStart ? ` (students start ${studentStart})` : ''));
       break; // one PDF is enough
     } catch (err) {
       console.warn(`   ⚠️  PDF parse failed: ${err.message}`);
@@ -273,6 +287,21 @@ async function scrapeCalendarForSchool(schoolKey, config) {
   }
 
   let overrides = 0;
+
+  // Mark weekdays before the student start date as No School (pre-year summer break)
+  if (schoolYearStart) {
+    for (const dateStr of Object.keys(schoolDays)) {
+      if (dateStr < schoolYearStart) {
+        const dow = new Date(dateStr + 'T12:00:00').getDay();
+        if (dow >= 1 && dow <= 5) {
+          schoolDays[dateStr].isSchoolDay = false;
+          schoolDays[dateStr].status = 'No School';
+          overrides++;
+        }
+      }
+    }
+  }
+
   for (const dateStr of noSchoolDates) {
     if (schoolDays[dateStr]) {
       const dow = new Date(dateStr + 'T12:00:00').getDay();

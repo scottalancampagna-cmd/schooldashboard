@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T20:33:28.713Z",
+  "lastUpdated": "2026-07-20T21:37:45.001Z",
   "calendars": {
     "kenilworth": {
       "label": "Middle School",
@@ -7,20 +7,20 @@
       "schoolDays": {
         "2026-07-01": {
           "date": "2026-07-01",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-02": {
           "date": "2026-07-02",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-03": {
           "date": "2026-07-03",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-04": {
@@ -37,32 +37,32 @@
         },
         "2026-07-06": {
           "date": "2026-07-06",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-07": {
           "date": "2026-07-07",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-08": {
           "date": "2026-07-08",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-09": {
           "date": "2026-07-09",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-10": {
           "date": "2026-07-10",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-11": {
@@ -79,32 +79,32 @@
         },
         "2026-07-13": {
           "date": "2026-07-13",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-14": {
           "date": "2026-07-14",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-15": {
           "date": "2026-07-15",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-16": {
           "date": "2026-07-16",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-17": {
           "date": "2026-07-17",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-18": {
@@ -121,32 +121,32 @@
         },
         "2026-07-20": {
           "date": "2026-07-20",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-21": {
           "date": "2026-07-21",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-22": {
           "date": "2026-07-22",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-23": {
           "date": "2026-07-23",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-24": {
           "date": "2026-07-24",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-25": {
@@ -163,32 +163,32 @@
         },
         "2026-07-27": {
           "date": "2026-07-27",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-28": {
           "date": "2026-07-28",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-29": {
           "date": "2026-07-29",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-30": {
           "date": "2026-07-30",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-31": {
           "date": "2026-07-31",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-08-01": {
@@ -205,26 +205,26 @@
         },
         "2026-08-03": {
           "date": "2026-08-03",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-08-04": {
           "date": "2026-08-04",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-08-05": {
           "date": "2026-08-05",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-08-06": {
           "date": "2026-08-06",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-08-07": {
@@ -2196,7 +2196,7 @@
           "events": []
         }
       },
-      "lastScraped": "2026-07-20T20:33:28.676Z",
+      "lastScraped": "2026-07-20T21:37:44.966Z",
       "noSchoolDatesFound": 40,
       "fallback": false
     },
@@ -2206,20 +2206,20 @@
       "schoolDays": {
         "2026-07-01": {
           "date": "2026-07-01",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-02": {
           "date": "2026-07-02",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-03": {
           "date": "2026-07-03",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-04": {
@@ -2236,32 +2236,32 @@
         },
         "2026-07-06": {
           "date": "2026-07-06",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-07": {
           "date": "2026-07-07",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-08": {
           "date": "2026-07-08",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-09": {
           "date": "2026-07-09",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-10": {
           "date": "2026-07-10",
-          "isSchoolDay": true,
-          "status": "School Day",
+          "isSchoolDay": false,
+          "status": "No School",
           "events": []
         },
         "2026-07-11": {
@@ -4395,7 +4395,7 @@
           "events": []
         }
       },
-      "lastScraped": "2026-07-20T20:33:28.713Z",
+      "lastScraped": "2026-07-20T21:37:45.001Z",
       "noSchoolDatesFound": 65,
       "fallback": false
     }
