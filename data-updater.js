@@ -22,6 +22,9 @@ const SCHOOLS = {
     label: 'Middle School',
     calendarUrl: 'https://petalumacityschools.org/kenilworth/our-school/calendars',
     calendarType: 'traditional',
+    calendarPdfUrls: [
+      'https://d3g27eodky9jlt.cloudfront.net/Calendar-2026-27-Traditional.pdf',
+    ],
     menus: {
       breakfast: 104745, // Kenilworth Junior High Breakfast 25/26
       lunch:     114014, // 2025-26 Kenilworth Jr. High Lunch
@@ -31,6 +34,9 @@ const SCHOOLS = {
     label: 'Elementary',
     calendarUrl: 'https://petalumacityschools.org/penngrove/our-school/calendars',
     calendarType: 'year-round',
+    calendarPdfUrls: [
+      'https://d3g27eodky9jlt.cloudfront.net/Calendar-2026-27-Year-Round.pdf',
+    ],
     menus: {
       breakfast: 122405, // Penngrove Elementary Breakfast 25/26
       lunch:     122404, // Penngrove Elementary Lunch 25/26
@@ -133,49 +139,75 @@ async function fetchMenusForSchool(schoolKey, config) {
 
 // ─── Calendar scraping ───────────────────────────────────────────────────────
 
-const MONTH_MAP = {
-  january:'01', jan:'01', february:'02', feb:'02', march:'03', mar:'03',
-  april:'04',   apr:'04', may:'05',       june:'06', jun:'06', july:'07',
-  jul:'07',     august:'08', aug:'08', september:'09', sep:'09', sept:'09',
-  october:'10', oct:'10', november:'11', nov:'11', december:'12', dec:'12',
+const MONTH_NUM = {
+  january:1, february:2, march:3, april:4, may:5, june:6, july:7,
+  august:8, september:9, october:10, november:11, december:12,
 };
+const MO = Object.keys(MONTH_NUM).join('|');
 
-const NO_SCHOOL_PATTERNS = [
-  /no\s+school/i, /school\s+closed/i, /schools?\s+not\s+in\s+session/i,
-  /holiday/i, /thanksgiving/i, /christmas/i, /new\s+year/i,
-  /martin\s+luther\s+king/i, /mlk\s+day/i, /presidents?\s*day/i,
-  /memorial\s+day/i, /labor\s+day/i, /veterans?\s+day/i, /independence\s+day/i,
-  /winter\s+break/i, /spring\s+break/i, /summer\s+break/i,
-  /thanksgiving\s+break/i, /holiday\s+break/i,
-  /professional\s+development/i, /prof\.?\s+dev\.?/i,
-  /teacher\s+workday/i, /staff\s+development/i, /inservice/i, /in[-\s]service/i,
-  /parent[- ]teacher\s+conference/i, /conferences/i,
-  /minimum\s+day/i, /early\s+release/i, /early\s+dismissal/i, /half\s+day/i,
-];
-
-function getMonthNum(name) {
-  return MONTH_MAP[name.toLowerCase().replace('.', '')] || null;
+function expandDateRange(y1, m1, d1, y2, m2, d2) {
+  const dates = [];
+  for (let d = new Date(y1, m1-1, d1), end = new Date(y2, m2-1, d2); d <= end; d.setDate(d.getDate()+1)) {
+    dates.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`);
+  }
+  return dates;
 }
 
-function extractDates(text) {
-  const dates = new Set();
-  const cur = new Date().getFullYear();
-  const next = cur + 1;
-
-  const re1 = /(?:january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\.?\s+(\d{1,2})(?:st|nd|rd|th)?\s*,?\s*(\d{4})?/gi;
+// Parse a single line and return [] or an array of YYYY-MM-DD dates.
+// Handles: "Month DD, YYYY"  "Month DD-DD, YYYY"  "Month DD - DD, YYYY"
+//          "Month DD - Month DD, YYYY"  "Month DD, YYYY - Month DD, YYYY"
+function parseDateLine(line) {
+  const t = line.trim();
   let m;
-  while ((m = re1.exec(text)) !== null) {
-    const mn = m[0].split(/\s+/)[0].toLowerCase().replace('.', '');
-    const mo = getMonthNum(mn);
-    if (!mo) continue;
-    const day = m[1].padStart(2, '0');
-    const yr = m[2] || (['aug','august','sep','sept','september','oct','october','nov','november','dec','december'].includes(mn) ? cur : next);
-    dates.add(`${yr}-${mo}-${day}`);
+
+  // Cross-month range: "Sep 21 - Oct 9, 2026" or "Dec 21, 2026 - Jan 4, 2027"
+  const reX = new RegExp(`^(${MO})\\s+(\\d{1,2})(?:,\\s*\\d{4})?\\s*[-–]\\s*(${MO})\\s+(\\d{1,2})(?:,\\s*(\\d{4}))?$`, 'i');
+  if ((m = t.match(reX))) {
+    const mo1 = MONTH_NUM[m[1].toLowerCase()], d1 = +m[2];
+    const mo2 = MONTH_NUM[m[3].toLowerCase()], d2 = +m[4];
+    const yr  = m[5] ? +m[5] : new Date().getFullYear() + (mo2 < 6 ? 1 : 0);
+    const yr1 = (mo2 < mo1) ? yr - 1 : yr;
+    return expandDateRange(yr1, mo1, d1, yr, mo2, d2);
   }
 
-  const re2 = /(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})/g;
-  while ((m = re2.exec(text)) !== null) {
-    dates.add(`${m[3]}-${m[1].padStart(2,'0')}-${m[2].padStart(2,'0')}`);
+  // Same-month range: "Nov 23 - 27, 2026" or "Feb 17-19, 2027"
+  const reS = new RegExp(`^(${MO})\\s+(\\d{1,2})\\s*[-–]\\s*(\\d{1,2}),?\\s*(\\d{4})$`, 'i');
+  if ((m = t.match(reS))) {
+    const mo = MONTH_NUM[m[1].toLowerCase()], yr = +m[4];
+    return expandDateRange(yr, mo, +m[2], yr, mo, +m[3]);
+  }
+
+  // Single date: "September 7, 2026"
+  const re1 = new RegExp(`^(${MO})\\s+(\\d{1,2})(?:st|nd|rd|th)?,?\\s*(\\d{4})$`, 'i');
+  if ((m = t.match(re1))) {
+    const mo = String(MONTH_NUM[m[1].toLowerCase()]).padStart(2,'0');
+    return [`${m[3]}-${mo}-${m[2].padStart(2,'0')}`];
+  }
+
+  return [];
+}
+
+// Extract all no-school dates from PDF text using the "Non-Student Days" section.
+// Petaluma City Schools PDFs include bilingual (English + Spanish) versions of the
+// calendar. We scan only the English section:
+//   start: "Non-Student Days" header
+//   end:   "Grading Periods", "Semesters", "Trimesters", "CALENDARIO DE", or "Board Approved"
+// This range covers both the Non-Student Days and Teachers' Workdays boxes and
+// avoids false positives from grading-period end dates that appear later in the PDF.
+function extractNoSchoolDatesFromPdf(text) {
+  const lines = text.split('\n');
+  const dates = new Set();
+
+  const SECTION_START = /non-student days/i;
+  const SECTION_END = /grading periods?|semesters?|trimesters?|calendario de|board approved/i;
+
+  let inSection = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    if (!inSection && SECTION_START.test(l)) { inSection = true; continue; }
+    if (inSection && SECTION_END.test(l)) break;
+    if (inSection) parseDateLine(l).forEach(d => dates.add(d));
   }
 
   return [...dates];
@@ -184,42 +216,40 @@ function extractDates(text) {
 async function scrapeCalendarForSchool(schoolKey, config) {
   console.log(`\n📅 Fetching calendar for ${config.label} (${schoolKey})...`);
 
-  const pdfEvents = [];
-  let pdfLinks = [];
+  // Prefer direct PDF URLs from config; fall back to scraping the school webpage
+  let pdfLinks = config.calendarPdfUrls ? [...config.calendarPdfUrls] : [];
 
-  try {
-    const resp = await axios.get(config.calendarUrl, {
-      timeout: 30000,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; school-dashboard/2.0)' },
-    });
-    const $ = cheerio.load(resp.data);
-    $('a').each((_, el) => {
-      const href = $(el).attr('href');
-      if (href && href.toLowerCase().includes('.pdf')) {
-        const url = href.startsWith('http') ? href : new URL(href, config.calendarUrl).href;
-        pdfLinks.push(url);
-      }
-    });
-    console.log(`   Found ${pdfLinks.length} PDF links`);
-  } catch (err) {
-    console.warn(`   ⚠️  Could not load calendar page: ${err.message}`);
+  if (pdfLinks.length === 0) {
+    try {
+      const resp = await axios.get(config.calendarUrl, {
+        timeout: 30000,
+        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; school-dashboard/2.0)' },
+      });
+      const $ = cheerio.load(resp.data);
+      $('a').each((_, el) => {
+        const href = $(el).attr('href');
+        if (href && href.toLowerCase().includes('.pdf')) {
+          const url = href.startsWith('http') ? href : new URL(href, config.calendarUrl).href;
+          pdfLinks.push(url);
+        }
+      });
+      console.log(`   Found ${pdfLinks.length} PDF links on page`);
+    } catch (err) {
+      console.warn(`   ⚠️  Could not load calendar page: ${err.message}`);
+    }
+  } else {
+    console.log(`   Using ${pdfLinks.length} direct PDF URL(s)`);
   }
+
+  const noSchoolDates = new Set();
 
   for (const pdfUrl of pdfLinks.slice(0, 3)) {
     try {
       const dl = await axios.get(pdfUrl, { responseType: 'arraybuffer', timeout: 60000 });
       const parsed = await pdf(Buffer.from(dl.data));
-      const lines = parsed.text.split('\n');
-
-      for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-        if (line.length < 3) continue;
-        if (NO_SCHOOL_PATTERNS.some(p => p.test(line))) {
-          const ctx = [lines[i-2]||'', lines[i-1]||'', line, lines[i+1]||'', lines[i+2]||''].join(' ');
-          extractDates(ctx).forEach(date => pdfEvents.push({ date, title: line, isNoSchool: true }));
-        }
-      }
-      if (pdfEvents.length > 10) break;
+      extractNoSchoolDatesFromPdf(parsed.text).forEach(d => noSchoolDates.add(d));
+      console.log(`   ✅ Extracted ${noSchoolDates.size} no-school dates from PDF`);
+      break; // one PDF is enough
     } catch (err) {
       console.warn(`   ⚠️  PDF parse failed: ${err.message}`);
     }
@@ -243,26 +273,25 @@ async function scrapeCalendarForSchool(schoolKey, config) {
   }
 
   let overrides = 0;
-  for (const ev of pdfEvents) {
-    if (ev.date && schoolDays[ev.date]) {
-      const dow = new Date(ev.date + 'T12:00:00').getDay();
+  for (const dateStr of noSchoolDates) {
+    if (schoolDays[dateStr]) {
+      const dow = new Date(dateStr + 'T12:00:00').getDay();
       if (dow >= 1 && dow <= 5) {
-        schoolDays[ev.date].isSchoolDay = false;
-        schoolDays[ev.date].status = ev.title.replace(/^\d+\s+/, '').trim();
-        schoolDays[ev.date].events.push(ev);
+        schoolDays[dateStr].isSchoolDay = false;
+        schoolDays[dateStr].status = 'No School';
         overrides++;
       }
     }
   }
 
-  console.log(`   ${overrides} no-school overrides applied from PDF`);
+  console.log(`   ${overrides} no-school weekday overrides applied`);
 
   return {
     label: config.label,
     calendarType: config.calendarType,
     schoolDays,
     lastScraped: new Date().toISOString(),
-    pdfEventsFound: pdfEvents.length,
+    noSchoolDatesFound: noSchoolDates.size,
     fallback: pdfLinks.length === 0,
   };
 }

@@ -652,6 +652,9 @@
             PETALUMA_COORDS: { lat: 38.2324, lon: -122.6367 },
             SCHOOL_DATA_URL: './school-data.json',
             MENU_DATA_URL:   './menu-data.json',
+            // Set this to your GoatCounter site code after signing up at goatcounter.com
+            // e.g. if your URL is https://campagna-school.goatcounter.com, set 'campagna-school'
+            GOATCOUNTER_SITE: '',
         };
 
         let selectedDate   = new Date();
@@ -672,17 +675,27 @@
                 ).join('');
         }
 
-        // ── Hit counter (cross-browser via Upstash Redis) ────────────
+        // ── Hit counter (cross-browser via GoatCounter) ──────────────
         async function initHitCounter() {
-            try {
-                const data = await (await fetch('/api/hits')).json();
-                if (data.count != null) {
-                    const n = Math.min(data.count, 9999999);
+            const site = CONFIG.GOATCOUNTER_SITE;
+            if (site) {
+                // Inject GoatCounter tracking script (auto-counts this page load)
+                const s = document.createElement('script');
+                s.setAttribute('data-goatcounter', `https://${site}.goatcounter.com/count`);
+                s.async = true;
+                s.src = '//gc.zgo.at/count.js';
+                document.head.appendChild(s);
+
+                // Display total visit count from GoatCounter's public counter API
+                try {
+                    const r = await fetch(`https://${site}.goatcounter.com/counter//.json`);
+                    const { count } = await r.json();
+                    const n = Math.min(parseInt(count) || 0, 9999999);
                     document.getElementById('hitCounter').textContent = String(n).padStart(7, '0');
                     return;
-                }
-            } catch (e) { /* fall through */ }
-            // Fallback: local session count if server counter isn't configured
+                } catch (e) { /* fall through to local */ }
+            }
+            // Fallback: localStorage counter until GoatCounter is configured
             let n = (parseInt(localStorage.getItem('kc_hits') || '0') + 1);
             if (n > 9999999) n = 1;
             localStorage.setItem('kc_hits', n);
