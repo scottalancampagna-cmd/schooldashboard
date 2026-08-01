@@ -1,121 +1,10 @@
 {
-  "lastUpdated": "2026-07-31T15:53:36.353Z",
+  "lastUpdated": "2026-08-01T14:51:05.813Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
-      "menus": {
-        "2026-06-01": {
-          "breakfast": [
-            "Assorted Cereals",
-            "Bacon Croissant Breakfast Sandwich",
-            "Cinnamon Crumb Cake Loaf",
-            "Chocolate Chip Muffin",
-            "Assorted Juice Box, 4.23 fl oz",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Nectarine, size 56-64"
-          ],
-          "lunch": [
-            "Spicy Chicken Burger",
-            "Cheese & Green Chili Tamale with Rice",
-            "Salami Protein Box",
-            "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami & Pepper Jack Sandwich",
-            "BBQ Pork Rib Sandwich",
-            "Beef Hot Dog with Whole Grain Bun",
-            "Baby Carrots",
-            "Cucumber Slices",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cup",
-            "Fresh Nectarine, size 56-64"
-          ]
-        },
-        "2026-06-02": {
-          "breakfast": [
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Assorted Cereals",
-            "Blueberry Bread Slice",
-            "Maple Flavored Waffles",
-            "Assorted Juice Box, 4.23 fl oz",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cup"
-          ],
-          "lunch": [
-            "Cheese Burger (KJHS)",
-            "Chicken & Rice Burrito (KJHS)",
-            "Kolt Corn Dog",
-            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
-            "Baby Carrots",
-            "Potato Wedges",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cup",
-            "Fresh Nectarine, size 56-64"
-          ]
-        },
-        "2026-06-03": {
-          "breakfast": [
-            "Bacon Croissant Breakfast Sandwich",
-            "Assorted Cereals",
-            "Blueberry Bread Slice",
-            "Maple Flavored Waffles",
-            "Assorted Juice Box, 4.23 fl oz",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Pretzel Goldfish"
-          ],
-          "lunch": [
-            "Orange Chicken & Brown Rice HS",
-            "Kolt Chipotle Chicken Sandwich",
-            "Galaxy Pepperoni Pizza",
-            "Cheese & Green Chili Tamale with Rice",
-            "Baby Carrots",
-            "Edamame",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Nectarine, size 56-64",
-            "Cheddar Goldfish Crackers"
-          ]
-        },
-        "2026-06-04": {
-          "breakfast": [
-            "Assorted Cereals",
-            "Blueberry Crumb Cake Loaf",
-            "Assorted Juice Box, 4.23 fl oz",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Goldfish Crackers"
-          ],
-          "lunch": [
-            "Ham & Cheese Sandwich",
-            "Baby Carrots",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Fresh Nectarine, size 56-64",
-            "Kiwi"
-          ]
-        },
-        "2026-06-05": {
-          "breakfast": [
-            "Assorted Cereals",
-            "Cinnamon Swirl",
-            "Assorted Juice Box, 4.23 fl oz",
-            "Fresh Apples",
-            "Unsweetened Applesauce Cup",
-            "Goldfish Crackers"
-          ],
-          "lunch": [
-            "Deli Turkey Sandwich",
-            "Baby Carrots",
-            "Edamame",
-            "Unsweetened Applesauce Cup",
-            "Fresh Apples",
-            "Kiwi",
-            "Fresh Nectarine, size 56-64",
-            "Cheddar Goldfish Crackers"
-          ]
-        }
-      },
-      "lastFetched": "2026-07-31T15:53:35.994Z"
+      "menus": {},
+      "lastFetched": "2026-08-01T14:51:05.022Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -294,7 +183,7 @@
           ]
         }
       },
-      "lastFetched": "2026-07-31T15:53:36.353Z"
+      "lastFetched": "2026-08-01T14:51:05.813Z"
     }
   }
 }
