@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-03T16:13:29.658Z",
+  "lastUpdated": "2026-08-04T16:05:54.055Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
       "menus": {},
-      "lastFetched": "2026-08-03T16:13:28.944Z"
+      "lastFetched": "2026-08-04T16:05:53.195Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -181,9 +181,136 @@
             "Salad Bar",
             "Fresh Oranges"
           ]
+        },
+        "2026-08-03": {
+          "breakfast": [
+            "Egg & Cheese English Muffin Sandwich",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Chicken Enchilada Empanada",
+            "Bean and Cheese Chimi Nada",
+            "Salad Bar",
+            "Fresh Apples",
+            "Tortilla Chips"
+          ]
+        },
+        "2026-08-04": {
+          "breakfast": [
+            "Vanilla Liege Waffle",
+            "Fresh Apples",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Chicken Drumstick",
+            "Plant-Based Kickin' Tenders",
+            "Salad Bar",
+            "Fresh Oranges",
+            "Whole-Grain Artisan Roll"
+          ]
+        },
+        "2026-08-05": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Chicken Taquitos",
+            "Bean Taquitos",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Bananas"
+          ]
+        },
+        "2026-08-06": {
+          "breakfast": [
+            "Orange Blossom Muffin Top",
+            "Fresh Banana",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Pesto Pasta",
+            "Pesto Pasta with Chicken",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-08-07": {
+          "breakfast": [
+            "Vanilla Yogurt and Granola",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Pepperoni Pizza Calzone",
+            "Cheese Pizza Calzone",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
+        },
+        "2026-08-10": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-08-11": {
+          "breakfast": [
+            "Lemon Breakfast Bread",
+            "Fresh Oranges",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Chicken, Cheese & Rice Burrito",
+            "Bean & Cheese Burrito",
+            "Salad Bar",
+            "Fresh Oranges",
+            "Tortilla Chips"
+          ]
+        },
+        "2026-08-12": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Cheeseburger",
+            "Plant-Based Burger w/ Cheese",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Bananas",
+            "Pretzel Goldfish"
+          ]
+        },
+        "2026-08-13": {
+          "breakfast": [
+            "Vanilla Concha",
+            "Fresh Banana",
+            "Unsweetened Raisins"
+          ],
+          "lunch": [
+            "Sweet & Sour Chicken and Rice",
+            "Plant-Based Sweet & Sour Chicken with Rice",
+            "Salad Bar",
+            "Fresh Apples"
+          ]
+        },
+        "2026-08-14": {
+          "breakfast": [
+            "Apple Empanada",
+            "Fresh Apples",
+            "Unsweetened Applesauce Cups"
+          ],
+          "lunch": [
+            "Pepperoni French Bread Pizza",
+            "Cheese French Bread Pizza",
+            "Salad Bar",
+            "Fresh Oranges"
+          ]
         }
       },
-      "lastFetched": "2026-08-03T16:13:29.658Z"
+      "lastFetched": "2026-08-04T16:05:54.055Z"
     }
   }
 }
