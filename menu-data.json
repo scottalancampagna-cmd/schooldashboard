@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-07T14:44:11.132Z",
+  "lastUpdated": "2026-08-08T14:22:06.425Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
       "menus": {},
-      "lastFetched": "2026-08-07T14:44:10.380Z"
+      "lastFetched": "2026-08-08T14:22:05.623Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -98,7 +98,7 @@
           ],
           "lunch": [
             "Teriyaki Chicken & Rice",
-            "Plant-Based Sweet & Sour Chik'n with Rice",
+            "Plant-Based Teriyaki Chik'n with Rice",
             "Salad Bar",
             "Fresh Apples"
           ]
@@ -310,7 +310,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-07T14:44:11.132Z"
+      "lastFetched": "2026-08-08T14:22:06.425Z"
     }
   }
 }
