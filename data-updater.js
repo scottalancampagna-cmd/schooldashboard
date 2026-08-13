@@ -26,8 +26,8 @@ const SCHOOLS = {
       'https://d3g27eodky9jlt.cloudfront.net/Calendar-2026-27-Traditional.pdf',
     ],
     menus: {
-      breakfast: 104745, // Kenilworth Junior High Breakfast 25/26
-      lunch:     114014, // 2025-26 Kenilworth Jr. High Lunch
+      breakfast: 132274, // Kenilworth Junior High Breakfast 26/27
+      lunch:     132273, // Kenilworth Jr. High Lunch 26/27
     },
   },
   penngrove: {
