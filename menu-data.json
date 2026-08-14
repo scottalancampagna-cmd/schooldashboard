@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T14:49:11.129Z",
+  "lastUpdated": "2026-08-14T14:43:18.312Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -48,11 +48,11 @@
             "Assorted Cereal, 2 oz",
             "Chocolate Muffin",
             "Bacon Croissant Breakfast Sandwich",
-            "French Toast Sticks",
+            "Sausage & Egg Tornado",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
             "Sunbutter Cup"
           ],
           "lunch": [
@@ -64,8 +64,8 @@
             "Turkey Protein Box with Hard-boiled Egg",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
-            "Kidney Beans",
             "Jicama Sticks",
+            "Hummus Cup",
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
             "Fresh Nectarines",
@@ -466,7 +466,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-13T14:49:10.292Z"
+      "lastFetched": "2026-08-14T14:43:17.517Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -772,7 +772,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-13T14:49:11.129Z"
+      "lastFetched": "2026-08-14T14:43:18.312Z"
     }
   }
 }
