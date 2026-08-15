@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T14:43:18.312Z",
+  "lastUpdated": "2026-08-15T14:11:46.525Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -182,10 +182,10 @@
           ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
-            "Kolt Chow Mien",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Cheddar Sandwich",
             "Ham Protein Box",
+            "Macaroni & Cheese",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
             "Jicama Sticks",
@@ -212,12 +212,12 @@
             "String Cheese"
           ],
           "lunch": [
-            "Orange Chicken & Rice",
             "Beef Hot Dog with Whole Grain Bun",
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
+            "Teriyaki Chicken & Rice",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
             "Jicama Sticks",
@@ -348,6 +348,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Spicy Chicken Wrap",
+            "Turkey Protein Box",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Sliced Fresh Point",
@@ -381,7 +382,7 @@
             "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
-            "Salami Protein Box",
+            "Ham Protein Box",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Sliced Fresh Point",
@@ -414,9 +415,9 @@
             "Kolt Corn Dog",
             "Spicy Chicken Burger",
             "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami & Pepper Jack Sandwich",
             "Salami Protein Box",
             "Chicken Caesar Wrap",
+            "Tuna Sandwich",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Sliced Fresh Point",
@@ -451,7 +452,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Salami Protein Box",
-            "Chicken Caesar Wrap",
+            "Turkey & Salami Wrap",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Sliced Fresh Point",
@@ -466,7 +467,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-14T14:43:17.517Z"
+      "lastFetched": "2026-08-15T14:11:45.744Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -772,7 +773,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-14T14:43:18.312Z"
+      "lastFetched": "2026-08-15T14:11:46.525Z"
     }
   }
 }
