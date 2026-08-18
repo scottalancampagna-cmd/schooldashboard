@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T14:16:50.948Z",
+  "lastUpdated": "2026-08-18T14:21:47.215Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -110,7 +110,7 @@
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
             "Assorted Cereal, 2 oz",
             "Cinnamon Crumble",
-            "Lemon Breakfast Bread",
+            "Blueberry Bread Slice",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
@@ -172,8 +172,8 @@
           "breakfast": [
             "Cinnamon Roll w/ Icing",
             "Assorted Cereal, 2 oz",
-            "Bacon Egg Cheese Breakfast Muffin",
             "Banana Bread Slice",
+            "Sausage & Egg Tornado",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
@@ -467,7 +467,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-17T14:16:50.384Z"
+      "lastFetched": "2026-08-18T14:21:46.496Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -773,7 +773,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-17T14:16:50.947Z"
+      "lastFetched": "2026-08-18T14:21:47.215Z"
     }
   }
 }
