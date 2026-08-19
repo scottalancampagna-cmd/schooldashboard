@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T14:21:47.215Z",
+  "lastUpdated": "2026-08-19T14:22:20.774Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -143,7 +143,7 @@
             "Assorted Cereal, 2 oz",
             "Bacon Egg Cheese Breakfast Muffin",
             "Sausage Breakfast Burrito",
-            "brownie",
+            "Concha, Assorted",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
@@ -163,7 +163,7 @@
             "Fresh Apples",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
-            "Fresh Watermelon Chunks",
+            "Fresh Plum, purple, red, or black",
             "Whole-Grain Artisan Roll",
             "String Cheese"
           ]
@@ -467,7 +467,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-18T14:21:46.496Z"
+      "lastFetched": "2026-08-19T14:22:20.215Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -773,7 +773,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-18T14:21:47.215Z"
+      "lastFetched": "2026-08-19T14:22:20.774Z"
     }
   }
 }
