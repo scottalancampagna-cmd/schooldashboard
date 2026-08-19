@@ -38,8 +38,8 @@ const SCHOOLS = {
       'https://d3g27eodky9jlt.cloudfront.net/Calendar-2026-27-Year-Round.pdf',
     ],
     menus: {
-      breakfast: 122405, // Penngrove Elementary Breakfast 25/26
-      lunch:     122404, // Penngrove Elementary Lunch 25/26
+      breakfast: 129804, // Penngrove Elementary Breakfast 26/27
+      lunch:     129786, // Penngrove Elementary Lunch 26/27
     },
   },
 };
