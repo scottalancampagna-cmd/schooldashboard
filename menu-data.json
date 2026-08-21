@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T14:24:29.884Z",
+  "lastUpdated": "2026-08-21T14:23:41.926Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -217,7 +217,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
-            "Teriyaki Chicken & Rice",
+            "Orange Chicken & Brown Rice HS",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
             "Jicama Sticks",
@@ -266,8 +266,8 @@
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
             "Assorted Cereal, 2 oz",
             "Chocolate Muffin",
-            "French Toast Breakfast Bar",
-            "Mini Cinnis",
+            "Breakfast Bar Banana Chocolate Chunk",
+            "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -301,8 +301,8 @@
             "Yogurt Parfait, Blueberry",
             "Sausage Breakfast Burrito",
             "Assorted Cereal, 2 oz",
-            "Banana Chocolate Breakfast Bar",
             "Lemon Breakfast Bread",
+            "WG Cinnamon Raisin Bagel",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -368,7 +368,7 @@
             "Assorted Cereal, 2 oz",
             "Blueberry Crumble",
             "brownie",
-            "Potato Hash Brown Patty with Sausage",
+            "Mini Eggo Pancakes, Confetti",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -402,7 +402,7 @@
             "Assorted Cereal, 2 oz",
             "Concha, Assorted",
             "French Toast Sticks",
-            "Egg Bake Bites with Sausage and Cheese",
+            "Sausage & Egg Tornado",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -417,7 +417,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Chicken Caesar Wrap",
-            "Tuna Sandwich",
+            "Deli Turkey Sandwich",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Sliced Fresh Point",
@@ -467,7 +467,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-20T14:24:29.210Z"
+      "lastFetched": "2026-08-21T14:23:41.453Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -665,7 +665,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-20T14:24:29.884Z"
+      "lastFetched": "2026-08-21T14:23:41.926Z"
     }
   }
 }
