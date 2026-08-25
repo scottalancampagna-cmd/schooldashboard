@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T14:31:21.745Z",
+  "lastUpdated": "2026-08-25T14:33:41.247Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -290,8 +290,8 @@
             "Hummus Cup",
             "FEED Special - Sonoma County Apples",
             "FEED Sonoma Seasonal Special - Grapes",
-            "Mandarin Oranges",
             "Unsweetened Applesauce Cup",
+            "Fresh Watermelon Chunks",
             "Whole-Grain Artisan Roll",
             "String Cheese"
           ]
@@ -897,7 +897,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-24T14:31:21.174Z"
+      "lastFetched": "2026-08-25T14:33:40.458Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1095,7 +1095,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-24T14:31:21.745Z"
+      "lastFetched": "2026-08-25T14:33:41.246Z"
     }
   }
 }
