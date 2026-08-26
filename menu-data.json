@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T14:33:41.247Z",
+  "lastUpdated": "2026-08-26T14:33:42.251Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -306,7 +306,7 @@
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "String Cheese"
           ],
           "lunch": [
@@ -324,7 +324,7 @@
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
             "FEED Sonoma Seasonal Special - Grapes",
-            "Mandarin Oranges",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "String Cheese"
           ]
@@ -897,7 +897,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-25T14:33:40.458Z"
+      "lastFetched": "2026-08-26T14:33:41.460Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1095,7 +1095,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-25T14:33:41.246Z"
+      "lastFetched": "2026-08-26T14:33:42.251Z"
     }
   }
 }
