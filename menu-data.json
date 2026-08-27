@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T14:33:42.251Z",
+  "lastUpdated": "2026-08-27T23:20:46.174Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -338,7 +338,7 @@
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -357,7 +357,7 @@
             "Unsweetened Applesauce Cup",
             "FEED Sonoma Seasonal Special - Grapes",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "String Cheese"
           ]
@@ -372,7 +372,7 @@
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -384,14 +384,13 @@
             "Salami & Pepper Jack Sandwich",
             "Ham Protein Box",
             "Baby Carrots",
-            "Celery Sticks",
             "Cucumber Sliced Fresh Point",
             "Jicama Sticks",
             "Hummus Cup",
             "Unsweetened Applesauce Cup",
             "FEED Sonoma Seasonal Special - Grapes",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "String Cheese"
           ]
@@ -452,7 +451,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Salami Protein Box",
-            "Turkey & Salami Wrap",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Sliced Fresh Point",
@@ -849,8 +848,8 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Salami Protein Box",
-            "Beef & Cheese Chimichanga",
             "Teriyaki Slam Dunker Sandwich",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
             "Hummus Cup",
@@ -897,7 +896,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-26T14:33:41.460Z"
+      "lastFetched": "2026-08-27T23:20:45.407Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1095,7 +1094,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-26T14:33:42.251Z"
+      "lastFetched": "2026-08-27T23:20:46.174Z"
     }
   }
 }
