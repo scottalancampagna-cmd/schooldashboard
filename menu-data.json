@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T23:20:46.174Z",
+  "lastUpdated": "2026-08-28T23:16:34.641Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -271,7 +271,7 @@
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -418,25 +418,24 @@
             "Chicken Caesar Wrap",
             "Deli Turkey Sandwich",
             "Baby Carrots",
-            "Celery Sticks",
             "Cucumber Sliced Fresh Point",
             "Jicama Sticks",
             "Hummus Cup",
             "Unsweetened Applesauce Cup",
             "FEED Sonoma Seasonal Special - Grapes",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "String Cheese"
           ]
         },
         "2026-08-31": {
           "breakfast": [
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
             "Assorted Cereal, 2 oz",
-            "Cinnamon Crumble",
             "Banana Bread Slice",
             "Breakfast Bar Banana Chocolate Chunk",
+            "Chocolate Muffin",
+            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -896,7 +895,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-27T23:20:45.407Z"
+      "lastFetched": "2026-08-28T23:16:33.923Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1094,7 +1093,7 @@
           ]
         }
       },
-      "lastFetched": "2026-08-27T23:20:46.174Z"
+      "lastFetched": "2026-08-28T23:16:34.640Z"
     }
   }
 }
