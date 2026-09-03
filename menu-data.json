@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T17:29:38.250Z",
+  "lastUpdated": "2026-09-03T17:22:32.326Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -522,7 +522,7 @@
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
-            "Fresh Watermelon Chunks",
+            "Farm to School Pluot",
             "Whole-Grain Artisan Roll",
             "String Cheese",
             "Original Hummus Cup"
@@ -530,11 +530,11 @@
         },
         "2026-09-03": {
           "breakfast": [
-            "Blueberry Crumble",
             "Strawberry Cream Cheese Mini Bagels",
             "Assorted Cereal, 2 oz",
             "Lemon Breakfast Bread",
             "Bacon Egg Cheese Breakfast Muffin",
+            "brownie",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -549,8 +549,8 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Pepper Jack Sandwich",
             "Turkey Protein Box with Hard-boiled Egg",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
-            "Celery Sticks",
             "Cucumber Slices",
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
@@ -1160,7 +1160,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-02T17:29:37.922Z"
+      "lastFetched": "2026-09-03T17:22:31.788Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1747,7 +1747,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-02T17:29:38.250Z"
+      "lastFetched": "2026-09-03T17:22:32.326Z"
     }
   }
 }
