@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T17:22:32.326Z",
+  "lastUpdated": "2026-09-04T17:15:20.012Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -567,11 +567,12 @@
             "French Toast Sticks",
             "Assorted Cereal, 2 oz",
             "Bacon Croissant Breakfast Sandwich",
-            "Mini Eggo Pancakes, Confetti",
+            "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
+            "Farm to School Pluot",
             "String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -1160,7 +1161,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-03T17:22:31.788Z"
+      "lastFetched": "2026-09-04T17:15:19.548Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1747,7 +1748,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-03T17:22:32.326Z"
+      "lastFetched": "2026-09-04T17:15:20.012Z"
     }
   }
 }
