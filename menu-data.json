@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T17:15:20.012Z",
+  "lastUpdated": "2026-09-05T16:22:25.692Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -578,24 +578,21 @@
           ],
           "lunch": [
             "Kolt Corn Dog",
-            "Pepperoni French Bread Pizza",
             "Spicy Chicken Burger",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
             "Salami Protein Box",
+            "Cheese French Bread Pizza",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Slices",
-            "Jicama Sticks",
             "Hummus Cup",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Fresh Watermelon Chunks",
             "Whole-Grain Artisan Roll",
-            "String Cheese",
-            "Original Hummus Cup",
-            "Honey Roasted Sunflower Kernels"
+            "String Cheese"
           ]
         },
         "2026-09-07": {
@@ -1161,7 +1158,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-04T17:15:19.548Z"
+      "lastFetched": "2026-09-05T16:22:24.943Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1748,7 +1745,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-04T17:15:20.012Z"
+      "lastFetched": "2026-09-05T16:22:25.692Z"
     }
   }
 }
