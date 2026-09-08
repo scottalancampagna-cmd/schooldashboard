@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:28:20.692Z",
+  "lastUpdated": "2026-09-08T17:39:16.838Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -623,9 +623,7 @@
             "Celery Sticks",
             "Cucumber Slices",
             "Baby Carrots",
-            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Farm to School Watermelon - CA Grown",
             "Dinner Roll, WG",
@@ -1158,7 +1156,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-07T18:28:20.143Z"
+      "lastFetched": "2026-09-08T17:39:16.365Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1745,7 +1743,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-07T18:28:20.692Z"
+      "lastFetched": "2026-09-08T17:39:16.838Z"
     }
   }
 }
