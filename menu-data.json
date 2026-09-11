@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T17:23:13.132Z",
+  "lastUpdated": "2026-09-11T17:24:44.917Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -670,6 +670,7 @@
             "Mini Eggo Pancakes, Confetti",
             "Assorted Cereal, 2 oz",
             "Cinnamon Cream Cheese Mini Bagels",
+            "Banana Bread Slice",
             "Assorted Juice Box",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
@@ -684,15 +685,15 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Ham Protein Box",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Slices",
             "Celery Sticks",
-            "Jicama Sticks",
             "Hummus Cup",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
-            "Farm to School Watermelon - CA Grown",
+            "Farm to School Pluot",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -1155,7 +1156,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-10T17:23:12.457Z"
+      "lastFetched": "2026-09-11T17:24:44.517Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1742,7 +1743,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-10T17:23:13.132Z"
+      "lastFetched": "2026-09-11T17:24:44.917Z"
     }
   }
 }
