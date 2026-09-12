@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T17:24:44.917Z",
+  "lastUpdated": "2026-09-12T16:36:46.096Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -704,7 +704,8 @@
             "Assorted Cereal, 2 oz",
             "Whole Wheat Bagel with Cream Cheese",
             "Bacon Croissant Breakfast Sandwich",
-            "Lemon Bread Slice",
+            "Mini Cinnis",
+            "Blueberry Crumble",
             "Assorted Juice Box",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
@@ -719,14 +720,15 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
             "Salami Protein Box",
+            "Chicken Caesar Wrap",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Slices",
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
-            "Farm to School Watermelon - CA Grown",
             "FEED Special - Sonoma County Apples",
+            "Farm to School Plums",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -760,8 +762,8 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Mandarin Oranges",
-            "Fresh Nectarine, size 56-64",
             "FEED Special - Sonoma County Apples",
+            "FEED Special - Bosc Pear",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -795,7 +797,7 @@
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
             "Mixed Berries cup frozen",
-            "Fresh Nectarine, size 56-64",
+            "FEED Special - Bosc Pear",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -826,8 +828,8 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Frozen Mixed Berry Cup",
+            "FEED Special - Bosc Pear",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -859,8 +861,8 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Frozen Mixed Berry Cup",
+            "FEED Special - Bosc Pear",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -895,7 +897,7 @@
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
             "Frozen Mixed Berry Cup",
-            "Fresh Nectarine, size 56-64",
+            "FEED Special - Bosc Pear",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -1156,7 +1158,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-11T17:24:44.517Z"
+      "lastFetched": "2026-09-12T16:36:45.584Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1743,7 +1745,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-11T17:24:44.917Z"
+      "lastFetched": "2026-09-12T16:36:46.096Z"
     }
   }
 }
