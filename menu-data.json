@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T17:07:53.450Z",
+  "lastUpdated": "2026-09-14T18:56:35.968Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1049,10 +1049,10 @@
           "lunch": [
             "Kolt Corn Dog",
             "Spicy Chicken Burger",
-            "Pepperoni Pizza Calzone",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Sandwich",
             "Salami Protein Box",
+            "Cheese French Bread Pizza",
             "Baby Carrots",
             "Corn Niblets",
             "Cucumber Slices",
@@ -1158,7 +1158,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-13T17:07:53.100Z"
+      "lastFetched": "2026-09-14T18:56:35.363Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1429,14 +1429,14 @@
             "Breaded Chicken Burger",
             "Rebellyous Kickin' Sandwich (Plant-based)",
             "Salad Bar",
-            "Fresh Nectarine, size 56-64",
+            "Fresh Peach",
             "Fresh Pears"
           ]
         },
         "2026-09-29": {
           "breakfast": [
             "Egg & Cheese English Muffin Sandwich",
-            "Fresh Nectarine, size 56-64",
+            "Fresh Peach",
             "Fresh Pears"
           ],
           "lunch": [
@@ -1498,7 +1498,8 @@
             "Hamburger",
             "Vegan Burger",
             "Salad Bar",
-            "Fresh Apples"
+            "Fresh Apples",
+            "Fresh Oranges"
           ]
         },
         "2026-10-06": {
@@ -1511,7 +1512,8 @@
             "Chicken Drumstick & Waffle",
             "Kickin' Tenders and Waffle",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Pears"
           ]
         },
         "2026-10-07": {
@@ -1525,7 +1527,8 @@
             "Black Bean & Cheese Empanada",
             "Baby Carrots",
             "Corn Niblets",
-            "Fresh Bananas"
+            "Fresh Apples",
+            "Fresh Oranges"
           ]
         },
         "2026-10-08": {
@@ -1538,7 +1541,8 @@
             "Teriyaki Chicken & Rice",
             "Plant-Based Teriyaki Chik'n with Rice",
             "Salad Bar",
-            "Fresh Apples"
+            "Fresh Bananas",
+            "Fresh Pears"
           ]
         },
         "2026-10-09": {
@@ -1550,7 +1554,8 @@
           "lunch": [
             "Garlic Cheese French Bread",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Apples"
           ]
         },
         "2026-10-12": {
@@ -1559,7 +1564,7 @@
         },
         "2026-10-13": {
           "breakfast": [
-            "Maple Belgian Waffle",
+            "Vanilla Liege Waffle",
             "Fresh Apples",
             "Unsweetened Raisins"
           ],
@@ -1568,6 +1573,7 @@
             "Vegan BBQ Burger",
             "Salad Bar",
             "Fresh Oranges",
+            "Fresh Apples",
             "Pretzel Goldfish"
           ]
         },
@@ -1583,7 +1589,8 @@
             "Baby Carrots",
             "Corn Niblets",
             "Mild Salsa",
-            "Fresh Bananas"
+            "Fresh Apples",
+            "Fresh Pears"
           ]
         },
         "2026-10-15": {
@@ -1596,12 +1603,13 @@
             "Pesto Pasta with Chicken",
             "Pesto Pasta",
             "Salad Bar",
-            "Fresh Apples"
+            "Fresh Bananas",
+            "Fresh Oranges"
           ]
         },
         "2026-10-16": {
           "breakfast": [
-            "Strawberry Yogurt & Granola",
+            "Vanilla Yogurt and Granola",
             "Fresh Apples",
             "Unsweetened Applesauce Cups"
           ],
@@ -1609,7 +1617,8 @@
             "Pepperoni Pizza Calzone",
             "Cheese Pizza Calzone",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Pears"
           ]
         },
         "2026-10-19": {
@@ -1622,7 +1631,8 @@
             "Cheeseburger",
             "Plant-Based Burger w/ Cheese",
             "Salad Bar",
-            "Fresh Apples"
+            "Fresh Apples",
+            "Fresh Oranges"
           ]
         },
         "2026-10-20": {
@@ -1635,7 +1645,8 @@
             "Chicken Parmesan Sandwich",
             "Rebellyous Kickin' Parmesan Sandwich (Plant-based)",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Pears"
           ]
         },
         "2026-10-21": {
@@ -1649,7 +1660,8 @@
             "Chicken Tamale",
             "Baby Carrots",
             "Corn Niblets",
-            "Fresh Bananas"
+            "Fresh Apples",
+            "Fresh Oranges"
           ]
         },
         "2026-10-22": {
@@ -1662,7 +1674,8 @@
             "Sweet & Sour Chicken and Rice",
             "Plant-Based Sweet & Sour Chik'n with Rice",
             "Salad Bar",
-            "Fresh Apples"
+            "Fresh Bananas",
+            "Fresh Pears"
           ]
         },
         "2026-10-23": {
@@ -1675,12 +1688,13 @@
             "Pepperoni French Bread Pizza",
             "Cheese French Bread Pizza",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Apples"
           ]
         },
         "2026-10-26": {
           "breakfast": [
-            "Vanilla Liege Waffle",
+            "Maple Liege Waffle",
             "Fresh Oranges",
             "Unsweetened Applesauce Cups"
           ],
@@ -1689,6 +1703,7 @@
             "Plant-Based Kickin' Tenders",
             "Salad Bar",
             "Fresh Apples",
+            "Fresh Oranges",
             "Whole-Grain Artisan Roll"
           ]
         },
@@ -1702,7 +1717,8 @@
             "Turkey Taco Nachos",
             "Nachos with Beans",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Pears"
           ]
         },
         "2026-10-28": {
@@ -1716,7 +1732,8 @@
             "Cheese Quesadilla",
             "Baby Carrots",
             "Corn Niblets",
-            "Fresh Bananas"
+            "Fresh Apples",
+            "Fresh Oranges"
           ]
         },
         "2026-10-29": {
@@ -1729,6 +1746,7 @@
             "Pasta with Meat Sauce",
             "Pasta with Marinara Sauce",
             "Salad Bar",
+            "Fresh Bananas",
             "Fresh Apples"
           ]
         },
@@ -1741,11 +1759,12 @@
           "lunch": [
             "Cheese Breadsticks",
             "Salad Bar",
-            "Fresh Oranges"
+            "Fresh Oranges",
+            "Fresh Pears"
           ]
         }
       },
-      "lastFetched": "2026-09-13T17:07:53.449Z"
+      "lastFetched": "2026-09-14T18:56:35.968Z"
     }
   }
 }
