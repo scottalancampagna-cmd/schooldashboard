@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T18:56:35.968Z",
+  "lastUpdated": "2026-09-15T17:49:07.473Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -737,9 +737,9 @@
           "breakfast": [
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
             "Assorted Cereal, 2 oz",
-            "Blueberry Crumble",
             "Chocolate Muffin",
             "Vanilla Liege Waffle",
+            "Concha, Assorted",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
@@ -761,9 +761,8 @@
             "Hummus Cup",
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
-            "Mandarin Oranges",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear",
+            "Farm to School Plums",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -793,11 +792,10 @@
             "Celery Sticks",
             "Cucumber Slices",
             "Hummus Cup",
-            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Mixed Berries cup frozen",
             "FEED Special - Bosc Pear",
+            "Farm to School Plums",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -1156,9 +1154,422 @@
             "Unsweetened Applesauce Cups",
             "Artisan Dinner Roll"
           ]
+        },
+        "2026-10-01": {
+          "lunch": [
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Chicken Alfredo Pasta",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey & Salami Pepper Jack Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Sliced Fresh Point",
+            "Hummus Cup",
+            "Jicama Sticks",
+            "Fresh Apples",
+            "Fresh Oranges",
+            "Unsweetened Applesauce Cups",
+            "Fresh Peach",
+            "Artisan Dinner Roll"
+          ]
+        },
+        "2026-10-02": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese French Bread Pizza",
+            "Kolt Corn Dog",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Ham Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Cucumber Sliced Fresh Point",
+            "Hummus Cup",
+            "Jicama Sticks",
+            "Fresh Apples",
+            "Farm to School Navel Oranges",
+            "Unsweetened Applesauce Cups",
+            "Fresh Peach",
+            "Artisan Dinner Roll",
+            "String Cheese"
+          ]
+        },
+        "2026-10-05": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale with Rice",
+            "Kolt Chipotle Chicken Sandwich",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Salami Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Oranges",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-06": {
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "Chicken Tenders & Tater Tots",
+            "Bean & Cheese Burrito",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Oranges",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-07": {
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "Kolt Chow Mien",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey Ham & Cheese Sandwich",
+            "Ham Protein Box",
+            "Baby Carrots",
+            "Jicama Sticks",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Oranges",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-08": {
+          "lunch": [
+            "Chicken Teriyaki & Rice",
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Jicama Sticks",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Oranges",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-09": {
+          "lunch": [
+            "Kolt Corn Dog",
+            "Cheese French Bread Pizza",
+            "Spicy Chicken Burger",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Tuna Sandwich",
+            "Tuna Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Jicama Sticks",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Oranges",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-12": {
+          "lunch": []
+        },
+        "2026-10-13": {
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "Smacker Chicken with Tater tots",
+            "Chicken & Rice Burrito (KJHS)",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Peaches",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-14": {
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "Popcorn Chicken Bowl",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Ham Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Peaches",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-15": {
+          "lunch": [
+            "Chicken Pesto Pasta KJHS",
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Farm to School Peaches",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-16": {
+          "lunch": [
+            "Kolt Corn Dog",
+            "Spicy Chicken Burger",
+            "Cheese French Bread Pizza",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Tuna Sandwich",
+            "Tuna Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Farm to School Peaches",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-19": {
+          "lunch": [
+            "Cheese & Green Chili Tamale with Rice",
+            "Spicy Chicken Burger",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Salami Protein Box",
+            "Spicy Chicken Wrap",
+            "Chicken Drumstick with Potato Wedge (KJHS)",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese",
+            "Original Hummus Cup"
+          ]
+        },
+        "2026-10-20": {
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "Smacker Chicken with Tater tots",
+            "Bean and Cheese Burrito",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey & Salami Pepper Jack Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-21": {
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Salami Protein Box",
+            "Meatball Sub",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-22": {
+          "lunch": [
+            "Orange Chicken & Brown Rice HS",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Beef Hot Dog with Whole Grain Bun",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami Sandwich",
+            "Ham Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-23": {
+          "lunch": [
+            "Kolt Corn Dog",
+            "Cheese French Bread Pizza",
+            "Spicy Chicken Burger",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Salami Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
+            "Dinner Roll, WG",
+            "String Cheese"
+          ]
+        },
+        "2026-10-26": {
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale with Rice",
+            "Kolt Chipotle Chicken Sandwich",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Salami Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Hummus Cup",
+            "Fresh Bananas",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-27": {
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "WG Chicken Nuggets",
+            "Chicken & Rice Burrito (KJHS)",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Hummus Cup",
+            "Fresh Bananas",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-28": {
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "KFC Bowl",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey & Salami Pepper Jack Sandwich",
+            "Ham Protein Box",
+            "Spicy Chicken Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Hummus Cup",
+            "Fresh Bananas",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-29": {
+          "lunch": [
+            "Spaghetti with Meat Sauce",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Beef Hot Dog with Whole Grain Bun",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Hummus Cup",
+            "Fresh Bananas",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-10-30": {
+          "lunch": [
+            "Kolt Corn Dog",
+            "Cheese French Bread Pizza",
+            "Spicy Chicken Burger",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Turkey Protein Box",
+            "Chicken Caesar Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Celery Sticks",
+            "Hummus Cup",
+            "Fresh Bananas",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
         }
       },
-      "lastFetched": "2026-09-14T18:56:35.363Z"
+      "lastFetched": "2026-09-15T17:49:07.015Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1569,8 +1980,8 @@
             "Unsweetened Raisins"
           ],
           "lunch": [
-            "BBQ Pulled Pork Sandwich",
-            "Vegan BBQ Burger",
+            "Meatball Sub",
+            "Meatless Meatball Sub",
             "Salad Bar",
             "Fresh Oranges",
             "Fresh Apples",
@@ -1764,7 +2175,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-14T18:56:35.968Z"
+      "lastFetched": "2026-09-15T17:49:07.473Z"
     }
   }
 }
