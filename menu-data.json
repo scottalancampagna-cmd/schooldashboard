@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:48:32.387Z",
+  "lastUpdated": "2026-09-16T17:49:49.947Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -807,9 +807,9 @@
             "Assorted Cereal, 2 oz",
             "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
+            "Farm to School Plums",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -819,6 +819,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Pepper Jack Sandwich",
             "Salami Protein Box",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
             "Celery Sticks",
             "Cucumber Slices",
@@ -826,8 +827,8 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Frozen Mixed Berry Cup",
-            "FEED Special - Bosc Pear",
+            "Farm to School Plums",
+            "Fresh Watermelon Chunks",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -1569,7 +1570,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-15T18:48:31.941Z"
+      "lastFetched": "2026-09-16T17:49:49.181Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1798,14 +1799,14 @@
             "Chicken, Cheese & Rice Burrito",
             "Jicama Sticks",
             "Corn Niblets",
-            "Fresh Apples",
+            "FEED Special - Sonoma County Apples",
             "Fresh Pears"
           ]
         },
         "2026-09-24": {
           "breakfast": [
             "Banana Bread Slice",
-            "Fresh Apples",
+            "FEED Special - Sonoma County Apples",
             "Fresh Pears"
           ],
           "lunch": [
@@ -2175,7 +2176,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-15T18:48:32.387Z"
+      "lastFetched": "2026-09-16T17:49:49.947Z"
     }
   }
 }
