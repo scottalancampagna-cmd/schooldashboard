@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:49:49.947Z",
+  "lastUpdated": "2026-09-17T17:50:26.373Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -367,7 +367,7 @@
             "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereal, 2 oz",
             "Blueberry Crumble",
-            "brownie",
+            "Whole Grain Brownie Fudge",
             "Mini Eggo Pancakes, Confetti",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
@@ -534,7 +534,7 @@
             "Assorted Cereal, 2 oz",
             "Lemon Breakfast Bread",
             "Bacon Egg Cheese Breakfast Muffin",
-            "brownie",
+            "Whole Grain Brownie Fudge",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
@@ -773,7 +773,7 @@
             "Assorted Cereal, 2 oz",
             "Mini Cinnis",
             "Yogurt Parfait, Strawberry",
-            "brownie",
+            "Whole Grain Brownie Fudge",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
@@ -839,10 +839,11 @@
             "Assorted Cereal, 2 oz",
             "French Toast BeneFIT Bar",
             "Lemon Bread Slice",
+            "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
+            "Fresh Plum, purple, red, or black",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -860,8 +861,8 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Frozen Mixed Berry Cup",
-            "FEED Special - Bosc Pear",
+            "Fresh Plum, purple, red, or black",
+            "Fresh Watermelon Chunks",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -871,7 +872,7 @@
             "Sausage & Egg Tornado",
             "Whole Wheat Bagel with Cream Cheese",
             "Assorted Cereal, 2 oz",
-            "brownie",
+            "Whole Grain Brownie Fudge",
             "Concha, Assorted",
             "Assorted Juice Box",
             "Fresh Bananas",
@@ -903,11 +904,11 @@
         },
         "2026-09-21": {
           "breakfast": [
-            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
             "Assorted Cereal, 2 oz",
-            "Lemon Bread Slice",
             "Blueberry Belgian Waffle",
-            "French Toast Breakfast Bar",
+            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
+            "Banana Bread Slice",
+            "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
@@ -1052,9 +1053,10 @@
             "Salami Sandwich",
             "Salami Protein Box",
             "Cheese French Bread Pizza",
+            "Cheese Pizza Calzone",
             "Baby Carrots",
-            "Corn Niblets",
             "Cucumber Slices",
+            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
             "Peaches in 100% Fruit Juice",
@@ -1570,7 +1572,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-16T17:49:49.181Z"
+      "lastFetched": "2026-09-17T17:50:25.609Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2068,8 +2070,8 @@
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
-            "Cheese & Green Chile Tamale",
-            "Chicken Tamale",
+            "Cheese Quesadilla",
+            "Chicken and Cheese Quesadilla",
             "Baby Carrots",
             "Corn Niblets",
             "Fresh Apples",
@@ -2097,8 +2099,8 @@
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
-            "Pepperoni French Bread Pizza",
-            "Cheese French Bread Pizza",
+            "Cheese Pizza Wedge",
+            "Pepperoni Pizza Wedge",
             "Salad Bar",
             "Fresh Oranges",
             "Fresh Apples"
@@ -2129,6 +2131,7 @@
             "Turkey Taco Nachos",
             "Nachos with Beans",
             "Salad Bar",
+            "Mild Salsa",
             "Fresh Oranges",
             "Fresh Pears"
           ]
@@ -2140,8 +2143,8 @@
             "Unsweetened Applesauce Cups"
           ],
           "lunch": [
-            "Chicken and Cheese Quesadilla",
-            "Cheese Quesadilla",
+            "Bean & Cheese Burrito",
+            "Chicken, Cheese & Rice Burrito",
             "Baby Carrots",
             "Corn Niblets",
             "Fresh Apples",
@@ -2176,7 +2179,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-16T17:49:49.947Z"
+      "lastFetched": "2026-09-17T17:50:26.373Z"
     }
   }
 }
