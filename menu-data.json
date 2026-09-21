@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:06:32.843Z",
+  "lastUpdated": "2026-09-21T18:57:54.985Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1827,7 +1827,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-20T17:06:32.504Z"
+      "lastFetched": "2026-09-21T18:57:54.104Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2167,14 +2167,14 @@
             "Cheeseburger",
             "Plant-Based Burger w/ Cheese",
             "Salad Bar",
-            "Orange Wedges",
+            "Kiwi",
             "Fresh Apples"
           ]
         },
         "2026-10-06": {
           "breakfast": [
             "Egg & Cheese Breakfast Taco",
-            "Orange Wedges",
+            "Kiwi",
             "Fresh Apples"
           ],
           "lunch": [
@@ -2435,7 +2435,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-20T17:06:32.843Z"
+      "lastFetched": "2026-09-21T18:57:54.985Z"
     }
   }
 }
