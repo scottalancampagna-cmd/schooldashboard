@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T18:57:54.985Z",
+  "lastUpdated": "2026-09-22T17:49:17.134Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -908,11 +908,12 @@
             "Blueberry Belgian Waffle",
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
             "Banana Bread Slice",
-            "Strawberry Cream Cheese Mini Bagels",
+            "Concha, Assorted",
+            "Whole Grain Brownie Fudge",
             "Assorted Juice Box",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -925,12 +926,13 @@
             "Salami Protein Box",
             "Chicken Caesar Wrap",
             "Baby Carrots",
-            "Corn Niblets",
             "Cucumber Slices",
+            "Celery Sticks",
+            "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "Fresh Bananas",
-            "Peaches in 100% Fruit Juice",
+            "FEED Special - Bosc Pear",
+            "Mandarin Oranges",
             "Whole-Grain Artisan Roll",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -944,9 +946,9 @@
             "Chocolate Muffin",
             "Mini Eggo Pancakes, Confetti",
             "Assorted Juice Box",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
+            "FEED Special - Bosc Pear",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -958,12 +960,12 @@
             "Turkey & Salami Pepper Jack Sandwich",
             "Ham Protein Box",
             "Baby Carrots",
-            "Corn Niblets",
             "Cucumber Slices",
+            "Jicama Sticks",
+            "Celery Sticks",
             "Unsweetened Applesauce Cup",
-            "Fresh Bananas",
-            "Peaches in 100% Fruit Juice",
             "FEED Special - Sonoma County Apples",
+            "FEED Special - Bosc Pear",
             "Whole-Grain Artisan Roll",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -974,7 +976,7 @@
             "Cinnamon Roll w/ Icing",
             "Assorted Cereal, 2 oz",
             "Bacon Egg Cheese Breakfast Muffin",
-            "Banana Bread Slice",
+            "crescent filled chocolate",
             "Assorted Juice Box",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
@@ -1381,9 +1383,10 @@
         "2026-10-13": {
           "breakfast": [
             "Breakfast Burrito (KJHS)",
-            "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereal, 2 oz",
             "Strawberry Cream Cheese Mini Bagels",
+            "Yogurt Parfait, Blueberry",
+            "Lemon Breakfast Bread",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
@@ -1443,9 +1446,9 @@
         "2026-10-15": {
           "breakfast": [
             "Sausage & Egg Tornado",
-            "Blueberry Crumble",
             "Chocolate Muffin",
             "Assorted Cereal, 2 oz",
+            "Cinnamon Crumble",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Mandarin Oranges",
@@ -1506,10 +1509,10 @@
         "2026-10-19": {
           "breakfast": [
             "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Banana Bread Slice",
             "Assorted Cereal, 2 oz",
             "Mini Eggo Pancakes, Confetti",
             "Whole Grain Brownie Fudge",
+            "Blueberry Bread Slice",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
@@ -1827,7 +1830,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-21T18:57:54.104Z"
+      "lastFetched": "2026-09-22T17:49:16.294Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2127,15 +2130,15 @@
             "Birria and Cheese Pupusa",
             "Baby Carrots",
             "Corn Niblets",
-            "Fresh Apples",
-            "Fresh Pears"
+            "FEED Special - Sonoma County Apples",
+            "FEED Special - Bosc Pear"
           ]
         },
         "2026-10-01": {
           "breakfast": [
             "Mantecada Muffin",
-            "Fresh Apples",
-            "Fresh Pears"
+            "FEED Special - Sonoma County Apples",
+            "FEED Special - Bosc Pear"
           ],
           "lunch": [
             "Cheese Lasagna",
@@ -2435,7 +2438,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-21T18:57:54.985Z"
+      "lastFetched": "2026-09-22T17:49:17.134Z"
     }
   }
 }
