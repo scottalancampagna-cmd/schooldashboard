@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T17:49:17.134Z",
+  "lastUpdated": "2026-09-23T18:03:02.337Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -977,6 +977,7 @@
             "Assorted Cereal, 2 oz",
             "Bacon Egg Cheese Breakfast Muffin",
             "crescent filled chocolate",
+            "Breakfast Burrito (KJHS)",
             "Assorted Juice Box",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
@@ -990,13 +991,13 @@
             "Salami & Pepper Jack Sandwich",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Protein Box",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
-            "Corn Niblets",
             "Cucumber Slices",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
-            "Peaches in 100% Fruit Juice",
             "FEED Special - Sonoma County Apples",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -1707,9 +1708,10 @@
         "2026-10-27": {
           "breakfast": [
             "Yogurt Parfait, Blueberry",
-            "Bacon Egg Cheese Breakfast Muffin",
             "Assorted Cereal, 2 oz",
             "crescent filled chocolate",
+            "Breakfast Burrito (KJHS)",
+            "Cinnamon Crumb Cake Loaf",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Fresh Nectarine, size 56-64",
@@ -1803,6 +1805,7 @@
             "Concha, Assorted",
             "Assorted Cereal, 2 oz",
             "Lemon Breakfast Bread",
+            "French Toast Sticks",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
@@ -1830,7 +1833,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-22T17:49:16.294Z"
+      "lastFetched": "2026-09-23T18:03:01.858Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2438,7 +2441,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-22T17:49:17.134Z"
+      "lastFetched": "2026-09-23T18:03:02.337Z"
     }
   }
 }
