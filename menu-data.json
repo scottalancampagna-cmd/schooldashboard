@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T18:03:02.337Z",
+  "lastUpdated": "2026-09-24T18:02:38.155Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1007,9 +1007,10 @@
           "breakfast": [
             "Sausage Croissant Breakfast Sandwich",
             "Assorted Cereal, 2 oz",
-            "Mini Cinnis",
             "French Toast Sticks",
             "Banana Chocolate Breakfast Bar",
+            "crescent filled chocolate",
+            "Mini Cinnis",
             "Assorted Juice Box",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
@@ -1025,12 +1026,11 @@
             "Ham & Cheese Sandwich",
             "Salami Protein Box",
             "Baby Carrots",
-            "Corn Niblets",
             "Cucumber Slices",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
-            "Peaches in 100% Fruit Juice",
             "FEED Special - Sonoma County Apples",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -1833,7 +1833,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-23T18:03:01.858Z"
+      "lastFetched": "2026-09-24T18:02:37.661Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2441,7 +2441,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-23T18:03:02.337Z"
+      "lastFetched": "2026-09-24T18:02:38.155Z"
     }
   }
 }
