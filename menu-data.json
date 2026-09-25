@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T18:02:38.155Z",
+  "lastUpdated": "2026-09-25T18:08:00.108Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1053,17 +1053,16 @@
             "Kolt Corn Dog",
             "Spicy Chicken Burger",
             "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami Sandwich",
             "Salami Protein Box",
             "Cheese French Bread Pizza",
-            "Cheese Pizza Calzone",
+            "Ham & Cheese Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "Fresh Bananas",
-            "Peaches in 100% Fruit Juice",
             "FEED Special - Sonoma County Apples",
+            "Kiwi",
             "Whole-Grain Artisan Roll",
             "String Cheese",
             "Original Hummus Cup"
@@ -1431,7 +1430,6 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Ham Protein Box",
-            "Spicy Chicken Wrap",
             "Chicken and Rice Burrito Bowl",
             "Baby Carrots",
             "Cucumber Slices",
@@ -1496,6 +1494,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
             "Ham Protein Box",
+            "Turkey Cheddar Wrap",
             "Baby Carrots",
             "Cucumber Slices",
             "Hummus Cup",
@@ -1689,11 +1688,11 @@
           "lunch": [
             "Spicy Chicken Burger",
             "Cheese & Green Chili Tamale with Rice",
-            "Kolt Chipotle Chicken Sandwich",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Salami Protein Box",
             "Spicy Chicken Wrap",
+            "BBQ Chicken Pull Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Celery Sticks",
@@ -1833,7 +1832,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-24T18:02:37.661Z"
+      "lastFetched": "2026-09-25T18:07:59.586Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2441,7 +2440,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-24T18:02:38.155Z"
+      "lastFetched": "2026-09-25T18:08:00.108Z"
     }
   }
 }
