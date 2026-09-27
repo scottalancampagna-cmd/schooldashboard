@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T17:27:45.465Z",
+  "lastUpdated": "2026-09-27T17:58:36.559Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1836,7 +1836,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-26T17:27:44.697Z"
+      "lastFetched": "2026-09-27T17:58:35.818Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2444,7 +2444,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-26T17:27:45.465Z"
+      "lastFetched": "2026-09-27T17:58:36.559Z"
     }
   }
 }
