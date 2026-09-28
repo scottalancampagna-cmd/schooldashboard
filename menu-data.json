@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T17:58:36.559Z",
+  "lastUpdated": "2026-09-28T20:18:24.182Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1074,8 +1074,8 @@
             "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
             "Assorted Cereal, 2 oz",
             "Strawberry Cream Cheese Mini Bagels",
-            "Blueberry Bread Slice",
             "French Toast BeneFIT Bar",
+            "Blueberry Muffin, Whole Grain",
             "Assorted Juice Box",
             "FEED Special - Asian Pear from Earthseed Farm",
             "FEED Special - Sonoma County Apples",
@@ -1097,7 +1097,8 @@
             "Jicama Sticks",
             "Fresh Apples",
             "Unsweetened Applesauce Cups",
-            "Fresh Oranges",
+            "FEED Special - Bosc Pear",
+            "Kiwi",
             "Artisan Dinner Roll"
           ]
         },
@@ -1836,7 +1837,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-27T17:58:35.818Z"
+      "lastFetched": "2026-09-28T20:18:23.402Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2137,7 +2138,7 @@
             "Baby Carrots",
             "Corn Niblets",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear"
+            "Fresh Pears"
           ]
         },
         "2026-10-01": {
@@ -2162,7 +2163,7 @@
           "lunch": [
             "Cheese Breadsticks",
             "Salad Bar",
-            "Fresh Apples",
+            "FEED Special - Sonoma County Apples",
             "Fresh Pears"
           ]
         },
@@ -2336,7 +2337,6 @@
           ],
           "lunch": [
             "Cheese Quesadilla",
-            "Chicken and Cheese Quesadilla",
             "Celery Sticks",
             "Corn Niblets",
             "Hummus Cup",
@@ -2444,7 +2444,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-27T17:58:36.559Z"
+      "lastFetched": "2026-09-28T20:18:24.182Z"
     }
   }
 }
