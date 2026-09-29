@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T20:18:24.182Z",
+  "lastUpdated": "2026-09-29T18:58:37.772Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1837,7 +1837,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-28T20:18:23.402Z"
+      "lastFetched": "2026-09-29T18:58:36.994Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2203,7 +2203,7 @@
           ],
           "lunch": [
             "Chicken Enchilada Empanada",
-            "Black Bean & Cheese Empanada",
+            "Bean and Cheese Empanada",
             "Baby Carrots",
             "Corn Niblets",
             "Fresh Bananas",
@@ -2252,7 +2252,7 @@
             "Meatball Sub",
             "Meatless Meatball Sub",
             "Salad Bar",
-            "Orange Wedges",
+            "Fresh Pears",
             "Fresh Apples",
             "Pretzel Goldfish"
           ]
@@ -2260,7 +2260,7 @@
         "2026-10-14": {
           "breakfast": [
             "Assorted Cereal, 2 oz",
-            "Orange Wedges",
+            "Fresh Pears",
             "Fresh Apples"
           ],
           "lunch": [
@@ -2444,7 +2444,7 @@
           ]
         }
       },
-      "lastFetched": "2026-09-28T20:18:24.182Z"
+      "lastFetched": "2026-09-29T18:58:37.772Z"
     }
   }
 }
