@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T19:07:36.366Z",
+  "lastUpdated": "2026-10-02T18:47:25.474Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -756,17 +756,16 @@
             "Cheese French Bread Pizza",
             "Kolt Corn Dog",
             "Chicken Caesar Salad w/ Dinner Roll",
-            "Salami & Pepper Jack Sandwich",
             "Ham Protein Box",
             "Spicy Chicken Wrap",
+            "Turkey Ham & Cheese Sandwich",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
             "Hummus Cup",
             "Jicama Sticks",
-            "Fresh Apples",
-            "Farm to School Navel Oranges",
             "Unsweetened Applesauce Cups",
-            "Fresh Peach",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
             "Artisan Dinner Roll",
             "String Cheese"
           ]
@@ -1390,7 +1389,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-01T19:07:35.618Z"
+      "lastFetched": "2026-10-02T18:47:24.673Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1755,8 +1754,7 @@
             "FEED Special - Bosc Pear"
           ],
           "lunch": [
-            "Chicken Enchilada Empanada",
-            "Bean and Cheese Empanada",
+            "Garlic Cheese French Bread",
             "Baby Carrots",
             "Corn Niblets",
             "Fresh Bananas",
@@ -1784,7 +1782,8 @@
             "Fresh Pears"
           ],
           "lunch": [
-            "Garlic Cheese French Bread",
+            "Chicken Enchilada Empanada",
+            "Bean and Cheese Empanada",
             "Salad Bar",
             "Orange Wedges",
             "Fresh Apples"
@@ -1997,7 +1996,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-01T19:07:36.366Z"
+      "lastFetched": "2026-10-02T18:47:25.474Z"
     }
   }
 }
