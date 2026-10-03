@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T18:47:25.474Z",
+  "lastUpdated": "2026-10-03T17:40:40.367Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1389,7 +1389,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-02T18:47:24.673Z"
+      "lastFetched": "2026-10-03T17:40:39.770Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1783,7 +1783,7 @@
           ],
           "lunch": [
             "Chicken Enchilada Empanada",
-            "Bean and Cheese Empanada",
+            "Black Bean & Cheese Empanada",
             "Salad Bar",
             "Orange Wedges",
             "Fresh Apples"
@@ -1996,7 +1996,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-02T18:47:25.474Z"
+      "lastFetched": "2026-10-03T17:40:40.367Z"
     }
   }
 }
