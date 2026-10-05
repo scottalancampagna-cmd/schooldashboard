@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T17:54:30.896Z",
+  "lastUpdated": "2026-10-05T21:21:59.476Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -335,7 +335,7 @@
             "Hummus Cup",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Farm to School Plums",
             "Dinner Roll, WG",
             "String Cheese"
@@ -437,7 +437,7 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Fresh Plum, purple, red, or black",
             "Dinner Roll, WG",
             "String Cheese"
@@ -454,7 +454,7 @@
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -472,7 +472,7 @@
             "Jicama Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Mandarin Oranges",
             "Whole-Grain Artisan Roll",
             "Mozzarella String Cheese",
@@ -489,7 +489,7 @@
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -506,7 +506,7 @@
             "Celery Sticks",
             "Unsweetened Applesauce Cup",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Whole-Grain Artisan Roll",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -638,7 +638,7 @@
             "Jicama Sticks",
             "Fresh Apples",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Kiwi",
             "Artisan Dinner Roll"
           ]
@@ -700,7 +700,7 @@
             "Jicama Sticks",
             "Fresh Apples",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Kiwi",
             "Artisan Dinner Roll"
           ]
@@ -797,8 +797,8 @@
             "Jicama Sticks",
             "Hummus Cup",
             "FEED Special - Sonoma County Apples",
-            "Farm to School Oranges",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1092,7 +1092,7 @@
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Dinner Roll, WG",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -1126,7 +1126,7 @@
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1157,7 +1157,7 @@
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1190,7 +1190,7 @@
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1224,7 +1224,7 @@
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "FEED Special - Bosc Pear",
+            "FEED Special - Locally Grown Pears",
             "Dinner Roll, WG",
             "String Cheese"
           ]
@@ -1389,7 +1389,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-04T17:54:30.294Z"
+      "lastFetched": "2026-10-05T21:21:58.883Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1432,7 +1432,7 @@
           "lunch": [
             "Pesto Pasta with Chicken",
             "Pesto Pasta",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "FEED Special - Sonoma County Apples"
           ]
         },
@@ -1489,7 +1489,7 @@
           "lunch": [
             "Sweet & Sour Chicken and Rice",
             "Plant-Based Sweet & Sour Chik'n with Rice",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Bananas"
           ]
         },
@@ -1517,7 +1517,7 @@
           "lunch": [
             "Chicken Drumstick",
             "Plant-Based Kickin' Tenders",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Peach",
             "Fresh Apples",
             "Whole-Grain Artisan Roll"
@@ -1534,7 +1534,7 @@
             "Nachos with Beans",
             "Salad Bar",
             "Fresh Oranges",
-            "FEED Special - Bosc Pear"
+            "FEED Special - Locally Grown Pears"
           ]
         },
         "2026-09-16": {
@@ -1561,7 +1561,7 @@
           "lunch": [
             "Pasta with Meat Sauce",
             "Pasta with Marinara Sauce",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Bananas",
             "Fresh Pears"
           ]
@@ -1588,7 +1588,7 @@
           "lunch": [
             "Cheeseburger",
             "Plant-Based Burger w/ Cheese",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Plum, purple, red, or black",
             "Fresh Pears (Varietal)"
           ]
@@ -1631,7 +1631,7 @@
           "lunch": [
             "Orange Chicken & Rice",
             "Plant-Based Sweet & Sour Chik'n with Rice",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Bananas",
             "Fresh Oranges"
           ]
@@ -1659,7 +1659,7 @@
           "lunch": [
             "Breaded Chicken Burger",
             "Rebellyous Kickin' Sandwich (Plant-based)",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Peach",
             "Fresh Pears"
           ]
@@ -1697,13 +1697,13 @@
           "breakfast": [
             "Mantecada Muffin",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Bosc Pear"
+            "FEED Special - Locally Grown Pears"
           ],
           "lunch": [
             "Cheese Lasagna",
-            "Salad Bar",
+            "Salad Bar with Kidney Beans",
             "Fresh Bananas",
-            "Orange Wedges"
+            "Fresh Orange Wedges"
           ]
         },
         "2026-10-02": {
@@ -1742,16 +1742,16 @@
           "lunch": [
             "Chicken Drumstick & Waffle",
             "Kickin' Tenders and Waffle",
-            "Salad Bar",
-            "Orange Wedges",
-            "FEED Special - Bosc Pear"
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
+            "FEED Special - Locally Grown Pears"
           ]
         },
         "2026-10-07": {
           "breakfast": [
             "Assorted Cereal, 2 oz",
-            "Orange Wedges",
-            "FEED Special - Bosc Pear"
+            "Fresh Orange Wedges",
+            "FEED Special - Locally Grown Pears"
           ],
           "lunch": [
             "Garlic Cheese French Bread",
@@ -1770,22 +1770,22 @@
           "lunch": [
             "Teriyaki Chicken & Rice",
             "Plant-Based Teriyaki Chik'n with Rice",
-            "Salad Bar",
-            "Orange Wedges",
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
             "Fresh Pears"
           ]
         },
         "2026-10-09": {
           "breakfast": [
             "Apple Empanada",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "Fresh Pears"
           ],
           "lunch": [
             "Chicken Enchilada Empanada",
             "Black Bean & Cheese Empanada",
-            "Salad Bar",
-            "Orange Wedges",
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
             "Fresh Apples"
           ]
         },
@@ -1796,7 +1796,7 @@
         "2026-10-13": {
           "breakfast": [
             "Vanilla Liege Waffle",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "Fresh Apples",
             "Mozzarella String Cheese"
           ],
@@ -1805,8 +1805,7 @@
             "Meatless Meatball Sub",
             "Salad Bar",
             "Fresh Pears",
-            "Fresh Apples",
-            "Pretzel Goldfish"
+            "Fresh Apples"
           ]
         },
         "2026-10-14": {
@@ -1834,58 +1833,58 @@
           "lunch": [
             "Pesto Pasta with Chicken",
             "Pesto Pasta",
-            "Salad Bar",
-            "Orange Wedges",
+            "Salad Bar with Pinto Beans",
+            "Fresh Orange Wedges",
             "FEED Special - Sonoma County Apples"
           ]
         },
         "2026-10-16": {
           "breakfast": [
             "Pumpkin Bread Slice",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "FEED Special - Sonoma County Apples"
           ],
           "lunch": [
             "Pepperoni Pizza Calzone",
             "Cheese Pizza Calzone",
-            "Salad Bar",
-            "Orange Wedges",
+            "Salad Bar with Pinto Beans",
+            "Fresh Orange Wedges",
             "Fresh Pears"
           ]
         },
         "2026-10-19": {
           "breakfast": [
             "Pancakes",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "Fresh Pears"
           ],
           "lunch": [
             "Hamburger",
             "Vegan Burger",
-            "Salad Bar",
-            "Fresh Grapes (with stem)",
-            "Fresh Apples"
+            "Salad Bar with Kidney Beans",
+            "Kiwi",
+            "FEED Special - Sonoma County Apples"
           ]
         },
         "2026-10-20": {
           "breakfast": [
             "Whole Wheat Bagel",
-            "Fresh Grapes (with stem)",
+            "Kiwi",
             "Fresh Apples"
           ],
           "lunch": [
             "Chicken Parmesan Sandwich",
             "Rebellyous Kickin' Parmesan Sandwich (Plant-based)",
-            "Salad Bar",
-            "Orange Wedges",
-            "FEED Special - Bosc Pear"
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
+            "FEED Special - Locally Grown Pears"
           ]
         },
         "2026-10-21": {
           "breakfast": [
             "Assorted Cereal, 2 oz",
-            "Orange Wedges",
-            "FEED Special - Bosc Pear"
+            "Fresh Orange Wedges",
+            "FEED Special - Locally Grown Pears"
           ],
           "lunch": [
             "Cheese Quesadilla",
@@ -1905,22 +1904,21 @@
           "lunch": [
             "Sweet & Sour Chicken and Rice",
             "Plant-Based Sweet & Sour Chik'n with Rice",
-            "Salad Bar",
-            "Orange Wedges",
-            "Fresh Pears"
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
+            "FEED Special - Locally Grown Pears"
           ]
         },
         "2026-10-23": {
           "breakfast": [
             "Ham and Swiss Cheese Croissant",
-            "Orange Wedges",
-            "Fresh Pears"
+            "Fresh Orange Wedges",
+            "FEED Special - Locally Grown Pears"
           ],
           "lunch": [
             "Cheese Pizza Wedge",
-            "Salad Bar",
-            "Fresh Apples",
-            "Diced Frozen Peach Cup"
+            "Salad Bar with Kidney Beans",
+            "FEED Special - Sonoma County Apples"
           ]
         },
         "2026-10-26": {
@@ -1934,7 +1932,7 @@
             "Plant-Based Kickin' Tenders",
             "Salad Bar",
             "Fresh Apples",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "Whole-Grain Artisan Roll"
           ]
         },
@@ -1942,21 +1940,21 @@
           "breakfast": [
             "Egg & Cheese English Muffin Sandwich",
             "Fresh Apples",
-            "Orange Wedges"
+            "Fresh Orange Wedges"
           ],
           "lunch": [
             "Turkey Taco Nachos",
             "Nachos with Beans",
             "Salad Bar",
             "Mild Salsa",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "FEED Special - Asian Pear from Earthseed Farm"
           ]
         },
         "2026-10-28": {
           "breakfast": [
             "Assorted Cereal, 2 oz",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "FEED Sonoma Seasonal Special - Asian Pears"
           ],
           "lunch": [
@@ -1991,12 +1989,12 @@
           "lunch": [
             "Cheese Breadsticks",
             "Salad Bar",
-            "Orange Wedges",
+            "Fresh Orange Wedges",
             "Fresh Pears"
           ]
         }
       },
-      "lastFetched": "2026-10-04T17:54:30.896Z"
+      "lastFetched": "2026-10-05T21:21:59.476Z"
     }
   }
 }
