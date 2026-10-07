@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T19:12:44.304Z",
+  "lastUpdated": "2026-10-07T19:38:00.559Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -851,10 +851,10 @@
           ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
-            "Kolt Chow Mien",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Ham Protein Box",
+            "BBQ Pork Rib Sandwich",
             "Baby Carrots",
             "Jicama Sticks",
             "Cucumber Slices",
@@ -985,7 +985,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Ham Protein Box",
-            "Chicken and Rice Burrito Bowl",
+            "KFC Bowl",
             "Baby Carrots",
             "Cucumber Slices",
             "Hummus Cup",
@@ -1389,7 +1389,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-06T19:12:43.690Z"
+      "lastFetched": "2026-10-07T19:38:00.188Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1994,7 +1994,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-06T19:12:44.304Z"
+      "lastFetched": "2026-10-07T19:38:00.558Z"
     }
   }
 }
