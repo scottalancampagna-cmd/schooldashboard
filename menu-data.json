@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T19:38:00.559Z",
+  "lastUpdated": "2026-10-08T19:33:28.680Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1389,7 +1389,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-07T19:38:00.188Z"
+      "lastFetched": "2026-10-08T19:33:28.027Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1918,14 +1918,15 @@
           "lunch": [
             "Cheese Pizza Wedge",
             "Salad Bar with Kidney Beans",
-            "FEED Special - Sonoma County Apples"
+            "FEED Special - Sonoma County Apples",
+            "Fresh Plum, purple, red, or black"
           ]
         },
         "2026-10-26": {
           "breakfast": [
             "Maple Liege Waffle",
-            "Fresh Apples",
-            "Fresh Pears"
+            "FEED Special - Sonoma County Apples",
+            "Fresh Plum, purple, red, or black"
           ],
           "lunch": [
             "Chicken Drumstick",
@@ -1994,7 +1995,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-07T19:38:00.558Z"
+      "lastFetched": "2026-10-08T19:33:28.680Z"
     }
   }
 }
