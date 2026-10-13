@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T21:54:50.074Z",
+  "lastUpdated": "2026-10-13T19:59:08.557Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1390,7 +1390,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-12T21:54:49.360Z"
+      "lastFetched": "2026-10-13T19:59:08.175Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1404,7 +1404,7 @@
           "lunch": [
             "BBQ Pulled Pork Sandwich",
             "Vegan BBQ Burger",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges"
           ]
         },
@@ -1446,7 +1446,7 @@
           "lunch": [
             "Pepperoni Pizza Calzone",
             "Cheese Pizza Calzone",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges"
           ]
         },
@@ -1463,7 +1463,7 @@
           "lunch": [
             "Chicken Parmesan Sandwich",
             "Rebellyous Kickin' Parmesan Sandwich (Plant-based)",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Nectarine, size 56-64"
           ]
         },
@@ -1503,7 +1503,7 @@
           "lunch": [
             "Pepperoni Smart Pizza",
             "Cheese French Bread Pizza",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges",
             "FEED Special - Sonoma County Apples"
           ]
@@ -1533,7 +1533,7 @@
           "lunch": [
             "Turkey Taco Nachos",
             "Nachos with Beans",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges",
             "FEED Special - Locally Grown Pears"
           ]
@@ -1575,7 +1575,7 @@
           ],
           "lunch": [
             "Cheese Breadsticks",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges",
             "Fresh Apples"
           ]
@@ -1603,7 +1603,7 @@
           "lunch": [
             "Grilled Cheese Sandwich",
             "BBQ Beef Rib Sandwich",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges",
             "Fresh Apples"
           ]
@@ -1646,7 +1646,7 @@
           "lunch": [
             "Pepperoni Pizza Wedge",
             "Cheese Pizza Wedge",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges",
             "Fresh Pears"
           ]
@@ -1674,7 +1674,7 @@
           "lunch": [
             "Mac & Cheese",
             "Hot Dog",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Oranges",
             "Fresh Apples"
           ]
@@ -1715,7 +1715,7 @@
           ],
           "lunch": [
             "Cheese Breadsticks",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "FEED Special - Sonoma County Apples",
             "Fresh Pears"
           ]
@@ -1857,28 +1857,28 @@
           "breakfast": [
             "Pancakes",
             "Fresh Orange Wedges",
-            "Fresh Pears"
+            "FEED Special - Locally Grown Pears",
+            "Mozzarella String Cheese"
           ],
           "lunch": [
             "Hamburger",
             "Vegan Burger",
             "Salad Bar with Kidney Beans",
             "Kiwi",
-            "FEED Special - Sonoma County Apples"
+            "Fresh Apples"
           ]
         },
         "2026-10-20": {
           "breakfast": [
             "Whole Wheat Bagel",
             "Kiwi",
-            "Fresh Apples"
+            "FEED Special - Sonoma County Apples"
           ],
           "lunch": [
             "Chicken Parmesan Sandwich",
             "Rebellyous Kickin' Parmesan Sandwich (Plant-based)",
             "Salad Bar with Kidney Beans",
-            "Fresh Orange Wedges",
-            "FEED Special - Locally Grown Pears"
+            "Fresh Orange Wedges"
           ]
         },
         "2026-10-21": {
@@ -1890,7 +1890,7 @@
           "lunch": [
             "Cheese Quesadilla",
             "Celery Sticks",
-            "Corn Niblets",
+            "Baby Carrots",
             "Hummus Cup",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples"
@@ -1932,7 +1932,7 @@
           "lunch": [
             "Chicken Drumstick",
             "Plant-Based Kickin' Tenders",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Apples",
             "Fresh Orange Wedges",
             "Whole-Grain Artisan Roll"
@@ -1947,7 +1947,7 @@
           "lunch": [
             "Turkey Taco Nachos",
             "Nachos with Beans",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Mild Salsa",
             "Fresh Orange Wedges",
             "FEED Special - Asian Pear from Earthseed Farm"
@@ -1977,7 +1977,7 @@
           "lunch": [
             "Pasta with Meat Sauce",
             "Pasta with Marinara Sauce",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Apples",
             "Fresh Pears"
           ]
@@ -1990,13 +1990,13 @@
           ],
           "lunch": [
             "Cheese Breadsticks",
-            "Salad Bar",
+            "Salad Bar with Garbanzo Beans",
             "Fresh Orange Wedges",
             "Fresh Pears"
           ]
         }
       },
-      "lastFetched": "2026-10-12T21:54:50.074Z"
+      "lastFetched": "2026-10-13T19:59:08.557Z"
     }
   }
 }
