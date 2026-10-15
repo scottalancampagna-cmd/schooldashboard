@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T18:12:52.105Z",
+  "lastUpdated": "2026-10-15T17:55:44.972Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -976,8 +976,8 @@
             "crescent filled chocolate",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -992,9 +992,9 @@
             "Hummus Cup",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Farm to School Peaches",
             "Kiwi",
             "Unsweetened Applesauce Cups",
+            "FEED Sonoma Seasonal Special - Asian Pears",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1007,8 +1007,8 @@
             "Cinnamon Crumble",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "Mandarin Oranges",
             "Unsweetened Applesauce Cups",
+            "FEED Sonoma Seasonal Special - Asian Pears",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -1390,7 +1390,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-14T18:12:51.494Z"
+      "lastFetched": "2026-10-15T17:55:44.197Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1996,7 +1996,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-14T18:12:52.105Z"
+      "lastFetched": "2026-10-15T17:55:44.972Z"
     }
   }
 }
