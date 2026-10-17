@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T17:44:04.808Z",
+  "lastUpdated": "2026-10-17T16:44:08.126Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -659,6 +659,7 @@
             "Assorted Cereal, 2 oz",
             "Banana Bread Slice",
             "Whole Wheat Bagel with Cream Cheese",
+            "Lemon Breakfast Bread",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
@@ -1507,7 +1508,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-16T17:44:04.175Z"
+      "lastFetched": "2026-10-17T16:44:07.634Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2113,7 +2114,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-16T17:44:04.808Z"
+      "lastFetched": "2026-10-17T16:44:08.125Z"
     }
   }
 }
