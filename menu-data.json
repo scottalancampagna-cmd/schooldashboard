@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:32:54.505Z",
+  "lastUpdated": "2026-10-20T18:10:38.900Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -932,14 +932,15 @@
           ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
-            "KFC Bowl",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Pepper Jack Sandwich",
             "Ham Protein Box",
+            "Chicken and Rice Burrito Bowl",
             "Baby Carrots",
             "Cucumber Slices",
             "Celery Sticks",
             "Hummus Cup",
+            "Corn Niblets",
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
@@ -1508,7 +1509,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-19T19:32:53.703Z"
+      "lastFetched": "2026-10-20T18:10:38.455Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2114,7 +2115,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-19T19:32:54.505Z"
+      "lastFetched": "2026-10-20T18:10:38.900Z"
     }
   }
 }
