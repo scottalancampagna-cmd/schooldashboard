@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T18:12:11.879Z",
+  "lastUpdated": "2026-10-23T18:00:59.668Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1112,9 +1112,9 @@
           "breakfast": [
             "Sausage Croissant Breakfast Sandwich",
             "French Toast Sticks",
-            "Blueberry Bread Slice",
             "Cinnamon Crumble",
             "Assorted Cereal, 2 oz",
+            "Blueberry Muffin",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "FEED Special - Asian Pear from Earthseed Farm",
@@ -1510,7 +1510,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-22T18:12:11.161Z"
+      "lastFetched": "2026-10-23T18:00:59.082Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2116,7 +2116,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-22T18:12:11.879Z"
+      "lastFetched": "2026-10-23T18:00:59.667Z"
     }
   }
 }
