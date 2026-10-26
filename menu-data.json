@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:18:38.325Z",
+  "lastUpdated": "2026-10-26T19:38:38.584Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -859,11 +859,11 @@
             "Assorted Cereal, 2 oz",
             "Caramel Mini Cinnis",
             "Banana Chocolate Breakfast Bar",
-            "Blueberry Bread Slice",
+            "Lemon Breakfast Bread",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -1510,7 +1510,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-25T17:18:37.603Z"
+      "lastFetched": "2026-10-26T19:38:38.095Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2116,7 +2116,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-25T17:18:38.325Z"
+      "lastFetched": "2026-10-26T19:38:38.584Z"
     }
   }
 }
