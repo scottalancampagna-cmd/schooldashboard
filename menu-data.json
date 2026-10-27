@@ -1,329 +1,9 @@
 {
-  "lastUpdated": "2026-10-26T19:38:38.584Z",
+  "lastUpdated": "2026-10-27T19:03:04.336Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
       "menus": {
-        "2026-09-01": {
-          "breakfast": [
-            "Yogurt Parfait, Blueberry",
-            "Sausage Breakfast Burrito",
-            "Assorted Cereal, 2 oz",
-            "Double Chocolate Chip Muffin",
-            "Lemon Bread Slice",
-            "Assorted Juice Box",
-            "Unsweetened Applesauce Cup",
-            "FEED Special - Sonoma County Apples",
-            "Kiwi",
-            "String Cheese"
-          ]
-        },
-        "2026-09-02": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Assorted Cereal, 2 oz",
-            "Mini Cinnis",
-            "Bacon Croissant Breakfast Sandwich",
-            "Assorted Juice Box",
-            "Unsweetened Applesauce Cup",
-            "FEED Special - Sonoma County Apples",
-            "Kiwi",
-            "String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-03": {
-          "breakfast": [
-            "Strawberry Cream Cheese Mini Bagels",
-            "Assorted Cereal, 2 oz",
-            "Lemon Breakfast Bread",
-            "Bacon Egg Cheese Breakfast Muffin",
-            "Whole Grain Brownie Fudge",
-            "Assorted Juice Box",
-            "Unsweetened Applesauce Cup",
-            "FEED Special - Sonoma County Apples",
-            "Kiwi",
-            "String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-04": {
-          "breakfast": [
-            "Whole Wheat Bagel with Cream Cheese",
-            "French Toast Sticks",
-            "Assorted Cereal, 2 oz",
-            "Bacon Croissant Breakfast Sandwich",
-            "Strawberry Cream Cheese Mini Bagels",
-            "Assorted Juice Box",
-            "Unsweetened Applesauce Cup",
-            "FEED Special - Sonoma County Apples",
-            "Kiwi",
-            "Farm to School Pluot",
-            "String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-07": {
-          "breakfast": []
-        },
-        "2026-09-08": {
-          "breakfast": [
-            "Yogurt Parfait, Blueberry",
-            "Cinnamon Crumble",
-            "Assorted Cereal, 2 oz",
-            "Breakfast Burrito",
-            "Banana Bread Slice",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-09": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Assorted Cereal, 2 oz",
-            "Mini Eggo Pancakes, Confetti",
-            "Bacon Egg Cheese Breakfast Muffin",
-            "Strawberry Cream Cheese Mini Bagels",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-10": {
-          "breakfast": [
-            "Sausage & Egg Tornado",
-            "Blueberry Crumble",
-            "Mini Eggo Pancakes, Confetti",
-            "Assorted Cereal, 2 oz",
-            "Cinnamon Cream Cheese Mini Bagels",
-            "Banana Bread Slice",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-11": {
-          "breakfast": [
-            "French Toast Sticks",
-            "Assorted Cereal, 2 oz",
-            "Whole Wheat Bagel with Cream Cheese",
-            "Bacon Croissant Breakfast Sandwich",
-            "Mini Cinnis",
-            "Blueberry Crumble",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-14": {
-          "breakfast": [
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Assorted Cereal, 2 oz",
-            "Chocolate Muffin",
-            "Vanilla Liege Waffle",
-            "Concha, Assorted",
-            "Assorted Juice Box",
-            "Unsweetened Applesauce Cup",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-15": {
-          "breakfast": [
-            "Breakfast Burrito w/ Sausage, Egg & Cheese",
-            "Assorted Cereal, 2 oz",
-            "Mini Cinnis",
-            "Yogurt Parfait, Strawberry",
-            "Whole Grain Brownie Fudge",
-            "Assorted Juice Box",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Farm to School Plums",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-16": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Bacon Egg Cheese Breakfast Muffin",
-            "Assorted Cereal, 2 oz",
-            "Strawberry Cream Cheese Mini Bagels",
-            "Assorted Juice Box",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Farm to School Plums",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-17": {
-          "breakfast": [
-            "Sausage Croissant Breakfast Sandwich",
-            "Assorted Cereal, 2 oz",
-            "French Toast BeneFIT Bar",
-            "Lemon Bread Slice",
-            "Strawberry Cream Cheese Mini Bagels",
-            "Assorted Juice Box",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Fresh Plum, purple, red, or black",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-18": {
-          "breakfast": [
-            "Sausage & Egg Tornado",
-            "Whole Wheat Bagel with Cream Cheese",
-            "Assorted Cereal, 2 oz",
-            "Whole Grain Brownie Fudge",
-            "Concha, Assorted",
-            "Assorted Juice Box",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Fresh Plum, purple, red, or black",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-21": {
-          "breakfast": [
-            "Assorted Cereal, 2 oz",
-            "Blueberry Belgian Waffle",
-            "Bagel Breakfast Sandwich - Egg, Cheese and Bacon",
-            "Banana Bread Slice",
-            "Concha, Assorted",
-            "Whole Grain Brownie Fudge",
-            "Assorted Juice Box",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "FEED Special - Locally Grown Pears",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-22": {
-          "breakfast": [
-            "Yogurt Parfait, Blueberry",
-            "Assorted Cereal, 2 oz",
-            "Breakfast Burrito (KJHS)",
-            "Chocolate Muffin",
-            "Mini Eggo Pancakes, Confetti",
-            "Assorted Juice Box",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "FEED Special - Locally Grown Pears",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-23": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Assorted Cereal, 2 oz",
-            "Bacon Egg Cheese Breakfast Muffin",
-            "crescent filled chocolate",
-            "Breakfast Burrito (KJHS)",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-24": {
-          "breakfast": [
-            "Sausage Croissant Breakfast Sandwich",
-            "Assorted Cereal, 2 oz",
-            "French Toast Sticks",
-            "Banana Chocolate Breakfast Bar",
-            "crescent filled chocolate",
-            "Mini Cinnis",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-25": {
-          "breakfast": [
-            "Whole Wheat Bagel with Cream Cheese",
-            "Assorted Cereal, 2 oz",
-            "Sausage & Egg Tornado",
-            "Concha, Assorted",
-            "crescent filled chocolate",
-            "Assorted Juice Box",
-            "Fresh Bananas",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-28": {
-          "breakfast": [
-            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
-            "Assorted Cereal, 2 oz",
-            "Strawberry Cream Cheese Mini Bagels",
-            "French Toast BeneFIT Bar",
-            "Blueberry Muffin, Whole Grain",
-            "Assorted Juice Box",
-            "FEED Special - Asian Pear from Earthseed Farm",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-29": {
-          "breakfast": [
-            "Yogurt Parfait, Blueberry & Strawberry",
-            "Assorted Cereal, 2 oz",
-            "Breakfast Burrito (KJHS)",
-            "Chocolate Muffin",
-            "Mini Eggo Pancakes, Confetti",
-            "Assorted Juice Box",
-            "FEED Special - Asian Pear from Earthseed Farm",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
-        "2026-09-30": {
-          "breakfast": [
-            "Cinnamon Roll w/ Icing",
-            "Assorted Cereal, 2 oz",
-            "Turkey Ham Egg and Cheese Breakfast muffin",
-            "Banana Bread Slice",
-            "Assorted Juice Box",
-            "FEED Special - Asian Pear from Earthseed Farm",
-            "FEED Special - Sonoma County Apples",
-            "Unsweetened Applesauce Cups",
-            "Kiwi",
-            "Mozzarella String Cheese",
-            "Strawberry/Blueberry/Raspberry Yogurt"
-          ]
-        },
         "2026-10-01": {
           "breakfast": [
             "Bacon Croissant Breakfast Sandwich",
@@ -545,7 +225,7 @@
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
             "Kiwi",
-            "Fresh Strawberries (1/2 cup)",
+            "Fresh Strawberries",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -895,8 +575,9 @@
             "Cinnamon Crumb Cake Loaf",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "FEED Special - Locally Grown Pears",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -911,9 +592,10 @@
             "Cucumber Slices",
             "Celery Sticks",
             "Hummus Cup",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
+            "FEED Special - Locally Grown Pears",
+            "Unsweetened Applesauce Cups",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1033,8 +715,8 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
             "Turkey Protein Box",
-            "Beef Soft Taco",
             "Spicy Chicken Wrap",
+            "Kolt Chipotle Chicken Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1510,310 +1192,11 @@
           ]
         }
       },
-      "lastFetched": "2026-10-26T19:38:38.095Z"
+      "lastFetched": "2026-10-27T19:03:03.967Z"
     },
     "penngrove": {
       "label": "Elementary",
       "menus": {
-        "2026-09-01": {
-          "breakfast": [
-            "Egg & Cheese English Muffin Sandwich",
-            "Fresh Plum, purple, red, or black",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "BBQ Pulled Pork Sandwich",
-            "Vegan BBQ Burger",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-09-02": {
-          "breakfast": [
-            "Assorted Cereal, 2 oz",
-            "Fresh Oranges",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Cheese Quesadilla",
-            "Chicken and Cheese Quesadilla",
-            "Baby Carrots",
-            "Corn Niblets",
-            "Mild Salsa",
-            "Fresh Bananas"
-          ]
-        },
-        "2026-09-03": {
-          "breakfast": [
-            "Sunrise Muffin",
-            "Fresh Bananas",
-            "Unsweetened Raisins",
-            "Honey Roasted Sunflower Seeds"
-          ],
-          "lunch": [
-            "Pesto Pasta with Chicken",
-            "Pesto Pasta",
-            "Salad Bar with Kidney Beans",
-            "FEED Special - Sonoma County Apples"
-          ]
-        },
-        "2026-09-04": {
-          "breakfast": [
-            "Vanilla Yogurt and Granola",
-            "FEED Special - Sonoma County Apples",
-            "Apple Juice"
-          ],
-          "lunch": [
-            "Pepperoni Pizza Calzone",
-            "Cheese Pizza Calzone",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-09-07": {
-          "breakfast": [],
-          "lunch": []
-        },
-        "2026-09-08": {
-          "breakfast": [
-            "Lemon Breakfast Bread",
-            "Fresh Oranges",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Chicken Parmesan Sandwich",
-            "Rebellyous Kickin' Parmesan Sandwich (Plant-based)",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Nectarine, size 56-64"
-          ]
-        },
-        "2026-09-09": {
-          "breakfast": [
-            "Assorted Cereal, 2 oz",
-            "Fresh Nectarine, size 56-64",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Cheese & Green Chile Tamale",
-            "Chicken Tamale",
-            "Baby Carrots",
-            "Corn Niblets",
-            "Fresh Apples"
-          ]
-        },
-        "2026-09-10": {
-          "breakfast": [
-            "White Concha",
-            "Fresh Apples",
-            "Unsweetened Raisins"
-          ],
-          "lunch": [
-            "Sweet & Sour Chicken and Rice",
-            "Plant-Based Sweet & Sour Chik'n with Rice",
-            "Salad Bar with Kidney Beans",
-            "Fresh Bananas"
-          ]
-        },
-        "2026-09-11": {
-          "breakfast": [
-            "Whole Wheat Bagel",
-            "Fresh Bananas",
-            "Unsweetened Applesauce Cups"
-          ],
-          "lunch": [
-            "Pepperoni Smart Pizza",
-            "Cheese French Bread Pizza",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges",
-            "FEED Special - Sonoma County Apples"
-          ]
-        },
-        "2026-09-14": {
-          "breakfast": [
-            "Vanilla Liege Waffle",
-            "Fresh Oranges",
-            "FEED Special - Sonoma County Apples",
-            "Mozzarella String Cheese"
-          ],
-          "lunch": [
-            "Chicken Drumstick",
-            "Plant-Based Kickin' Tenders",
-            "Salad Bar with Kidney Beans",
-            "Fresh Peach",
-            "Fresh Apples",
-            "Whole-Grain Artisan Roll"
-          ]
-        },
-        "2026-09-15": {
-          "breakfast": [
-            "Egg & Cheese Breakfast Scrambler",
-            "Fresh Peach",
-            "Fresh Apples"
-          ],
-          "lunch": [
-            "Turkey Taco Nachos",
-            "Nachos with Beans",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges",
-            "FEED Special - Locally Grown Pears"
-          ]
-        },
-        "2026-09-16": {
-          "breakfast": [
-            "Assorted Cereal, 2 oz",
-            "Fresh Oranges",
-            "Fresh Pears"
-          ],
-          "lunch": [
-            "Chicken Taquitos",
-            "Bean Taquitos",
-            "Baby Carrots",
-            "Corn Niblets",
-            "FEED Special - Sonoma County Apples",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-09-17": {
-          "breakfast": [
-            "Banana Muffin",
-            "FEED Special - Sonoma County Apples",
-            "Fresh Oranges"
-          ],
-          "lunch": [
-            "Pasta with Meat Sauce",
-            "Pasta with Marinara Sauce",
-            "Salad Bar with Kidney Beans",
-            "Fresh Bananas",
-            "Fresh Pears"
-          ]
-        },
-        "2026-09-18": {
-          "breakfast": [
-            "Vanilla Yogurt and Granola",
-            "Fresh Bananas",
-            "Fresh Pears"
-          ],
-          "lunch": [
-            "Cheese Breadsticks",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ]
-        },
-        "2026-09-21": {
-          "breakfast": [
-            "Blueberry Muffin",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ],
-          "lunch": [
-            "Cheeseburger",
-            "Plant-Based Burger w/ Cheese",
-            "Salad Bar with Kidney Beans",
-            "Fresh Plum, purple, red, or black",
-            "Fresh Pears (Varietal)"
-          ]
-        },
-        "2026-09-22": {
-          "breakfast": [
-            "Pancakes",
-            "Fresh Plum, purple, red, or black",
-            "Fresh Pears (Varietal)"
-          ],
-          "lunch": [
-            "Grilled Cheese Sandwich",
-            "BBQ Beef Rib Sandwich",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ]
-        },
-        "2026-09-23": {
-          "breakfast": [
-            "Assorted Cereal, 2 oz",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ],
-          "lunch": [
-            "Bean & Cheese Burrito",
-            "Chicken, Cheese & Rice Burrito",
-            "Jicama Sticks",
-            "Corn Niblets",
-            "FEED Special - Sonoma County Apples",
-            "Fresh Pears"
-          ]
-        },
-        "2026-09-24": {
-          "breakfast": [
-            "Banana Bread Slice",
-            "FEED Special - Sonoma County Apples",
-            "Fresh Pears"
-          ],
-          "lunch": [
-            "Orange Chicken & Rice",
-            "Plant-Based Sweet & Sour Chik'n with Rice",
-            "Salad Bar with Kidney Beans",
-            "Fresh Bananas",
-            "Fresh Oranges"
-          ]
-        },
-        "2026-09-25": {
-          "breakfast": [
-            "Ham and Swiss Cheese Croissant",
-            "Fresh Bananas",
-            "Fresh Oranges"
-          ],
-          "lunch": [
-            "Pepperoni Pizza Wedge",
-            "Cheese Pizza Wedge",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges",
-            "Fresh Pears"
-          ]
-        },
-        "2026-09-28": {
-          "breakfast": [
-            "Maple Belgian Waffle",
-            "Fresh Oranges",
-            "Fresh Pears"
-          ],
-          "lunch": [
-            "Breaded Chicken Burger",
-            "Rebellyous Kickin' Sandwich (Plant-based)",
-            "Salad Bar with Kidney Beans",
-            "Fresh Peach",
-            "Fresh Pears"
-          ]
-        },
-        "2026-09-29": {
-          "breakfast": [
-            "Egg & Cheese English Muffin Sandwich",
-            "Fresh Peach",
-            "Fresh Pears"
-          ],
-          "lunch": [
-            "Mac & Cheese",
-            "Hot Dog",
-            "Salad Bar with Garbanzo Beans",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ]
-        },
-        "2026-09-30": {
-          "breakfast": [
-            "Assorted Cereal, 2 oz",
-            "Fresh Oranges",
-            "Fresh Apples"
-          ],
-          "lunch": [
-            "Bean and Cheese Pupusa",
-            "Birria and Cheese Pupusa",
-            "Baby Carrots",
-            "Corn Niblets",
-            "FEED Special - Sonoma County Apples",
-            "Fresh Pears"
-          ]
-        },
         "2026-10-01": {
           "breakfast": [
             "Mantecada Muffin",
@@ -2114,9 +1497,246 @@
             "Fresh Orange Wedges",
             "Fresh Pears"
           ]
+        },
+        "2026-11-02": {
+          "breakfast": [
+            "Lemon Breakfast Bread",
+            "Fresh Orange Wedges",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Cheeseburger",
+            "Plant-Based Burger w/ Cheese",
+            "Salad Bar with Kidney Beans",
+            "Fresh Apples",
+            "Fresh Plum, purple, red, or black"
+          ]
+        },
+        "2026-11-03": {
+          "breakfast": [
+            "Egg & Cheese Breakfast Taco",
+            "Fresh Apples",
+            "Fresh Plum, purple, red, or black"
+          ],
+          "lunch": [
+            "Grilled Cheese Sandwich",
+            "BBQ Beef Rib Sandwich",
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
+            "Fresh Pears"
+          ]
+        },
+        "2026-11-04": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Orange Wedges",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Cheese & Green Chile Tamale",
+            "Chicken Tamale",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Bananas",
+            "Fresh Apples"
+          ]
+        },
+        "2026-11-05": {
+          "breakfast": [
+            "Strawberry Oatmeal Bar",
+            "Fresh Bananas",
+            "Fresh Apples"
+          ],
+          "lunch": [
+            "Orange Chicken & Rice",
+            "Plant-Based Sweet & Sour Chik'n with Rice",
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
+            "Kiwi"
+          ]
+        },
+        "2026-11-06": {
+          "breakfast": [
+            "Whole Wheat Bagel",
+            "Fresh Orange Wedges",
+            "Kiwi"
+          ],
+          "lunch": [
+            "Cheese Pizza Wedge",
+            "Pepperoni Pizza Wedge",
+            "Salad Bar with Kidney Beans",
+            "Fresh Apples",
+            "Fresh Pears"
+          ]
+        },
+        "2026-11-09": {
+          "breakfast": [
+            "Maple Belgian Waffle",
+            "Fresh Apples",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Breaded Chicken Burger",
+            "Rebellyous Kickin' Sandwich (Plant-based)",
+            "Salad Bar with Garbanzo Beans",
+            "Fresh Orange Wedges",
+            "Fresh Apples"
+          ]
+        },
+        "2026-11-10": {
+          "breakfast": [
+            "Banana Muffin",
+            "Fresh Orange Wedges",
+            "Fresh Apples"
+          ],
+          "lunch": [
+            "Birria and Cheese Pupusa",
+            "Bean and Cheese Pupusa",
+            "Salad Bar with Garbanzo Beans",
+            "Corn Niblets",
+            "Fresh Apples",
+            "Fresh Pears"
+          ]
+        },
+        "2026-11-11": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-11-12": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Apples",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Mac & Cheese",
+            "Hot Dog",
+            "Salad Bar with Garbanzo Beans",
+            "Fresh Bananas",
+            "Fresh Orange Wedges"
+          ]
+        },
+        "2026-11-13": {
+          "breakfast": [
+            "Vanilla Yogurt and Granola",
+            "Fresh Bananas",
+            "Fresh Orange Wedges"
+          ],
+          "lunch": [
+            "Cheese Breadsticks",
+            "Salad Bar with Garbanzo Beans",
+            "Fresh Apples",
+            "Fresh Pears"
+          ]
+        },
+        "2026-11-16": {
+          "breakfast": [
+            "Blueberry Muffin",
+            "Fresh Apples",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Teriyaki Chicken & Rice",
+            "Plant-Based Teriyaki Chik'n with Rice",
+            "Salad Bar with Kidney Beans",
+            "Fresh Orange Wedges",
+            "Kiwi"
+          ]
+        },
+        "2026-11-17": {
+          "breakfast": [
+            "Mini Maple Pancakes",
+            "Fresh Orange Wedges",
+            "Kiwi"
+          ],
+          "lunch": [
+            "Black Bean & Cheese Empanada",
+            "Salad Bar with Kidney Beans",
+            "Fresh Apples",
+            "Fresh Pears"
+          ]
+        },
+        "2026-11-18": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Fresh Apples",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Hamburger",
+            "Vegan Burger",
+            "Salad Bar with Kidney Beans",
+            "Fresh Bananas",
+            "Fresh Orange Wedges"
+          ]
+        },
+        "2026-11-19": {
+          "breakfast": [
+            "Banana Bread Slice",
+            "Fresh Bananas",
+            "Fresh Orange Wedges"
+          ],
+          "lunch": [
+            "Chicken Drumstick",
+            "Plant-Based Kickin' Tenders",
+            "Salad Bar with Kidney Beans",
+            "Mashed Potatoes",
+            "Fresh Apples",
+            "Fresh Pears",
+            "Whole-Grain Artisan Roll"
+          ]
+        },
+        "2026-11-20": {
+          "breakfast": [
+            "Apple Croissant",
+            "Fresh Apples",
+            "Fresh Pears"
+          ],
+          "lunch": [
+            "Garlic Cheese French Bread",
+            "Baby Carrots",
+            "Corn Niblets",
+            "Fresh Apples",
+            "Fresh Orange Wedges"
+          ]
+        },
+        "2026-11-23": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-11-24": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-11-25": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-11-26": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-11-27": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-11-30": {
+          "breakfast": [
+            "Apple Oatmeal Bar",
+            "Unsweetened Applesauce Cups",
+            "Orange Tangerine Juice"
+          ],
+          "lunch": [
+            "Chicken Tenders",
+            "Plant-Based Kickin' Tenders",
+            "Salad Bar with Garbanzo Beans",
+            "Fresh Apples",
+            "Kiwi",
+            "Pretzel Goldfish"
+          ]
         }
       },
-      "lastFetched": "2026-10-26T19:38:38.584Z"
+      "lastFetched": "2026-10-27T19:03:04.336Z"
     }
   }
 }
