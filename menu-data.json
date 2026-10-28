@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T19:03:04.336Z",
+  "lastUpdated": "2026-10-28T19:10:57.165Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -250,7 +250,7 @@
           ],
           "lunch": [
             "Cheese Burger (KJHS)",
-            "Chicken Smacker (KJHS)",
+            "Chicken Nugget (KJHS)",
             "Chicken & Rice Burrito (KJHS)",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
@@ -418,7 +418,7 @@
           ],
           "lunch": [
             "Cheese Burger (KJHS)",
-            "Chicken Smacker (KJHS)",
+            "Chicken Nugget (KJHS)",
             "Bean and Cheese Burrito",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey & Salami Pepper Jack Sandwich",
@@ -587,7 +587,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Ham & Cheese Sandwich",
             "Turkey Protein Box",
-            "Chicken Smacker (KJHS)",
+            "Chicken Nugget (KJHS)",
             "Baby Carrots",
             "Cucumber Slices",
             "Celery Sticks",
@@ -608,8 +608,8 @@
             "Banana Bread Slice",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Unsweetened Applesauce Cups",
+            "Fresh Bananas",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -627,6 +627,7 @@
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
+            "Unsweetened Applesauce Cups",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -744,7 +745,7 @@
           ],
           "lunch": [
             "Cheese Burger (KJHS)",
-            "Chicken Smacker (KJHS)",
+            "Chicken Nugget (KJHS)",
             "Chicken & Rice Burrito (KJHS)",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
@@ -905,7 +906,7 @@
           ],
           "lunch": [
             "Cheese Burger (KJHS)",
-            "Chicken Smacker (KJHS)",
+            "Chicken Nugget (KJHS)",
             "Bean & Cheese Burrito",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
@@ -1033,7 +1034,7 @@
           ],
           "lunch": [
             "Cheese Burger (KJHS)",
-            "Chicken Smacker (KJHS)",
+            "Chicken Nugget (KJHS)",
             "Chicken & Rice Burrito (KJHS)",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
@@ -1192,7 +1193,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-27T19:03:03.967Z"
+      "lastFetched": "2026-10-28T19:10:56.820Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1736,7 +1737,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-27T19:03:04.336Z"
+      "lastFetched": "2026-10-28T19:10:57.165Z"
     }
   }
 }
