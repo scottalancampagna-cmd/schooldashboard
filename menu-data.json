@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T19:10:57.165Z",
+  "lastUpdated": "2026-10-29T19:19:50.488Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -640,8 +640,9 @@
             "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "Fresh Bananas",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -659,6 +660,7 @@
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
+            "Unsweetened Applesauce Cups",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -1193,7 +1195,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-28T19:10:56.820Z"
+      "lastFetched": "2026-10-29T19:19:49.858Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1737,7 +1739,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-28T19:10:57.165Z"
+      "lastFetched": "2026-10-29T19:19:50.488Z"
     }
   }
 }
