@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T19:19:50.488Z",
+  "lastUpdated": "2026-10-30T18:55:12.366Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -667,15 +667,15 @@
         },
         "2026-10-30": {
           "breakfast": [
-            "Breakfast Pizza Bagel",
             "Concha, Assorted",
             "Assorted Cereal, 2 oz",
             "Lemon Breakfast Bread",
             "French Toast Sticks",
+            "Bacon Egg Cheese Breakfast Muffin",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
-            "Fresh Nectarine, size 56-64",
+            "Kiwi",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -694,6 +694,7 @@
             "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
+            "Unsweetened Applesauce Cups",
             "Dinner Roll, WG",
             "Mozzarella String Cheese"
           ]
@@ -725,8 +726,8 @@
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
-            "Fresh Plum, purple, red, or black",
             "Unsweetened Applesauce Cups",
+            "Mandarin Oranges",
             "Dinner Roll, WG",
             "Original Hummus Cup"
           ]
@@ -757,8 +758,8 @@
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
-            "Fresh Plum, purple, red, or black",
             "Unsweetened Applesauce Cups",
+            "Mandarin Oranges",
             "Dinner Roll, WG",
             "Original Hummus Cup"
           ]
@@ -788,8 +789,8 @@
             "Hummus Cup",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
-            "Fresh Plum, purple, red, or black",
             "Unsweetened Applesauce Cups",
+            "Mandarin Oranges",
             "Dinner Roll, WG"
           ]
         },
@@ -821,8 +822,8 @@
             "Hummus Cup",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
-            "Fresh Plum, purple, red, or black",
             "Unsweetened Applesauce Cups",
+            "Mandarin Oranges",
             "Dinner Roll, WG"
           ]
         },
@@ -853,8 +854,8 @@
             "Hummus Cup",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
-            "Fresh Plum, purple, red, or black",
             "Unsweetened Applesauce Cups",
+            "Mandarin Oranges",
             "Dinner Roll, WG"
           ]
         },
@@ -1195,7 +1196,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-29T19:19:49.858Z"
+      "lastFetched": "2026-10-30T18:55:11.992Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1565,8 +1566,8 @@
             "Kiwi"
           ],
           "lunch": [
-            "Cheese Pizza Wedge",
-            "Pepperoni Pizza Wedge",
+            "Cheese French Bread Pizza",
+            "Pepperoni French Bread Pizza",
             "Salad Bar with Kidney Beans",
             "Fresh Apples",
             "Fresh Pears"
@@ -1739,7 +1740,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-29T19:19:50.488Z"
+      "lastFetched": "2026-10-30T18:55:12.366Z"
     }
   }
 }
