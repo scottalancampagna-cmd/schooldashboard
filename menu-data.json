@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T18:55:12.366Z",
+  "lastUpdated": "2026-10-31T18:01:23.892Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -931,10 +931,10 @@
         "2026-11-12": {
           "breakfast": [
             "Bacon Croissant Breakfast Sandwich",
-            "Chocolate Muffin",
             "Assorted Cereal, 2 oz",
             "Chocolate Chip Waffle",
-            "Blueberry Crumble",
+            "Banana Muffin",
+            "Cinnamon Crumble",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "FEED Sonoma Seasonal Special - Asian Pears",
@@ -1168,8 +1168,8 @@
           "breakfast": [
             "Assorted Cereal, 2 oz",
             "Sausage & Egg Tornado",
-            "Blueberry Muffin",
             "Strawberry Cream Cheese Mini Bagels",
+            "Chocolate Chip Muffin",
             "Assorted Juice Box",
             "Kiwi",
             "Fresh Nectarine, size 56-64",
@@ -1196,7 +1196,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-30T18:55:11.992Z"
+      "lastFetched": "2026-10-31T18:01:23.423Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1740,7 +1740,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-30T18:55:12.366Z"
+      "lastFetched": "2026-10-31T18:01:23.892Z"
     }
   }
 }
