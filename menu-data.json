@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T18:01:23.892Z",
+  "lastUpdated": "2026-11-01T18:39:35.156Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1194,9 +1194,476 @@
             "Fresh Nectarine, size 56-64",
             "Dinner Roll, WG"
           ]
+        },
+        "2026-12-01": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Breakfast Burrito (KJHS)",
+            "Yogurt Parfait, Blueberry",
+            "Lemon Breakfast Bread",
+            "Mini Eggo Pancakes, Confetti",
+            "Assorted Juice Box",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "Chicken Nugget (KJHS)",
+            "Bean & Cheese Burrito",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-02": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Cinnamon Roll with Icing",
+            "Bacon Egg Cheese Breakfast Muffin",
+            "Banana Bread Slice",
+            "Assorted Juice Box",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "Macaroni & Cheese",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Sliced Fresh Point",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-03": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
+            "French Toast Sticks",
+            "Whole Grain Brownie Fudge",
+            "Banana Chocolate Breakfast Bar",
+            "Assorted Juice Box",
+            "Kiwi",
+            "Fresh Nectarines",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Chicken Pesto Pasta KJHS",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-04": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Bacon Croissant Breakfast Sandwich",
+            "Concha, Assorted",
+            "Blueberry Bread Slice",
+            "Whole Wheat Bagel with Cream Cheese",
+            "Assorted Juice Box",
+            "Kiwi",
+            "Fresh Nectarines",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Kolt Corn Dog",
+            "Cheese French Bread Pizza",
+            "Spicy Chicken Burger",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Turkey Protein Box",
+            "Turkey Cheddar Wrap",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Fresh Nectarine, size 56-64",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-12-07": {
+          "breakfast": [
+            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
+            "Assorted Cereal, 2 oz",
+            "Banana Bread Slice",
+            "Apple Croissant",
+            "Cinnamon Crumble",
+            "Assorted Juice Box",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale with Rice",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey & Salami Pepper Jack Sandwich",
+            "Spicy Chicken Wrap",
+            "Salami Protein Box",
+            "Teriyaki Slam Dunker Sandwich",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "String Cheese"
+          ]
+        },
+        "2026-12-08": {
+          "breakfast": [
+            "Breakfast Burrito (KJHS)",
+            "Yogurt Parfait, Blueberry",
+            "Assorted Cereal, 2 oz",
+            "Chocolate Chip Muffin",
+            "Mini Eggo Pancakes, Confetti",
+            "Assorted Juice Box",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "Chicken Nugget (KJHS)",
+            "Chicken & Rice Burrito (KJHS)",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Ham Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-12-09": {
+          "breakfast": [
+            "Cinnamon Roll with Icing",
+            "Assorted Cereal, 2 oz",
+            "Bacon Egg Cheese Breakfast Muffin",
+            "Lemon Breakfast Bread",
+            "Assorted Juice Box",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "Kolt Chipotle Chicken Sandwich",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Turkey Ham & Cheese Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-10": {
+          "breakfast": [
+            "Breakfast Pizza Bagel",
+            "Bacon Croissant Breakfast Sandwich",
+            "Assorted Cereal, 2 oz",
+            "Mini Cinnis",
+            "Blueberry Bread Slice",
+            "Assorted Juice Box",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Teriyaki Chicken & Rice",
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-11": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Sausage & Egg Tornado",
+            "Concha, Assorted",
+            "crescent filled chocolate",
+            "Assorted Juice Box",
+            "Unsweetened Applesauce Cups",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Kolt Corn Dog",
+            "Spicy Chicken Burger",
+            "French Bread Cheese Pizza",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami & Pepper Jack Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Bananas",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-14": {
+          "breakfast": [
+            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
+            "Assorted Cereal, 2 oz",
+            "Chocolate Chip Muffin",
+            "crescent filled chocolate",
+            "Maple Flavored Waffles",
+            "Cinnamon Crumble",
+            "Assorted Juice Box",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese & Green Chili Tamale with Rice",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami Protein Box",
+            "Salami & Pepper Jack Sandwich",
+            "Spicy Chicken Wrap",
+            "BBQ Chicken Pull Sandwich",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG",
+            "Mozzarella String Cheese"
+          ]
+        },
+        "2026-12-15": {
+          "breakfast": [
+            "Yogurt Parfait, Blueberry",
+            "Breakfast Burrito (KJHS)",
+            "Assorted Cereal, 2 oz",
+            "Mini Cinnis",
+            "Blueberry Bread Slice",
+            "Assorted Juice Box",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Cheese Burger (KJHS)",
+            "Chicken Nugget (KJHS)",
+            "Bean & Cheese Burrito",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Ham Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-16": {
+          "breakfast": [
+            "Cinnamon Roll with Icing",
+            "Assorted Cereal, 2 oz",
+            "Bacon Egg Cheese Breakfast Muffin",
+            "Strawberry Cream Cheese Mini Bagels",
+            "Assorted Juice Box",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Pepperoni Pizza Big Daddy's",
+            "BBQ Pork Rib Sandwich",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Deli Turkey Sandwich",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-17": {
+          "breakfast": [
+            "French Toast Sticks",
+            "Bacon Croissant Breakfast Sandwich",
+            "Assorted Cereal, 2 oz",
+            "Whole Grain Brownie Fudge",
+            "Lemon Breakfast Bread",
+            "Assorted Juice Box",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Chicken Alfredo Pasta",
+            "Beef Hot Dog with Whole Grain Bun",
+            "Bean & Cheese Pupusa w/ Green Enchilada Sauce",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Salami Sandwich",
+            "Salami Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-18": {
+          "breakfast": [
+            "Assorted Cereal, 2 oz",
+            "Sausage & Egg Tornado",
+            "Concha, Assorted",
+            "Blueberry Muffin, Whole Grain",
+            "Whole Wheat Bagel with Cream Cheese",
+            "Assorted Juice Box",
+            "FEED Special - Sonoma County Apples",
+            "Kiwi",
+            "Unsweetened Applesauce Cups",
+            "Mozzarella String Cheese",
+            "Strawberry/Blueberry/Raspberry Yogurt"
+          ],
+          "lunch": [
+            "Spicy Chicken Burger",
+            "Cheese French Bread Pizza",
+            "Chicken Caesar Salad w/ Dinner Roll",
+            "Ham & Cheese Sandwich",
+            "Kolt Corn Dog",
+            "Turkey Protein Box",
+            "Baby Carrots",
+            "Cucumber Slices",
+            "Jicama Sticks",
+            "Hummus Cup",
+            "FEED Special - Sonoma County Apples",
+            "Fresh Nectarine, size 56-64",
+            "Unsweetened Applesauce Cups",
+            "Dinner Roll, WG"
+          ]
+        },
+        "2026-12-21": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-22": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-23": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-24": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-25": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-28": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-29": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-30": {
+          "breakfast": [],
+          "lunch": []
+        },
+        "2026-12-31": {
+          "breakfast": [],
+          "lunch": []
         }
       },
-      "lastFetched": "2026-10-31T18:01:23.423Z"
+      "lastFetched": "2026-11-01T18:39:34.593Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -1740,7 +2207,7 @@
           ]
         }
       },
-      "lastFetched": "2026-10-31T18:01:23.892Z"
+      "lastFetched": "2026-11-01T18:39:35.156Z"
     }
   }
 }
