@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T22:30:42.187Z",
+  "lastUpdated": "2026-11-03T20:19:47.279Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -748,17 +748,17 @@
           "lunch": [
             "Cheese Burger (KJHS)",
             "Chicken Nugget (KJHS)",
-            "Chicken & Rice Burrito (KJHS)",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Turkey Ham & Cheese Sandwich",
             "Salami Protein Box",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "Mandarin Oranges",
+            "FEED Special - Asian Pear from Earthseed Farm",
             "Dinner Roll, WG",
             "Original Hummus Cup"
           ]
@@ -767,8 +767,8 @@
           "breakfast": [
             "Cinnamon Roll w/ Icing",
             "Bacon Egg Cheese Breakfast Muffin",
-            "Banana Bread Slice",
             "Assorted Cereal, 2 oz",
+            "Whole Grain Brownie Fudge",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "FEED Special - Asian Pear from Earthseed Farm",
@@ -1662,7 +1662,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-02T22:30:41.716Z"
+      "lastFetched": "2026-11-03T20:19:46.911Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2206,7 +2206,7 @@
           ]
         }
       },
-      "lastFetched": "2026-11-02T22:30:42.187Z"
+      "lastFetched": "2026-11-03T20:19:47.278Z"
     }
   }
 }
