@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T20:19:47.279Z",
+  "lastUpdated": "2026-11-04T20:35:40.686Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -789,7 +789,7 @@
             "FEED Special - Sonoma County Apples",
             "Kiwi",
             "Unsweetened Applesauce Cups",
-            "Mandarin Oranges",
+            "Fresh Pears",
             "Dinner Roll, WG"
           ]
         },
@@ -1240,10 +1240,10 @@
           ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
-            "Macaroni & Cheese",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Turkey Protein Box",
+            "Beef Soft Taco",
             "Baby Carrots",
             "Cucumber Sliced Fresh Point",
             "Jicama Sticks",
@@ -1302,9 +1302,9 @@
             "Cheese French Bread Pizza",
             "Spicy Chicken Burger",
             "Chicken Caesar Salad w/ Dinner Roll",
-            "Deli Turkey Sandwich",
-            "Turkey Protein Box",
-            "Turkey Cheddar Wrap",
+            "Spicy Chicken Wrap",
+            "Ham & Cheese Sandwich",
+            "Ham Protein Box",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1494,7 +1494,7 @@
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
             "Spicy Chicken Wrap",
-            "BBQ Chicken Pull Sandwich",
+            "BBQ Pulled Pork Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1550,10 +1550,10 @@
           ],
           "lunch": [
             "Pepperoni Pizza Big Daddy's",
-            "BBQ Pork Rib Sandwich",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Turkey Protein Box",
+            "Macaroni & Cheese",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1662,7 +1662,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-03T20:19:46.911Z"
+      "lastFetched": "2026-11-04T20:35:39.908Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2206,7 +2206,7 @@
           ]
         }
       },
-      "lastFetched": "2026-11-03T20:19:47.278Z"
+      "lastFetched": "2026-11-04T20:35:40.686Z"
     }
   }
 }
