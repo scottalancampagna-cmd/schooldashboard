@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T20:08:23.272Z",
+  "lastUpdated": "2026-11-07T18:23:09.902Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -834,10 +834,13 @@
             "Whole Wheat Bagel with Cream Cheese",
             "Strawberry Cream Cheese Mini Bagels",
             "Assorted Cereal, 2 oz",
+            "Yogurt Parfait, Blueberry",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Asian Pear from Earthseed Farm",
             "Unsweetened Applesauce Cups",
+            "Mandarin Oranges",
+            "Kiwi",
+            "Fresh Pears",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -848,6 +851,7 @@
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1663,7 +1667,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-06T20:08:22.775Z"
+      "lastFetched": "2026-11-07T18:23:09.189Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2207,7 +2211,7 @@
           ]
         }
       },
-      "lastFetched": "2026-11-06T20:08:23.272Z"
+      "lastFetched": "2026-11-07T18:23:09.902Z"
     }
   }
 }
