@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:34:11.568Z",
+  "lastUpdated": "2026-11-09T23:12:50.622Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -870,10 +870,11 @@
             "Whole Grain Brownie Fudge",
             "Mini Eggo Pancakes, Confetti",
             "Blueberry Bread Slice",
+            "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "FEED Sonoma Seasonal Special - Asian Pears",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -889,9 +890,9 @@
             "Cucumber Slices",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Fresh Bananas",
             "Mandarin Oranges",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Dinner Roll, WG",
             "Mozzarella String Cheese",
             "Original Hummus Cup"
@@ -1667,7 +1668,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-08T18:34:10.849Z"
+      "lastFetched": "2026-11-09T23:12:50.159Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2163,7 +2164,7 @@
         },
         "2026-11-20": {
           "breakfast": [
-            "Apple Croissant",
+            "Ham and Swiss Cheese Croissant",
             "Fresh Apples",
             "Fresh Pears"
           ],
@@ -2206,12 +2207,12 @@
             "Plant-Based Kickin' Tenders",
             "Salad Bar with Garbanzo Beans",
             "Fresh Apples",
-            "Mandarin Oranges",
+            "Fresh Orange Wedges",
             "Pretzel Goldfish"
           ]
         }
       },
-      "lastFetched": "2026-11-08T18:34:11.568Z"
+      "lastFetched": "2026-11-09T23:12:50.622Z"
     }
   }
 }
