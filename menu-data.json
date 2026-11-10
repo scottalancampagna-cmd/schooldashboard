@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T23:12:50.622Z",
+  "lastUpdated": "2026-11-10T20:38:45.407Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -915,17 +915,17 @@
           "lunch": [
             "Cheese Burger (KJHS)",
             "Chicken Nugget (KJHS)",
-            "Bean & Cheese Burrito",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Deli Turkey Sandwich",
             "Ham Protein Box",
+            "Chicken & Rice Burrito (KJHS)",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Fresh Bananas",
             "Mandarin Oranges",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Dinner Roll, WG"
           ]
         },
@@ -1043,10 +1043,10 @@
           "lunch": [
             "Cheese Burger (KJHS)",
             "Chicken Nugget (KJHS)",
-            "Chicken & Rice Burrito (KJHS)",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami & Pepper Jack Sandwich",
             "Salami Protein Box",
+            "Bean & Cheese Burrito",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1236,7 +1236,7 @@
             "Assorted Cereal, 2 oz",
             "Cinnamon Roll with Icing",
             "Bacon Egg Cheese Breakfast Muffin",
-            "Banana Bread Slice",
+            "Cinnamon Crumble",
             "Assorted Juice Box",
             "Kiwi",
             "Fresh Nectarine, size 56-64",
@@ -1423,7 +1423,7 @@
             "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereal, 2 oz",
             "Mini Cinnis",
-            "Blueberry Bread Slice",
+            "Whole Grain Brownie Fudge",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cups",
             "FEED Special - Sonoma County Apples",
@@ -1500,7 +1500,7 @@
             "Salami Protein Box",
             "Salami & Pepper Jack Sandwich",
             "Spicy Chicken Wrap",
-            "BBQ Chicken Pulled Sandwicth",
+            "BBQ Pork Rib Sandwich",
             "Baby Carrots",
             "Cucumber Slices",
             "Jicama Sticks",
@@ -1668,7 +1668,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-09T23:12:50.159Z"
+      "lastFetched": "2026-11-10T20:38:44.820Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2212,7 +2212,7 @@
           ]
         }
       },
-      "lastFetched": "2026-11-09T23:12:50.622Z"
+      "lastFetched": "2026-11-10T20:38:45.407Z"
     }
   }
 }
