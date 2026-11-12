@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T20:38:45.407Z",
+  "lastUpdated": "2026-11-12T21:14:23.651Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -942,8 +942,8 @@
             "Cinnamon Crumble",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "FEED Sonoma Seasonal Special - Asian Pears",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -958,9 +958,9 @@
             "Cucumber Slices",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Fresh Bananas",
             "Mandarin Oranges",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Dinner Roll, WG"
           ]
         },
@@ -1483,9 +1483,9 @@
             "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
             "Assorted Cereal, 2 oz",
             "Chocolate Chip Muffin",
-            "crescent filled chocolate",
             "Maple Flavored Waffles",
             "Cinnamon Crumble",
+            "Strawberry Cream Cheese Mini Bagels",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
@@ -1546,7 +1546,7 @@
             "Cinnamon Roll with Icing",
             "Assorted Cereal, 2 oz",
             "Bacon Egg Cheese Breakfast Muffin",
-            "Strawberry Cream Cheese Mini Bagels",
+            "crescent filled chocolate",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
             "Kiwi",
@@ -1668,7 +1668,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-10T20:38:44.820Z"
+      "lastFetched": "2026-11-12T21:14:23.194Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2148,7 +2148,7 @@
         },
         "2026-11-19": {
           "breakfast": [
-            "Banana Bread Slice",
+            "Zucchini Bread Slice",
             "Fresh Bananas",
             "Fresh Orange Wedges"
           ],
@@ -2212,7 +2212,7 @@
           ]
         }
       },
-      "lastFetched": "2026-11-10T20:38:45.407Z"
+      "lastFetched": "2026-11-12T21:14:23.651Z"
     }
   }
 }
