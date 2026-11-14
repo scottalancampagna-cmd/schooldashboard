@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T20:41:27.251Z",
+  "lastUpdated": "2026-11-14T18:53:43.023Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -972,26 +972,26 @@
             "Lemon Breakfast Bread",
             "Assorted Juice Box",
             "FEED Special - Sonoma County Apples",
-            "FEED Special - Asian Pear from Earthseed Farm",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "Mandarin Oranges",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
           "lunch": [
             "Kolt Corn Dog",
             "Spicy Chicken Burger",
-            "French Bread Cheese Pizza",
             "Chicken Caesar Salad w/ Dinner Roll",
             "Salami Protein Box",
             "Trojan Special - Turkey-Salami Sandwich",
-            "Turkey Cheddar Wrap",
+            "Pepperoni French Bread Pizza",
+            "Spicy Chicken Wrap",
             "Baby Carrots",
             "Cucumber Slices",
-            "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Fresh Bananas",
             "Mandarin Oranges",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
             "Dinner Roll, WG"
           ]
         },
@@ -1668,7 +1668,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-13T20:41:26.669Z"
+      "lastFetched": "2026-11-14T18:53:42.400Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2212,7 +2212,7 @@
           ]
         }
       },
-      "lastFetched": "2026-11-13T20:41:27.250Z"
+      "lastFetched": "2026-11-14T18:53:43.023Z"
     }
   }
 }
