@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T21:57:09.766Z",
+  "lastUpdated": "2026-11-18T21:39:19.790Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1066,9 +1066,10 @@
             "Bacon Egg Cheese Breakfast Muffin",
             "Chocolate Filled Crescent",
             "Assorted Juice Box",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "Mandarin Oranges",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -1082,8 +1083,9 @@
             "Cucumber Slices",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "Mandarin Oranges",
             "Dinner Roll, WG"
           ]
         },
@@ -1674,7 +1676,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-17T21:57:09.068Z"
+      "lastFetched": "2026-11-18T21:39:19.435Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2154,7 +2156,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-17T21:57:09.766Z"
+      "lastFetched": "2026-11-18T21:39:19.790Z"
     }
   }
 }
