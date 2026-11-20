@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T21:54:39.020Z",
+  "lastUpdated": "2026-11-20T21:36:40.409Z",
   "schools": {
     "kenilworth": {
       "label": "Middle School",
@@ -1130,9 +1130,10 @@
             "Cinnamon Crumble",
             "Sausage & Egg Tornado",
             "Assorted Juice Box",
-            "Fresh Bananas",
             "FEED Special - Sonoma County Apples",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "Mandarin Oranges",
             "Mozzarella String Cheese",
             "Strawberry/Blueberry/Raspberry Yogurt"
           ],
@@ -1148,8 +1149,9 @@
             "Cucumber Slices",
             "Jicama Sticks",
             "FEED Special - Sonoma County Apples",
-            "Fresh Nectarine, size 56-64",
             "Unsweetened Applesauce Cups",
+            "Kiwi",
+            "Mandarin Oranges",
             "Dinner Roll, WG",
             "Original Hummus Cup",
             "Mozzarella String Cheese"
@@ -1178,9 +1180,11 @@
         "2026-11-30": {
           "breakfast": [
             "Assorted Cereal, 2 oz",
-            "Sausage & Egg Tornado",
-            "Strawberry Cream Cheese Mini Bagels",
-            "Chocolate Chip Muffin",
+            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
+            "Banana Muffin",
+            "Blueberry Muffin",
+            "Mini Cinnis",
+            "Assorted Breakfast Bars",
             "Assorted Juice Box",
             "Kiwi",
             "Fresh Nectarine, size 56-64",
@@ -1268,10 +1272,10 @@
         "2026-12-03": {
           "breakfast": [
             "Assorted Cereal, 2 oz",
-            "Breakfast Bagel Sandwich Sausage, Egg,Cheese",
             "French Toast Sticks",
             "Whole Grain Brownie Fudge",
             "Banana Chocolate Breakfast Bar",
+            "Sausage & Egg Tornado",
             "Assorted Juice Box",
             "Kiwi",
             "Fresh Nectarines",
@@ -1425,11 +1429,11 @@
         },
         "2026-12-10": {
           "breakfast": [
-            "Breakfast Pizza Bagel",
             "Bacon Croissant Breakfast Sandwich",
             "Assorted Cereal, 2 oz",
             "Mini Cinnis",
             "Whole Grain Brownie Fudge",
+            "Breakfast Pizza Bagel",
             "Assorted Juice Box",
             "Unsweetened Applesauce Cups",
             "FEED Special - Sonoma County Apples",
@@ -1677,7 +1681,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-19T21:54:38.660Z"
+      "lastFetched": "2026-11-20T21:36:39.727Z"
     },
     "penngrove": {
       "label": "Elementary",
@@ -2157,7 +2161,7 @@
           "lunch": []
         }
       },
-      "lastFetched": "2026-11-19T21:54:39.020Z"
+      "lastFetched": "2026-11-20T21:36:40.409Z"
     }
   }
 }
